@@ -11,6 +11,8 @@ Big-O notation describes the **asymptotic behaviour** of a function as x→∞. 
 ##### Definition:
 $f(x) ∈ O(g(x))$ means there exists $c > 0$  and $k > 0$ such that:
 	$f(x) ≤ c⋅g(x)$ for all $x ≥ k$.
+$k$ - Upper bound, where the behaviour of the function will be dominated by the highest degree term.
+$c$ - A constant that determine how loose or tight the upper bound is.
 
 ##### Example: 
 $f(x)=3x2−20x+100$
