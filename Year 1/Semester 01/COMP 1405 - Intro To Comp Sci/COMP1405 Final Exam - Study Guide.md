@@ -15,7 +15,7 @@ while True: #While loop
 
 
 ---
-##### Data Structures
+##### Data Structures/Variables
 int - `my_number : int = 0` 
 float - `my_decimal : float = 0.0`
 string - `my_string : str = "Hello, World!"`
@@ -24,11 +24,26 @@ tuples - `my_tuple : tuple = (1, 2)`
 dictionary - `my_dictionary : dictionary = {1: "One"}`
 set - `my_set : set = {1, 2, 3, 4, 5, 4, 3, 2, 1}`
 
+
+---
+##### Condition Operators
+
+```
+= #Assignment
+== #Comparison
+< #Less Than
+> #Greater Than
+(>=, <=) #Less/Greater Than or Equal To
+```
+
+
 ---
 ##### Functions
 ```
 def main():
 	pass
+
+def my_function(default: str = "variables")
 
 #Sets main to program start
 if __name__ == "__main__":
@@ -37,7 +52,6 @@ if __name__ == "__main__":
 
 
 ---
-
 ##### Loops
 
 **Pre-Condition**
@@ -57,7 +71,31 @@ while True:
 
 
 ---
+##### Slicing
+```
+my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+# Basic slicing: Get elements from index 2 to 5 (exclusive) print(my_list[2:5]) 
+# Output: [2, 3, 4] 
+
+# Slice with step: Get every 2nd element from index 1 to 8 print(my_list[1:8:2]) 
+# Output: [1, 3, 5, 7] 
+
+# Slice from the beginning up to index 4 (exclusive) print(my_list[:4]) 
+# Output: [0, 1, 2, 3] 
+
+# Slice from index 6 to the end print(my_list[6:]) 
+# Output: [6, 7, 8, 9] 
+
+# Slice the entire list with a step of 2 print(my_list[::2]) 
+# Output: [0, 2, 4, 6, 8] 
+
+# Reverse the list print(my_list[::-1]) 
+# Output: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+```
+
+
+---
 ##### File I/O
 
 ```
@@ -78,6 +116,8 @@ To create a new file in Python, use the `open()` method, with one of the followi
 ---
 
 ##### Recursion
+
+Base Case: The condition that stops the recursion.
 
 ```
 def time_warp(num_of_timewarps : int):

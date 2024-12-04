@@ -23,10 +23,18 @@ The **Cartesian Product** of $A$ and $B$ is the set of all possible ordered pair
 	In other words, if the pair $(a,b)$ is in the relation $R$, then the pair $(b,a)$ must also be in $R$.
 
 
+
+---
+
+**Antisymmetric:**
+	A relation on $R$ is **Antisymmetric** if: $$\forall a, b \in A(aRb\; \land bRa) \rightarrow a = b$$
+	Not exactly the opposite of a symmetric relation but it covers any relation where the connection between two elements in a set is not a "Two-way Street". As in, not symmetrical.
+	This is true for: Self-referential connections, One-way street connections, and No connections.
+
 ---
 
 **Transitive Relation :**
-	A relation on $R$ is **transitive** if, for all $a, b, c \in A$: $$\displaylines{\forall a, b, c \in A\; (a\; R\; b\; \land b\; R\; c) \rightarrow (a\; R\; c)}$$
+	A relation on $R$ is **transitive** if: $$\displaylines{\forall a, b, c \in A\; (a\; R\; b\; \land b\; R\; c) \rightarrow (a\; R\; c)}$$
 	In other words, if $a$ is related to $b$, and $b$ is related to $c$, then $a$ must also be related to $c$.
 
 
@@ -43,9 +51,9 @@ The **Cartesian Product** of $A$ and $B$ is the set of all possible ordered pair
 
 **Partially Ordering Relation :**
 	The relation $R$ is a **partial order** if it satisfies the following three properties:
-	1. **Reflexivity**: For all $a \in A, a R a$. Every element is related to itself.
-	2. **Antisymmetry**: For all $(a,b) \in A$, if $a R b$ and $b R a$, then $a=b$. If two elements are mutually related, they must be identical.
-	3. **Transitivity**: For all $(a,b,c) \in A$, if $a R b$ and $b R c$, then $a R c$. If an element is related to a second, and the second is related to a third, then the first is related to the third.
+	1. **Reflexivity**:  $\forall a \in A, a R a$. Every element is related to itself.
+	2. **Antisymmetry**:  $\forall(a,b) \in A$, if $a R b$ and $b R a$, then $a=b$. If two elements are mutually related, they must be identical.
+	3. **Transitivity**:  $\forall(a,b,c) \in A$, if $a R b$ and $b R c$, then $a R c$. If an element is related to a second, and the second is related to a third, then the first is related to the third.
 
 ---
 
@@ -58,8 +66,8 @@ Set Operations
 	$R_{1} - R_{2} = \{(2, x), (3, x)\}$
 
 Set Predicates
-	$R_{1} = \{(a, b\; |\; a > b\}$
-	$R_{2} = \{a, b\; |\; a = b - 1\}$
+	$R_{1} = \{(a, b)\; |\; a > b\}$
+	$R_{2} = \{(a, b)\; |\; a = b - 1\}$
 	$R_{1} \cup R_{2} = \{(a, b)\; |\; (a > b) \lor (a = b - 1)\}$
 	$R_{1} \cap R_{2} = \{(a, b)\; |\; (a > b) \land (a = b - 1)\} = \{0\}$
 	$R_{1} - R_{2} = \{(a, b)\; |\; (a > b) \land (a \neq b - 1)\}$

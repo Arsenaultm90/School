@@ -354,4 +354,93 @@ Introduction to Relations
 
 Countability
 
-Algorithm Design Considerations
+
+---
+##### Things need to know
+##### How to perform reduction on expressions that use logical operators 
+Example: 
+	1. $(A\ \lor \neg B)\land(A\ \lor B)$	 
+	2. $A \lor (\neg B \land B)$  (1)Distributive Law
+	3. $A \lor False$  (2)Complements Law
+	4. $A$  (3)Identity law
+
+
+---
+
+##### How to complete a truth table and use the logical equivalence rules  
+Example: Truth Table for $(A∨B)∧¬C$
+
+| $A$ | $B$ | $C$ | $A∨B$ | $¬C$ | $(A∨B)∧¬C$ |
+| --- | --- | --- | ----- | ---- | ---------- |
+| T   | T   | T   | T     | F    | F          |
+| T   | T   | F   | T     | T    | T          |
+| T   | F   | T   | T     | F    | F          |
+| T   | F   | F   | T     | T    | T          |
+| F   | T   | T   | T     | F    | F          |
+| F   | T   | F   | T     | T    | T          |
+| F   | F   | T   | F     | F    | F          |
+| F   | F   | F   | F     | T    | F          |
+
+---
+
+##### How to determine the full disjunctive normal form of a propositional logic expression 
+1. **Construct the Truth Table**
+	Create a truth table for the logical expression.
+	Include all combinations of truth values for the variables in the expression.
+
+ 2. **Identify Rows Where the Expression is True**
+	Look for rows where the expression evaluates to **True**.
+	These rows will correspond to the conjunctions in the DNF.
+
+ 3. **Write the Conjunctions**
+	For each row where the expression is True:
+	    Write a conjunction of literals that matches the truth values in that row:
+        Use the variable $A$ if $A=True$.
+        Use $¬A$ if $A=False$.
+	Example: If $A=True,\; B=False,\; C=True$ the conjunction is $A∧¬B∧C$.
+
+ 4. **Combine the Conjunctions Using OR**
+	Combine all the conjunctions using ∨ to form the DNF.
+
+---
+##### How to apply negation to a quantified predicate logic expression  
+
+**Rules for Negation**
+Negating a Universal Quantifier (∀):
+$¬(∀x P(x))≡∃x ¬P(x)$
+	Intuition: "It is not true that $P(x)$ is true for all $x$" means "There exists at least one $x$ for which $P(x)$ is false."
+
+Negating an Existential Quantifier (∃):
+$¬(∃x P(x))≡∀x ¬P(x)$
+	Intuition: "It is not true that there exists an $x$ for which $P(x)$ is true" means "For all $x$, $P(x)$ is false."
+
+Ex.
+$¬(∀x ∃y P(x,y))$
+
+Step 1: Negate the outer quantifier:
+$¬(∀x ∃y P(x,y))≡∃x ¬(∃y P(x,y))$
+
+Step 2: Negate the inner quantifier:
+$∃x ¬(∃y P(x,y))≡∃x ∀y ¬P(x,y)$
+
+Final expression:
+$∃x ∀y ¬P(x,y)$
+
+
+---
+##### The meaning of nested quantifiers in a predicate logic expression  
+
+
+    - definitions like tautology, contradiction, soundness, validity, universe, etc.  
+    - how to perform reduction on expressions that use set theory operators  
+    - how to complete a membership table and use the set identity rules  
+    - how to represent graphs formally, diagrammatically, and with adjacency matrices/lists  
+    - the meaning of (and how to determine) the chromatic number of a graph  
+    - how to perform both breadth/depth first search on directed/undirected graphs  
+    - how to manipulate and find the closed form of a sigma notation expression  
+    - how to determine if one function is big Oh/Omega/Theta of another function  
+    - how to determine if a pair of witnesses could support a big Oh/Omega/Theta assertion  
+    - how to determine if a function is injective, surjective, bijective, invertible, etc.  
+    - how to determine if a relation is reflexive, symmetric, transitive, antisymmetric, etc.  
+    - how to determine the reflexive/symmetric/transitive closure of a relation  
+    - how to differentiate (and provide details) for both arithmetic and geometric sequences

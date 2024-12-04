@@ -7,7 +7,6 @@ Example: Quicksort
 
 
 ---
-
 ##### **Greedy Algorithms**
 Greedy algorithms always choose the next step by what looks best from the current state.
 	In Overview, the Steps to a Greedy Algorithm are:  
@@ -22,7 +21,6 @@ The **Greedy** approach is often not Ideal because it only considers what it can
 
 
 ---
-
 ##### **Hill Climbing Algorithms**
 The **hill climber algorithm** is a **heuristic optimization algorithm** inspired by the idea of climbing uphill to find the highest peak. It's a simple, iterative algorithm used to solve optimization problems by incrementally improving the current solution. Hill climbing is particularly useful for problems where the search space is large and finding the global optimum is computationally expensive.
 
