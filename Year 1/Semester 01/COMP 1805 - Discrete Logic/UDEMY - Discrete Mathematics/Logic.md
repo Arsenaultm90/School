@@ -77,13 +77,30 @@ $p \leftrightarrow q \equiv (p \rightarrow q)\land(q \rightarrow p)$
 
 ---
 ##### Quantified Statements
-The representation of a Statement/Proposition in 
+The representation of a **Statement/Proposition** using **Quantifiers**.
+
 **ALL**
+**Notation:** $\forall$
+Universal Quantifier
 
-
+Ex.$$\displaylines{A = \{1, 2, 3, 4, 5\}\\\forall x \in A\;|\;x>0 \\
+For\;all\;x\;in\;A,\;every\;x\;is\;greater\;than\;0.}$$
 **THERE EXIST**
+**Notation:** $\exists$
+Existential Quantifier
 
+Ex.$$\displaylines{m = Any\; Integer\\
+ℤ = Set\;of\;all\;Integers\\
+\exists m \in ℤ\;|\;m^2 = m\\
+There\;exists\;some\;m\;in\;the\;set\;of\;ℤ\;where\;m^2=m.}$$
 **Negation of Quantified Statements**
+All men wear hats.
+	$x$ = men
+	$Q(x)$ = Wear hats
+	∴$\forall x \in A,\;Q(x)$
 
+There exists a man that does not wear a hat.
+	$\neg(\forall x \in A,\;Q(x))$
+	$\exists x \in A, \neg Q(x)$
 
 ---
