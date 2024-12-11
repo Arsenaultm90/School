@@ -64,7 +64,7 @@ $\vec v \in L$
 $\vec w \in L^\perp$
 
 
-Formula:$$\displaylines{Subspace\; V\; in\; \mathbb{R}^4  \\Proj_{v} \vec{x} = A(A^TA)^{-1}A^T\vec{x}}$$
+Formula:$$\displaylines{Subspace\; V\; in\; \mathbb{R}^n  \\Proj_{v}A = A(A^TA)^{-1}A^T\vec{x}\\ Proj_{v}\vec{x} = \frac{v·u_{1}}{u_{1}·u_{1}}u_{1} + \dots + \frac{v·u_{n}}{u_{n}·u_{n}}u_{n}}$$
 Ex:$$\displaylines{V = span(\left[\begin{array}{c} 2 \\ 1\\ 1\end{array}\right],
 \left[\begin{array}{c}1 \\ 0\\ -1\end{array}\right])\\ \\
 Step \; 1\; Find\; A\; and\; A^T:\\

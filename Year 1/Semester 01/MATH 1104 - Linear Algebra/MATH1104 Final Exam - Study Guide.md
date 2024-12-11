@@ -157,4 +157,13 @@ Determinants of A Matrix
 	Cofactor Expansion
 
 
-Cramer's Rule
+##### Cramer's Rule
+	$x_{i} = \frac{\det(A_{i})}{\det(A)}$
+	We replace the $i^{th}$ column with the vector 'b' and calculate the determinant.
+
+
+##### $ij$-Cofactor of A
+1. $C_{ij} = \det(A_{ij})$
+2. $b_{ij} = \frac{C_{ji}}{\det(A)}$
+	NOTE: Let $A^{-1} = b_{ij}$
+	
