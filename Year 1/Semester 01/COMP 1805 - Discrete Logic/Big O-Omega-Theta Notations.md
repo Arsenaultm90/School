@@ -14,6 +14,21 @@ $f(x) ∈ O(g(x))$ means there exists $c > 0$  and $k > 0$ such that:
 $k$ - Upper bound, where the behaviour of the function will be dominated by the highest degree term.
 $c$ - A constant that determine how loose or tight the upper bound is.
 
+The idea is to create an inequality where we can rigorously prove the asymptotic growth of each term in the function and determine that, for some value of c when k $\geq$ 1, the inequality holds true, proving that $f(x)$ is in $O(x^2)$
+
+Proof:
+$$\displaylines{f(x) = 3x^2 + 5x + 3\\
+g(x) = c·x^2\\ \\
+\text{Setup}\\
+3x^2 + 5x + 3 \leq c·x^2\\ \\
+\text{Set Upper Bounds}\\
+3x^2 + 5x + 3 \leq 3x^2 + 5x^2 + 3x^2\\ \\
+\text{Factor Terms}\\
+3x^2 + 5x + 3 \leq (3 +5+3)x^2\\ \\
+\text{Finalize}\\
+3x^2 + 5x + 3 \leq 11x^2\\ \\
+c = 11,\; k\geq 1\\
+f(x)\; \text{is in}\;O(x^2) }$$ 
 ##### Example: 
 $f(x)=3x2−20x+100$
 $g(x) = x^2$

@@ -167,3 +167,19 @@ Determinants of A Matrix
 2. $b_{ij} = \frac{C_{ji}}{\det(A)}$
 	NOTE: Let $A^{-1} = b_{ij}$
 	
+
+Eigenvalues, Eigenvectors, Eigenspaces
+
+
+
+Orthogonality
+	1. Every vector dot product within the set must equal 0:  $\vec{u_{1}} · \vec{u_{2}} = 0$
+	2. Find projection of v onto W
+	3. Find vector orthogonal to the subspace: 
+		u = v - Projv, where:
+		u = Orthogonal Vector
+		v = original vector
+		Projv = v projected onto subspace
+		Projv = X-Axis of v
+		u = Y-Axis of v
+	4. 
