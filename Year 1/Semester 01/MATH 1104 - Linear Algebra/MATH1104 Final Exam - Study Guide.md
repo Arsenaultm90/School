@@ -1,50 +1,47 @@
 System Of Linear Equations
-
 Echelon Forms Of A Matrix
-
 Vector Equations and Matrix Equations
-
 Linear Independence Of Vectors
-
 Application Of Linear Systems
-
 Linear Transformations
-
 Inverse Of A Matrix
-
 Subspaces
-
 Basis and Dimensions of a Subspace(Column Space and Null Space of a Matrix)
-
 Rank and Nullity
-
 Determinants
-
 Applications of Determinants
-
 Eigenvalues, Eigenvectors, and Matrix Diagonalization
-
 Complex Numbers
-
 Polar Form of a Complex Number (De Moivre's Theorem)
-
 Complex Eigenvalues
-
 Inner Product and Orthogonality
-
 Orthogonal Sets and Orthogonal Matrices
-
 Orthogonal Projections
-
 Gram-Schmidt Orthogonalization Process
 
 
 
 ##### Things to Review:
-General Solution - Represented as free variables so show all solutions to the system,
-	 i.e X = $x_4$[1 2 4]
+General Solution - Represented as $x_{g} = x_{p} + x_{h}$. 
+	$x_{p}$ : Particular Solution
+	$x_{h}$ : Homogeneous Solution
+
+Ex. $$\displaylines{\left[\begin{array}{c}
+x_{1} \\ x_{2} \\ x_{3}
+\end{array}\right] = 
+\left[\begin{array}{c}
+10 + x_{3} \\ x_{3} - 4 \\ 2 - x_{3}
+\end{array}\right]}$$
 	 
 Homogeneous Solution - Representation of the system in terms of just the free variables without the constants since the equations are set to 0. This includes finding the ker(T) which is just finding the homogeneous solution to the system.
+
+Ex.$$\displaylines{\left[\begin{array}{c}
+x_{1} \\ x_{2} \\ x_{3}
+\end{array}\right] = x_{3}
+\left[\begin{array}{c}
+1 \\ 1 \\ -1
+\end{array}\right]}$$
+
 
 Parametric vector form - The solution to the system in the form of $X = x_{4}\left[\begin{matrix}1 \\2 \\3 \end{matrix}\right]$
 
@@ -133,7 +130,7 @@ Solution to the matrix
 	Solve system of equations and set any free variables to 0. The constant vector is the solution.
 
 
-##### Basis, Col(A), Nul(A)
+##### Subspaces - Basis, Col(A), Nul(A)
 1. **Basis for Col(A):**
 	RREF to find pivot columns.
 	Respective columns in original matrix are the span of Col(A).

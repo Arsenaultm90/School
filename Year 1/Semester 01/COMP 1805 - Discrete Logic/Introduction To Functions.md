@@ -77,7 +77,10 @@ Prove a function is NOT Surjective:
 
 ##### Bijection (Injection and Surjection)
 
-Definition: Each element of the **Domain** is mapped to a unique element of the **Codomain**.
+Definition:
+	Every element of the **domain** maps to a unique element of the **codomain**, and every element of the **codomain** is covered by some element of the **domain**.
+	or
+	Every element in the codomain is mapped to by, at most, one element in the domain.
 
 If a function $f$ is a bijection then $f$ is invertible where:
 	$f^{-1}(b) = a \leftrightarrow f(a) = b$

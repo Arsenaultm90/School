@@ -6,15 +6,14 @@
 ---
 
 #### Big O
-Big-O notation describes the **asymptotic behaviour** of a function as x→∞. It gives an upper bound on the growth rate of a function. For f(x), the goal is to find a simple expression that grows at least as fast as f(x) for large x.
-
+Big-O notation describes the **asymptotic behaviour** of a function as x→∞. It gives an upper bound on the growth rate of a function. 
 ##### Definition:
 $f(x) ∈ O(g(x))$ means there exists $c > 0$  and $k > 0$ such that:
 	$f(x) ≤ c⋅g(x)$ for all $x ≥ k$.
 $k$ - Upper bound, where the behaviour of the function will be dominated by the highest degree term.
 $c$ - A constant that determine how loose or tight the upper bound is.
 
-The idea is to create an inequality where we can rigorously prove the asymptotic growth of each term in the function and determine that, for some value of c when k $\geq$ 1, the inequality holds true, proving that $f(x)$ is in $O(x^2)$
+Saying $f(x)∈O(g(x))$ means that for large $x$, f(x) grows **no faster than** $g(x)$, up to a constant factor.
 
 Proof:
 $$\displaylines{f(x) = 3x^2 + 5x + 3\\
@@ -29,7 +28,7 @@ g(x) = c·x^2\\ \\
 3x^2 + 5x + 3 \leq 11x^2\\ \\
 c = 11,\; k\geq 1\\
 f(x)\; \text{is in}\;O(x^2) }$$ 
-##### Example: 
+##### Example w/ Quadratic Equation (Tighter Bounds): 
 $f(x)=3x2−20x+100$
 $g(x) = x^2$
 
@@ -79,54 +78,16 @@ Big-Omega notation is used to describe the **lower bound** of a function's growt
 $f(x) ∈ Ω(g(x))$ means there exists $c > 0$  and $k ≥ 0$ such that:
 	$f(x) ≥ c⋅g(x)$ for all $x ≥ k$.
 
-##### Example:
- $f(x) = x^2−2x+1$
- $g(x)=x^2$
-
-We need to show: $x^2 − 2x + 1 ≥ c⋅x^2$ for all $x ≥ k.$
-
- 1. Start with the inequality:
-	$x^2−2x+1≥c⋅x^2$
-
- 2. Rearrange terms:
-	Bring all terms to one side:
-	$x^2 − 2x + 1 − c⋅x^2 ≥ 0$
-	
-	Factor $x^2$ to simplify:
-	$(1 − c) x^2 − 2x + 1 ≥ 0$
-
-3. Focus on $(1 - c)x^2$:
-
-	For the inequality to hold, $(1 − c)x^2$ must dominate the other terms $(−2x + 1)$ as $x → ∞$. 
-	
-	This happens if $c$ is chosen such that $1 − c > 0$, meaning:
-	$c < 1$
-
-4. Choose $c = 0.8$:
-
-	Let $c = 0.8$ (a constant less than 1). Substitute this value:
-	$(1−0.8)x^2 − 2x + 1 ≥ 0$
-	
-	Simplify:
-	$0.2x − 2x + 1 ≥ 0$
-
-5. Verify the inequality for large x:
-
-	Factor x out of $0.2x^2−2x$ to better understand the growth:
-	$x(0.2x−2) + 1 ≥ 0$
-	
-	For $x ≥ 10$, calculate:
-	$0.2(10) − 2 = 2 − 2 = 0$
-	
-	When $x > 10$, $0.2x − 2 > 0$, so the term $0.2x^2$ dominates $−2x + 1$, making the inequality true.
-
-6. Conclusion
-
-	Since $0.2x^2 − 2x + 1 ≥ 0$ when $x ≥ 10$, we have shown that:
-	$f(x) ≥ 0.8x^2$ for all $x ≥ 10$
-	
-	Therefore:
-	$f(x) ∈ Ω(x^2)$ with $c = 0.8$ and $k = 10$.
+Proof:$$\displaylines{
+f(x) = 3n^2 + 2n + 4\\
+g(x) = c·n^2 \\ \\
+\text{Setup}\\
+3n^2 + 2n + 4 \geq c·n^2\\ \\
+\text{Drop Lower Terms}\\
+3n^2 + 2n + 4 \geq 3n^2 \\ \\
+c = 3\\
+n_{0} = 0\\ \\
+∴ f(x) = 3n^2 + 2n + 4 \in \Omega(n^2)}$$
 
 ---
 
