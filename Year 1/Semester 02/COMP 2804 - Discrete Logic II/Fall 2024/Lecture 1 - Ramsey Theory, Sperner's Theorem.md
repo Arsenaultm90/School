@@ -18,7 +18,7 @@ Example:
 
 Here:
 -  $\left(\begin{array}{c}n\\ k\end{array}\right)$ is the binomial coefficient, which counts the number of ways to choose $k$ elements from a set of $n$ elements.
-- $[\frac{n}{2}]$ is the largest integer less than or equal to $\frac{n}{2}$, corresponding to subsets of size approximately $\frac{n}{2}$, which maximize the binomial coefficient.
+- $[\frac{n}{2}]$ is the largest integer less than or equal to $\frac{n}{2}$, corresponding to subsets of size approximately $\frac{n}{2}$, which maximizes the binomial coefficient.
 
 When $n$ is odd:
 Calculate for $\frac{n}{2} \pm 1$ to get the **Sperner Family** of a given set. For odd $n$, the number of subsets will be equal whether you choose greater or lesser than $\frac{n}{2}$

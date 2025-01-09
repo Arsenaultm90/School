@@ -1,5 +1,3 @@
-
----
 ##### Statistics Nomenclature
 
 **Statistics** - The study of how to collect, summarize, and interpret data.
