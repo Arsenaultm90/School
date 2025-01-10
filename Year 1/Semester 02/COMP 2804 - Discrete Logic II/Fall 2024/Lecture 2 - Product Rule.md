@@ -28,7 +28,7 @@ If $P$ generates elements from a set $S$ and
 Then...
 	$|S| = N_{1} \times N_{2} \times N_{3} \times \dots \times N_{m}$ 
 
-Example:
+**Example:**
 Drink: Coke/Beer
 Food: Burger/Club Sandwich/Chicken Sandwich
 
@@ -46,7 +46,7 @@ Beer -> 2 Options
 ∴ Total number of ways this procedure can be executed is 
 	$3 · 2 = 6$
 
-Example:
+**Example:**
 A bitstring is a sequence of $0$'s and $1$'s.
 $S_{n}$ : The set of all bitstrings of length $n$, where integer $n \geq 0$.
 
@@ -61,6 +61,10 @@ N_{1} \times N_{2} \times N_{3} \times \dots \times N_{n}\\
 
 
 ---
+##### Counting Functions
+The number of functions between two sets. $$\displaylines{|A| = m,\; |B| = n\\n^m}$$
+
+---
 **One-To-One Functions**
 The number of one-to-one functions between two sets can be determined using the following.
 $$\displaylines{f : A \rightarrow B \\ \\
@@ -70,7 +74,7 @@ $$\displaylines{f : A \rightarrow B \\ \\
 \text{Case 2}\\
 \text{If } n > m, \text{then the number of One-To-One functions is : }
 n ·(n-1)·(n-2)·{\dots}·n-m+1 \\
-\text{Simplify : }n ·(n-1)·(n-2)·{\dots}·n-m+1 · \frac{(n-m)·(n-m-1)·\dots·1}{(n-m)·(n-m-1)·\dots·1} \\
+\text{Simplify : }n ·(n-1)·(n-2)·{\dots}·n-m+1 · \frac{(n-m)·(n-m-1)·{\dots}·1}{(n-m)·(n-m-1)·{\dots}·1} \\
 \text{ Which gives us:}\; \frac{n!}{(n-m)!}\\ \\
 \text{Case 3}\\
 \text{If } n = m, \text{then it becomes } n!}$$
