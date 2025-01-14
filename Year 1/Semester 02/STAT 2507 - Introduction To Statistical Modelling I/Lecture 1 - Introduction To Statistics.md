@@ -1,16 +1,18 @@
 ##### Statistics Nomenclature
 
-**Statistics** - The study of how to collect, summarize, and interpret data.
+**Statistics** : The study of how to collect, summarize, and interpret data.
 
-**Descriptive Statistics** - The science of describing the important   aspects of a set of measurements through the use of graphical displays and numerical summaries.
+**Descriptive Statistics** : The science of describing the important   aspects of a set of measurements through the use of graphical displays and numerical summaries.
 
-**Inferential Statistics** - The science of making inferences about the characteristics of a population using a sample of measurements drawn from that population.
+**Inferential Statistics** : The science of making inferences about the characteristics of a population using a sample of measurements drawn from that population.
 
-**Population** - Any set of people or objects. Each person or object is referred to more generally as an experimental unit.
+**Population** : Any set of people or objects. Each person or object is referred to more generally as an experimental unit.
 
-**Sample** - Subset of a population.
+**Sample** : Subset of a population.
 
-**Variable** - Any characteristic of an experimental unit.
+**Variable** : The variable is the characteristic or property being measured or observed that corresponds to the set of numbers.
+
+**Experimental Unit** : The experimental unit is the individual entity or subject for which data is collected. It represents the smallest unit of observation in the study.
 
 
 ---
@@ -107,3 +109,12 @@ A distribution is bimodal if it has two peaks. These peaks need not be the same 
 The quantitative data we have dealt with so far are cross-sectional data; that is, data observed at a single point in time.  
 
 A time series is a set of measurements collected sequentially over time, typically with equally spaced intervals between measurements.
+
+
+---
+##### Find Percentile of Position
+Data set must be ordered
+P : Desired percentile
+n : number of data points in the set
+
+$$\displaylines{\text{Position} = \frac{P}{100} \times (n + 1)}$$

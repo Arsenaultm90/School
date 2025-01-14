@@ -123,3 +123,71 @@ Example:
 | <center>1</center> | 0%                           |
 | <center>2</center> | 75%                          |
 | <center>3</center>                  | 88.8%                        |
+
+
+---
+##### Numerical Measures of Relative Standing
+
+**Percentiles**
+The $p^{th}$ percentile of a data set is the value such that $p\%$ of measurements in the data set fall below this value.
+
+Steps to find the $p^{th}$ percentile of a data set :
+1. Arrange data set in ascending order.
+2. Compute the position of the $p^{th}$ percentile as $\frac{P}{100}(n+1)$, where,
+	P : Percentile
+	n : Total number of data points in the set
+3. If the position results in a decimal value, you can compute the data point through linear interpolation. $$\displaylines{x_{i} + (decimal\; \times (x_{i+1} - x_{i}) )}$$
+
+**Quartiles**
+Quartiles are special percentiles that divide the data set into quarters.
+
+1. The first quartile, or $Q_{1}$, is the $25^{th}$ percentile.
+2. The second quartile, or $Q_{2}$(**median**), is the $50^{th}$ percentile.
+3. The third quartile, or $Q_{3}$, is the $75^{th}$ percentile.
+
+The first and third quartiles frames the middle 50% of a data set. The difference between them, called the **interquartile range**, or **IQR**, is a measure of the spread of the middle 50% of data.
+
+**Example:**
+Find **Quartiles** and **IQR** for the given set.
+Data set : {20, 27, 29, 31, 32, 33, 35, 39, 53}
+
+Position of $Q_{1}$ = $\frac{25}{100} \times (9 + 1) = 2.5$
+$Q_{1} = 27 + (0.5 \times (31 - 27)) = 28$
+
+Position of $Q_{3} = \frac{75}{100} \times (9 + 1) = 7.5$
+$Q_3 = 35 + (0.5 \times (39 - 35)) = 37$
+
+∴ $IQR = 37 - 28 = 9$
+
+
+---
+##### The Five Number Summary
+
+Min : The minimum observation
+$Q_{1}$ : The first quartile
+m : The median
+$Q_{3}$ : The third quartile
+Max : The maximum observation
+
+
+**Selecting The Best Numerical Summary**
+Bell shaped or Symmetric distribution :
+	The mean and the standard deviation provide the best summary.
+
+Skewed distribution :
+	The five number summary is a better choice. We can represent the five number summary in a graph called a box plot which provides us with means to find outliers.
+
+
+---
+##### Box Plot
+A graphical representation of quartile data.
+The box is centred around the median with the borders being $Q_{1}$ and $Q_{2}$. 
+The **fences**, which represent the limits of the data points before they are classified as outliers, are calculated by finding $1.5 \times IQR$ and subtracting from $Q_{1}$ to find the lower fence and adding to $Q_{3}$ to find the upper fence .
+The **whiskers**, which extend from either edge of the box, are lines that extend to the upper and low values within our data set before they pass the fence.
+
+![[Pasted image 20250114100457.png]]
+
+
+
+
+
