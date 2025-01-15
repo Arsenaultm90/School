@@ -1,0 +1,4 @@
+- **Look for independence**: If the problem involves sequential, independent decisions, use the **Product Rule**.
+- **Look for exclusivity**: If the problem involves non-overlapping cases, use the **Sum Rule**.
+- **Look for mappings**: If the problem mentions matching or pairing, think about the **Bijection Rule**.
+- **Look for negations**: If counting the complement is easier than counting directly, use the **Complements Rule**.
