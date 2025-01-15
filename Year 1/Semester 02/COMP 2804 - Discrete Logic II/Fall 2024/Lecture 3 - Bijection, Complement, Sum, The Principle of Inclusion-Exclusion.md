@@ -44,7 +44,39 @@ U\setminus S = \text{"Strings over U with no digits"} -\{a, b, c, \dots, z\}\\
 
 ---
 ##### The Sum Rule
-$$\displaylines{\text{If A and B are disjoint, then } |A\cup B| = |A| +|B|.}$$
+$$\displaylines{\text{If A and B are disjoint, then } |A\cup B| = |A| +|B|. \\
+\text{If } A_{1}, A_{2}, A_{3}, \dots, A_{n}  \text{ are pairwise disjoint, then }|A_{1} \cup A_{2} \cup \dots \cup A_{n}| = |A_{1}| + |A_{2}| + \dots + |A_{n}|}$$
 Disjoint : $A \cap B = \varnothing$
 
 **Example:**
+A valid password is a string of length 6, 7, or 8 over $\sum$ = {a, b, c, ..., z, 0, 1, ..., 9} that contains at least one digit.
+
+For each  $n \in \{6, 7, 8\}$, let $S_{n} = \text{The set of valid passwords of length }n$
+
+$|S_{8}| = 36^8 - 26^8$
+$|S_{7}| = 36^7 - 26^7$
+$|S^6| = 36^6 - 26^6$
+
+$S = S_{6} \cup S_{7} \cup S_{8}$
+$|S| = |S_{6}| + |S_{7}| + |S_{8}| = (36^6 - 26^6) + (36^7 - 26^7) + (36^8 - 26^8)$
+$∴ |S| = 2, 648, 483, 063, 360$
+
+
+---
+##### The Principle Of Inclusion-Exclusion
+
+For any two sets, A and B, $$|A \cup B| = |A| + |B| - |A \cap B|$$
+For any three set, A, B, and C, $$|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C|$$
+**Example:**
+Bitstrings of length 17 that start with 010 OR end with 11.
+
+$A = \text{"The length-17 bitstring that starts with 010"}$
+$B = \text{"The length-17 bitstring that ends with 11"}$
+
+$$\displaylines{|A| = 2^{14}\\
+|B| = 2^{15}\\
+|A \cap B| = 2^{12}\\
+∴ |A \cup B| = 2^{14} + 2^{15} - 2^{12} = 45, 056}$$
+
+
+

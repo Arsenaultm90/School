@@ -1,4 +1,4 @@
-STAT 2507
+STAT 2507 E
 Matthew Arsenault
 101288386
 
