@@ -49,7 +49,7 @@ $$\binom{n}{k}$$
 ##### Newton's Binomial Theorem
 
 For integer $n \geq 0$,
-$$(x + y)^n = \sum^{n}_{k=0}\binom{n}{k}·x^{n-k}·y^k$$
+$$(x + y)^n = \sum^{n}_{k=0}\binom{n}{k}·x^{k}·y^{n-k}$$
 
 **Example :** 
 What is the coefficient of $x^{12}y^{13}$ in $(2x - 5y)^{25}$?
@@ -77,4 +77,55 @@ $$\sum^{n}_{k=0}\binom{n}{k} = 2^n$$
 
 
 ---
+### Combinatorial Proofs
 
+##### Symmetry Property of Binomial Coefficients
+
+**Theorem : $$\displaylines{\binom{n}{k} = \binom{n}{n-k}}$$**
+**Proof : $$\displaylines{\text{Let S be a set of size 'n'. Let A be the set of k-element subsets of S.}\\
+\binom{n}{k} = |A| = \binom{n}{n-k} \\ \\
+\text{Use Product Rule}:\\
+\text{Choose n-k elements in S and remove them.}\\
+\text{Return the remaining k-elements of S.}}$$
+---
+##### Pascal's Identity
+
+A mathematical theorem that describes the relationship between **Binomial coefficients** and **Pascal's Triangle**.
+
+**Theorem :** $$\displaylines{
+\binom{n+1}{k} = \binom{n}{k} + \binom{n}{k-1}}$$
+**Proof :**  $$\displaylines{\text{Let S be a (n+1)-element set. Let A be the set of k-element subsets of S.}\\
+\binom{n+1}{k} = |A| = \binom{n}{k} + \binom{n}{k-1} \\ \\
+\text{Let } A_{1} \text{ be the sets in A that include 'x'.}\\
+\text{Let } A_{2} \text{ be the sets in A that don't include 'x'.} \\ \\
+|A| = |A_{1}| + |A_{2}|}$$
+
+
+---
+##### Vandermonde's Identity
+Vandermonde's identity states that the sum of products of two binomial coefficients, where one selects $k$ items from a set of $n$ items and the other selects $r-k$ items from a set of $m$ items, is equal to the binomial coefficient that counts the number of ways to choose $r$ items from a combined set of $n+m$ items.
+
+Theorem :  $$\displaylines{\binom{m+n}{r} = \sum^{r}_{k=0}\binom{m}{k}\binom{n}{r-k}}$$
+
+Proof : $$\displaylines{\text{Let S be a set of size m+n.}\\
+\text{Let A be the set of r-element subsets of S.}\\
+\binom{m+n}{r} = |A| = \sum^{r}_{k=0}\binom{m}{k} \binom{n}{r-k} \\ \\
+\text{For each } k \in \{0, \dots, r\}, \text{ let } A_{k} \text{ be all the subsets in A that include exactly 'k' elements from } S_{1} \\ (\text{So they contain exactly r-k elements from } S_{2})}$$
+$$\displaylines{|A| = |A_{0}| + |A_{1}| + |A_{2}| + \dots + |A_{r}| = \sum^{r}_{k=0}|A_{k}| \\ \\
+\text{Product Rule} \\
+\text{Choose k elements from } S_{1}\\
+\text{Choose } r-k \text{ elements from } S_{2}\\
+\binom{m}{k} ·\binom{n}{r-k} \\ \\
+|A| = \sum^{r}_{k=0}\binom{m}{k} ·\binom{n}{r-k}}$$
+
+Example :
+Let $n = 3,\; m = 2, \; r=3$
+$$\sum^{3}_{k=0}\binom{3}{k}\binom{2}{3-k} = \binom{3+2}{3}$$
+$$\displaylines{\text{Sum of Products of Binomial Coefficients :}\\
+\binom{3}{0}\binom{2}{3}+\binom{3}{1}\binom{2}{2}+\binom{3}{2}\binom{2}{1}+\binom{3}{3}\binom{2}{0}\\ \\
+\binom{3}{0}\binom{2}{3} = 1 \times 0 = 0\\
+\binom{3}{1}\binom{2}{2} = 3 \times 1 = 3 \\
+\binom{3}{2}\binom{2}{1} = 3 \times 2 = 6 \\
+\binom{3}{3}\binom{2}{0} = 1 \times 1 = 1 \\ \\
+0+3+6+1 = 10}$$
+$$\displaylines{\text{Single Binomial Coefficient :}\\ \binom{3+2}{3} = \binom{5}{2} = 10}$$

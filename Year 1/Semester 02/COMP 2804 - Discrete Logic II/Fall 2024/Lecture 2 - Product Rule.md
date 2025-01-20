@@ -89,14 +89,16 @@ B=\{a, b, c, d, e\}\\ \\
 **Factorial**
 $$\displaylines{n! = \begin{cases} 1 \cdot 2 \cdot 3 \cdot {\dots} \cdot n = n \cdot (n-1) \cdot (n-2) \cdot {\dots} \cdot 1, & \text{if} \; n \geq 1 \\ 1, & \text{if} \; n = 0 \end{cases}}$$
 
-**Stars and Bars Combinatorics**
-$$\frac{(n+m-1)!}{(n-1)!}$$
 
-**Permutations**
-$$P(n,r) = \frac{n!}{(n-r)!}$$
+**Permutations** - Order matters
+$$\displaylines{\text{Repetition is NOT allowed :} \\ P\binom{n}{r} = \frac{n!}{(n-r)!}\\ \\
+\text{Repetition is allowed :} \\
+n^r}$$
 
-**Combinations**
-$$C(n,r) = \frac{n!}{r!(n-r)!}$$
+**Combinations** - Order doesn't matter
+$$\displaylines{\text{Repetition is NOT allowed :} \\ C\binom{n}{k} = \frac{n!}{k!(n-k)!} \\ \\
+\text{Repetition is allowed :} \\
+\frac{(k+n-1)!}{k!(n-1)!}}$$
 
 
 **Permutations**: Use when **order matters** (e.g., arranging, ranking, assigning positions).
