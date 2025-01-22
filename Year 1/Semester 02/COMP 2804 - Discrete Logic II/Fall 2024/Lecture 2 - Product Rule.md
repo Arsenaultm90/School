@@ -103,3 +103,4 @@ $$\displaylines{\text{Repetition is NOT allowed :} \\ C\binom{n}{k} = \frac{n!}{
 
 **Permutations**: Use when **order matters** (e.g., arranging, ranking, assigning positions).
 **Combinations**: Use when **order does not matter** (e.g., selecting, choosing, forming groups).
+

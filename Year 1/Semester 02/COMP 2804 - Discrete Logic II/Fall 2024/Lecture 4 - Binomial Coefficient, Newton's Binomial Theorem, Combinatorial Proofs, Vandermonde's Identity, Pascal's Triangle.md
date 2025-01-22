@@ -49,7 +49,7 @@ $$\binom{n}{k}$$
 ##### Newton's Binomial Theorem
 
 For integer $n \geq 0$,
-$$(x + y)^n = \sum^{n}_{k=0}\binom{n}{k}·x^{k}·y^{n-k}$$
+$$(x + y)^n = \sum^{n}_{k=0}\binom{n}{k}·x^{n-k}·y^{k}$$
 
 **Example :** 
 What is the coefficient of $x^{12}y^{13}$ in $(2x - 5y)^{25}$?
