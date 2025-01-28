@@ -5,16 +5,16 @@
 	The quantity supplied rises as price rises, all else equal.
 
 
-Quantity Supplied : $$Q^s = 5P + 3\; \text{for } P \geq 1$$
-Inverse Supply : $$P = 0.2Q^s - 0.6$$
+**Quantity Supplied :** $$Q^s = 5P + 3\; \text{for } P \geq 1$$
+**Inverse Supply :** $$P = 0.2Q^s - 0.6$$
 
 
 ---
 ##### Rational Rule For Sellers
 Sell until **marginal benefits** equals **marginal costs**.
 
-Marginal Benefits
-Marginal Costs
+**Marginal Benefits**
+**Marginal Costs**
 
 
 ---
