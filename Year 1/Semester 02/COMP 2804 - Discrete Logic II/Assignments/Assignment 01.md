@@ -4,20 +4,20 @@ Matthew Arsenault
 
 1. (4 points) How many pairs, $(x, y)$, of natural numbers exist so that $1 ≤ x, y ≤ 1000$ and $x^2 + y^2$ is divisible by 5?
 
-Let's find the possible remainders for $x^2$.
-$$\displaylines{\text{Possible remainder values : }\\
+Possible remainders for $x^2$ :
+$$\displaylines{
 x \equiv 0, 1, 2, 3, 4 \; \text{(mod 5)}\\
 0^2 \equiv 0\; \text{(mod 5)},\;
 1^2 = 1\; \text{(mod 5)},\;
 2^2 \equiv 4\; \text{(mod 5)},\;
 3^2 \equiv 9 \equiv 4\; \text{(mod 5)},\;
 4^2 \equiv 16 \equiv 1\; \text{(mod 5)}\\
-x^2 \text{(mod 5)} \equiv 0, 1, 4}$$
+x^2 \equiv 0, 1, 4 \text{ (mod 5)}}$$
 
-Given that $y$ will result in the same values, we can the number of pairs for each case. $$\displaylines{1.\; (x^2 + y^2) \equiv (0, 0)\text{(mod 5) : } 200 \times 200 = 40000 \\ \\
+Find number of values divisible by 5 for $x^2 \text{ and } y^2$ with remainder $0$ : $$\displaylines{1.\; (x^2 + y^2) \equiv (0, 0)\text{(mod 5) : } 200 \times 200 = 40000 \\ \\
 2.\;x^2 \equiv 1\text{(mod 5)}\; |\; x \equiv 1\text{(mod 5)}, x \equiv 4\text{(mod 5)}\\ x \equiv 1\text{(mod 5)} : \frac{1000}{5} = 200,\\ x \equiv 4\text{(mod 5)} : \frac{1000}{5} = 200\\ 200 + 200 = 400 \\ \\ y^2 \equiv 4\text{(mod 5)}\; | \; y \equiv 2\text{(mod 5)},\; y \equiv 3\text{(mod 5)}\\ y \equiv 2 : \frac{1000}{5} = 200, \\ y \equiv 3\text{(mod 5)} : \frac{1000}{5} = 200 \\ 200 + 200 = 400 \\ \\(x^2 + y^2) \equiv (1, 4)\text{(mod 5) : } 400 \times 400 = 160000 \\ \\
 3.\; \text{Same calculations as step 2 : }\\(x^2 + y^2) \equiv (4, 1)\text{(mod 5) : } 400 \times 400 =160000 \\ \\
-∴\text{Total number of pairs divisible by 5} = 40000 + 160000 + 160000 = \boxed{320000}}$$
+∴\text{Total number of pairs divisible by 5} = 40000 + 160000 + 160000 = \boxed{360000}}$$
 <div style="page-break-after: always;"></div>
 
 
@@ -25,42 +25,40 @@ Given that $y$ will result in the same values, we can the number of pairs for ea
 
 Let's say : $$\displaylines{S = a+b+c+b+a = 2a + 2b + c}$$
 And we need : $$\displaylines{2a + 2b + c \equiv 0\;\text{(mod 9)}}$$
-With each fixed $a$(1-9), we need to calculated the number of combinations of $b$ and $c$ which satisfy : $$\displaylines{2b + c \equiv -2a\;\text{(mod 9)}}$$
-Given, $$\displaylines{a = 1-9 \\
-b = 0 -9 \\
-9 * 10 = 90\; \text{combinations of (a, b)}\\
+Given, $$\displaylines{a = [1-9] \\
+b = [0 -9] \\
+c = [0-9]\\
+9 * 10 = 90\; \text{combinations of (a, (b, c))}\\
 c \equiv 0\;\text{(mod 9), where }c = 0, 9 \\ \\
+\text{We can add 10 additional combinations for 'c' }\\
 ∴ \boxed{90 + 10 = 100}}$$
 <div style="page-break-after: always;"></div>
 
 3. Prove that the R(4, 2) = 4
 
 Assuming the contrary :
-	Assume there are neither **blue quadrilaterals** (cycles $C_4$) nor **red pairs** in the graph.
+	There is neither a **Monochromatic $K_{4}$** nor a **Monochromatic Independent Set Of Size 2** in the graph.
 
 Ramsay's Number :
 	$R(4,2)=4$, in any two-coloured complete graph on 4 vertices, there must be either:
-		- A **red pair** (two vertices connected by a red edge), or
-		- A **blue quadrilateral** (a 4-cycle where all edges are blue).
+		-A monochromatic $K_{4}$
+		-A monochromatic independent set of size 2
 
-By the pigeonhole principle, with a $k_{4}$ graph, we are guaranteed to have at least one red edge. Therefore, we would always have at least a single red pair.
+If all edges cannot form a complete blue $K_{4}$, there must be at least one red edge.
 
-∴ We cannot avoid having a red pair.
+If a red edge exists, this creates a monochromatic independent set, contradicting the assumption that no independent sets of size 2 exists.
 
-Given all combinations of the $k_{4}$ graph, there exists some formations where we will have a '**blue**' quadrilateral. Specifically, there exists 3 subgraphs of $C_{4}$ in a $k_{4}$ graph.
+If we avoid all red edges, meaning all edges are blue, we are left with a blue $K_{4}$.
 
-∴ There exists 3 scenarios where a blue quadrilateral $C_{4}$ subgraph can exist.
+∴ Our initial assumption that neither a monochromatic $K_{4}$ nor a monochromatic independent set exists is false proving that $R(4, 2) = 4$ is the smallest number where these structures appear.
 
-Since we have shown that either a **red pair** or a **blue quadrilateral** must always exist, the assumption that there are neither **red pairs** nor **blue quadrilaterals** must be incorrect.
-
-![[Pasted image 20250127143106.png|500]]
 
 <div style="page-break-after: always;"></div>
 
 
 4. Three pirates, Billy, Willy, and Dilly, have found a treasure that has 80 identical doubloon coins in it. The pirates would like to split the treasure so that each pirate will have at least 15 coins. How many different splits satisfy this requirement?
 
-We can subtract the number of required coins for each pirate from the total number of coins : 
+Subtract the minimum number of required coins for each pirate from the total number of coins : 
 $$80 - (3 \times 15) = 35$$
 
 We can now use the new total to get the total number of ways to split the remaining coins amongst three pirates : 

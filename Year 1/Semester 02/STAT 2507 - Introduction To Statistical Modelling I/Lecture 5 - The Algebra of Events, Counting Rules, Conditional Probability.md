@@ -181,4 +181,14 @@ $$∴\; P(H) = \frac{n(H)}{n(S)} = \frac{165}{19,600} = 0.0084$$
 ---
 ##### Conditional Probability
 
+A **conditional probability** is the probability of one event under the the condition that another event has occurred.
+
+If A and B are events defined on the same sample space, then the conditional probability of the event $A$ given that event $B$ has occurred is denoted by $P(A | B)$.
+
+
+**Example :**
+
+
+
+
 
