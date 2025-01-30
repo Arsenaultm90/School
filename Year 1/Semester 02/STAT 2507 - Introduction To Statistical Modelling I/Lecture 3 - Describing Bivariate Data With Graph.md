@@ -102,7 +102,9 @@ where $$\displaylines{b - \text{y-intercept} \\ m - \text{slope}}$$
 The best fitting line relating $Y$ to $X$ is called the **least-squares regression line**.
 The least-squares regression line is found by minimizing the sum of the squared vertical differences between the data points and the line.
 
-The least-squared regression line is $Y = mX + b$ where, $$\displaylines{m = r\frac{s_{y}}{s_{x}}\\\; b = \overline{y} - m\overline{x}}$$
+The least-squared regression line is $Y = mX + b$ where, $$\displaylines{m = r\frac{s_{y}}{s_{x}}\\\; b = \overline{y} - m\overline{x} \\ \\
+\overline{x} - \text{ The mean of all x-values}\\
+\overline{y} - \text{ The mean of all y-values}}$$
 Example : 
 
 | Beers | BAC   | Beers | BAC   |

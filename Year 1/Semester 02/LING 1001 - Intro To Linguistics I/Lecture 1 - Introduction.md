@@ -48,3 +48,6 @@ The scientific study of language and its structure, including the study of morph
 8. **Interchangeability:** a speaker can both receive and broadcast the same signal.
 
 9. **Pragmatic function:** language is used to serve a purpose/achieve a goal.
+
+
+![[Screenshot 2025-01-29 at 7.31.26 AM.png]]
