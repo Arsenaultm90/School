@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 4 - Binomial Coefficient, Newton's Binomial Theorem, Combinatorial Proofs, Vandermonde's Identity, Pascal's Triangle.md",
+                "file": "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 6 - Pigeonhole Principle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 4 - Binomial Coefficient, Newton's Binomial Theorem, Combinatorial Proofs, Vandermonde's Identity, Pascal's Triangle"
+              "title": "Lecture 6 - Pigeonhole Principle"
             }
           }
         ]
@@ -187,12 +187,24 @@
   },
   "active": "0a37336642f3a7ab",
   "lastOpenFiles": [
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 5 - Pascal's Triangle, Counting Solutions of Linear (In)Equalities.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 6 - Pigeonhole Principle.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 4 - Binomial Coefficient, Newton's Binomial Theorem, Combinatorial Proofs, Vandermonde's Identity, Pascal's Triangle.md",
+    "Pasted image 20250131112320.png",
+    "Pasted image 20250131112258.png",
+    "Pasted image 20250131112240.png",
+    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Study Guides/Quiz 1 - Study Guides.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Study Guides/Quiz 1 - Study Guide.md",
+    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Study Guides",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Modular Arithmetic.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Study Guides",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Assignments/Assignment 01.md",
+    "Excalidraw/Drawing 2025-01-31 10.06.32.excalidraw.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Prime Factorization.md",
+    "Pasted image 20250131100837.png",
+    "Pasted image 20250131100825.png",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Divisibility.md",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Assignments/Assignment 02.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Modular Arithmetic.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Prime Factorization.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 4 - Binomial Coefficient, Newton's Binomial Theorem, Combinatorial Proofs, Vandermonde's Identity, Pascal's Triangle.md",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 5 - The Algebra of Events, Counting Rules, Conditional Probability.md",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 4 - Introduction To Probability.md",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 3 - Describing Bivariate Data With Graph.md",
@@ -205,12 +217,7 @@
     "Pasted image 20250129124457.png",
     "Excalidraw/Drawing 2025-01-29 12.37.26.excalidraw.md",
     "Excalidraw/Drawing 2025-01-29 12.23.53.excalidraw.md",
-    "Pasted image 20250129123210.png",
     "Excalidraw/Drawing 2025-01-29 12.08.30.excalidraw.md",
-    "Pasted image 20250129121718.png",
-    "Screenshot 2025-01-29 at 12.06.53 PM.png",
-    "Screenshot 2025-01-29 at 11.05.50 AM.png",
-    "Screenshot 2025-01-29 at 10.10.26 AM.png",
     "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 1 - Introduction.md",
     "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 4 - Phonology Pt. 1.md",
     "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 3 - Phonetics Pt. 2.md",
@@ -218,11 +225,6 @@
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Quiz 2 - Study Guide.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Quiz 1 - Study Guide.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 1 - Ramsey Theory, Sperner's Theorem.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 6 - Government Policies.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 4 - Market Equilibrium.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 3 - Supply.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 2 - Demand and Consumer Choice.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 1 - Intro To Microeconomics.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Assignments",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Assignments",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Lecture 1",
@@ -230,8 +232,6 @@
     "Images",
     "Excalidraw",
     "Year 1/Semester 01/MATH 1104 - Linear Algebra/Linear Algebra - UDEMY",
-    "Year 1/Semester 01/COMP 1805 - Discrete Logic/UDEMY - Discrete Mathematics",
-    "Year 1/Semester 01/COMP 1805 - Discrete Logic/Assignments",
-    "Year 1"
+    "Year 1/Semester 01/COMP 1805 - Discrete Logic/UDEMY - Discrete Mathematics"
   ]
 }
