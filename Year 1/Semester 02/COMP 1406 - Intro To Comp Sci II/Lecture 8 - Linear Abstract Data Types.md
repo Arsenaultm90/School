@@ -45,3 +45,50 @@ Examples of data structures:
 
 The nodes form a chain representation of the list as follows.
 ![[Screenshot 2025-02-10 at 8.32.11 AM.png]]
+
+```
+public class Node{  
+	private Object data;  
+	private Node next;  
+	
+	public Node(Object data, Node next){  
+		this.data = data;  
+		this.next = next  
+	}  
+//other methods  
+}
+```
+
+
+
+**Queue :** 
+	An ADT that stores elements in a first-in-first-out (FIFO) order. Elements are added at one end (head) and removed from the other (tail).
+
+**Queue Methods :** 
+	• add(object) – adds object to end of the queue  
+	• remove() – removes/returns object at front of queue  
+	• peek() – returns the object at front of queue  
+	• isEmpty() – true if no items, false otherwise  
+	• size() – returns the number of elements in the queue  
+	• clear() – removes everything from queue
+
+
+
+**Stack :** 
+	An ADT that stores elements in a last-in-first-out (LIFO) order. Elements are added to and removed from the ‘top’ end only.
+
+**Stack Methods :** 
+	• push(object) – adds object to top of stack  
+	• pop(object) – removes/returns item on top of stack  
+	• peek() – returns item on top of stack  
+	• isEmpty() – true if no items, false otherwise  
+	• size() – returns the number of elements in the stack  
+	• clear() – removes everything from stack
+
+
+---
+##### Summary
+
+Abstract Data Type (Interface) vs. Data Structure (Class)  
+ADT is a template.  
+A Data Structure is an implementation of a given ADT.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 8 - Linear Abstract Data Types.md",
+                "file": "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 6 - Discrete Random Variables, Common Discrete Probability Distributions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 8 - Linear Abstract Data Types"
+              "title": "Lecture 6 - Discrete Random Variables, Common Discrete Probability Distributions"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 8 - Linear Abstract Data Types.md",
+                "file": "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 6 - Discrete Random Variables, Common Discrete Probability Distributions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 8 - Linear Abstract Data Types"
+              "title": "Backlinks for Lecture 6 - Discrete Random Variables, Common Discrete Probability Distributions"
             }
           },
           {
@@ -187,42 +187,41 @@
   },
   "active": "0a37336642f3a7ab",
   "lastOpenFiles": [
+    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 7 - Welfare.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 6 - Discrete Random Variables, Common Discrete Probability Distributions.md",
+    "Screenshot 2025-02-10 at 9.41.40 AM.png",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 7 - Continuous Random Variables, The Normal Probability Distribution.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 5 - The Algebra of Events, Counting Rules, Conditional Probability.md",
+    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 8 - Linear Abstract Data Types.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 10 - Randomization and Probability.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 5 - Pascal's Triangle, Counting Solutions of Linear (In)Equalities.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 6 - Pigeonhole Principle.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 9 - Recursions Pt. 3.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 8 - Recursions Pt. 2.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 7 - Recursion Pt. 1.md",
     "Screenshot 2025-02-10 at 8.32.11 AM.png",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 7 - Polymorphism.md",
-    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 8 - Linear Abstract Data Types.md",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 3 - Principles of OOP - Abstraction and Encapsulation.md",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 4 - Principles of OOP - Inheritance.md",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 5 - Abstract Classes.md",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 6 - Interfaces.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 7 - Recursion Pt. 1.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 2 - Product Rule.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 5 - Pascal's Triangle, Counting Solutions of Linear (In)Equalities.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 6 - Pigeonhole Principle.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 8 - Recursions Pt. 2.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 9 - Recursions Pt. 3.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 10 - Randomization and Probability.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Modular Arithmetic.md",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 6 - Government Policies In The Supply And Demand Model.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 7 - Welfare.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Quiz 2 - Study Guide.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 3 - Bijection, Complement, Sum, The Principle of Inclusion-Exclusion.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 1 - Ramsey Theory, Sperner's Theorem.md",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 1 - Introduction To Statistics.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Quiz 1 - Study Guide.md",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Study Guides/Quiz 1 - Study Guide.md",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Course Info.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Study Guides/Quiz 1 - Study Guides.md",
     "Screenshot 2025-02-05 at 7.39.39 AM.png",
     "Screenshot 2025-02-05 at 7.27.40 AM.png",
     "Screenshot 2025-02-05 at 7.26.50 AM.png",
     "Screenshot 2025-02-05 at 7.15.56 AM.png",
     "Screenshot 2025-02-05 at 7.06.26 AM.png",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 5 - Elasticity.md",
     "Screenshot 2025-02-04 at 2.55.17 PM.png",
     "Pasted image 20250204115445.png",
     "Pasted image 20250204110615.png",
-    "Pasted image 20250204110333.png",
-    "Pasted image 20250204110117.png",
     "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Study Guides",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Study Guides",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Study Guides",
