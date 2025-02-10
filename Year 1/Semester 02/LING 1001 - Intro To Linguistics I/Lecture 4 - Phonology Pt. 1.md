@@ -105,7 +105,9 @@ Allophones are the different variations or realizations of a phoneme. These vari
 - Allophones are written between brackets: [ ].
 
 
-**Complementary Distribution vs. Free Variation**:
+
+---
+##### Complementary Distribution vs. Free Variation:
 
 **Complementary Distribution**:  
 Allophones occur in specific, non-overlapping phonetic environments.

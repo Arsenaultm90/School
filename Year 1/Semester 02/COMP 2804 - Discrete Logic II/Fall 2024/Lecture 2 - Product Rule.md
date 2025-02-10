@@ -98,7 +98,7 @@ n^r}$$
 **Combinations** - Order doesn't matter
 $$\displaylines{\text{Repetition is NOT allowed :} \\ C\binom{n}{k} = \frac{n!}{k!(n-k)!} \\ \\
 \text{Repetition is allowed :} \\
-\frac{(k+n-1)!}{k!(n-1)!}}$$
+C\binom{n+r-1}{r-1}= C(n, r)=\frac{n!}{r!(n-r)!}}$$
 
 
 **Permutations**: Use when **order matters** (e.g., arranging, ranking, assigning positions).

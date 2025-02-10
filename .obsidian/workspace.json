@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Study Guides/Quiz 1 - Study Guide.md",
+                "file": "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 8 - Linear Abstract Data Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quiz 1 - Study Guide"
+              "title": "Lecture 8 - Linear Abstract Data Types"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 1/Semester 01/MATH 1104 - Linear Algebra/Linear Algebra - UDEMY/Orthonormal Bases and Gram-Schmidt.md",
+                "file": "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 8 - Linear Abstract Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Orthonormal Bases and Gram-Schmidt"
+              "title": "Backlinks for Lecture 8 - Linear Abstract Data Types"
             }
           },
           {
@@ -187,51 +187,51 @@
   },
   "active": "0a37336642f3a7ab",
   "lastOpenFiles": [
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 5 - The Algebra of Events, Counting Rules, Conditional Probability.md",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 4 - Introduction To Probability.md",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 3 - Describing Bivariate Data With Graph.md",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 2 - Numerical Measures of Center and Variability.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Quiz 2 - Study Guide.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 7 - Recursion.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 6 - Pigeonhole Principle.md",
+    "Screenshot 2025-02-10 at 8.32.11 AM.png",
+    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 7 - Polymorphism.md",
+    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 8 - Linear Abstract Data Types.md",
+    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 3 - Principles of OOP - Abstraction and Encapsulation.md",
+    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 4 - Principles of OOP - Inheritance.md",
+    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 5 - Abstract Classes.md",
+    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 6 - Interfaces.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 7 - Recursion Pt. 1.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 2 - Product Rule.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 5 - Pascal's Triangle, Counting Solutions of Linear (In)Equalities.md",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Assignments/Assignment 02.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Assignments/Assignment 01.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Divisibility.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Prime Factorization.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 6 - Pigeonhole Principle.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 8 - Recursions Pt. 2.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 9 - Recursions Pt. 3.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 10 - Randomization and Probability.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Modular Arithmetic.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 4 - Binomial Coefficient, Newton's Binomial Theorem, Combinatorial Proofs, Vandermonde's Identity, Pascal's Triangle.md",
-    "Pasted image 20250131112320.png",
-    "Pasted image 20250131112258.png",
-    "Pasted image 20250131112240.png",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Study Guides/Quiz 1 - Study Guides.md",
+    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 6 - Government Policies In The Supply And Demand Model.md",
+    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 7 - Welfare.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Quiz 2 - Study Guide.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 3 - Bijection, Complement, Sum, The Principle of Inclusion-Exclusion.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 1 - Ramsey Theory, Sperner's Theorem.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 1 - Introduction To Statistics.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Quiz 1 - Study Guide.md",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Study Guides/Quiz 1 - Study Guide.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Course Info.md",
+    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Study Guides/Quiz 1 - Study Guides.md",
+    "Screenshot 2025-02-05 at 7.39.39 AM.png",
+    "Screenshot 2025-02-05 at 7.27.40 AM.png",
+    "Screenshot 2025-02-05 at 7.26.50 AM.png",
+    "Screenshot 2025-02-05 at 7.15.56 AM.png",
+    "Screenshot 2025-02-05 at 7.06.26 AM.png",
+    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 5 - Elasticity.md",
+    "Screenshot 2025-02-04 at 2.55.17 PM.png",
+    "Pasted image 20250204115445.png",
+    "Pasted image 20250204110615.png",
+    "Pasted image 20250204110333.png",
+    "Pasted image 20250204110117.png",
+    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Study Guides",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Study Guides",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Study Guides",
-    "Excalidraw/Drawing 2025-01-31 10.06.32.excalidraw.md",
-    "Pasted image 20250131100837.png",
-    "Pasted image 20250131100825.png",
-    "Screenshot 2025-01-29 at 2.40.29 PM.png",
-    "Screenshot 2025-01-29 at 2.33.42 PM.png",
-    "Screenshot 2025-01-29 at 1.30.04 PM.png",
-    "Pasted image 20250129132931.png",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Assignments/Assignment 01.md",
-    "Pasted image 20250129124457.png",
-    "Excalidraw/Drawing 2025-01-29 12.37.26.excalidraw.md",
-    "Excalidraw/Drawing 2025-01-29 12.23.53.excalidraw.md",
-    "Excalidraw/Drawing 2025-01-29 12.08.30.excalidraw.md",
-    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 1 - Introduction.md",
-    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 4 - Phonology Pt. 1.md",
-    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 3 - Phonetics Pt. 2.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 5 - Elasticity.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Quiz 1 - Study Guide.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Assignments",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Assignments",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Lecture 1",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024",
     "Images",
     "Excalidraw",
-    "Year 1/Semester 01/MATH 1104 - Linear Algebra/Linear Algebra - UDEMY",
-    "Year 1/Semester 01/COMP 1805 - Discrete Logic/UDEMY - Discrete Mathematics"
+    "Year 1/Semester 01/MATH 1104 - Linear Algebra/Linear Algebra - UDEMY"
   ]
 }

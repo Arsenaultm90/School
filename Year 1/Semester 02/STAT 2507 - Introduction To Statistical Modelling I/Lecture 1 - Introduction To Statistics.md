@@ -29,7 +29,7 @@
 **Qualitative Variable** - The measure of a quality or characteristic on each unit.
 
 **Quantitative Variable** - The measure of a numerical quantity on each unit.
-	There are two type of **Quantitative Variables** : Discrete and Continuous
+	There are two types of **Quantitative Variables** : Discrete and Continuous
 	A variable with a finite or countable number of values is **discrete**.
 		Ex. The number of dots obtained when you roll a single die.
 	A variable that can assume any value within a continuous interval of  
