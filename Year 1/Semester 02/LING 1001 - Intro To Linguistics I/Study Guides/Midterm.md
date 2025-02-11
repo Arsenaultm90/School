@@ -24,6 +24,38 @@ Textbook : Chapter One
 **Pragmatics:** meaning in context
 
 
+##### Terminology
+
+1. **Linguistic Competence  :**
+	A person’s hidden language knowledge and ability
+
+2. **Linguistic Performance  :**
+	The way a person produces and comprehends language   
+
+3. **A Descriptive View  :**
+	Making statements about a language based on observations
+  
+4. **A Prescriptive View  :**
+	The link between form and meaning is not predictable
+  
+5. **Lungs  :**
+	Supply air for speech  
+
+6. **Vocal cords  :**
+	Produce vibrations for speech sounds
+
+7. **Tongue :**
+	 Articulates with other places of articulation (teeth, palate, etc.) for speech sounds
+
+8. **Teeth  :**
+	Provide a place of articulation for consonants 
+
+9. **Lips** 
+	Most anterior, visible place of articulation for speech sounds
+
+10. **Nose** 
+	Provides nasal resonance during speech
+
 ---
 
 | Organ        | For Speech                           |
@@ -52,40 +84,40 @@ Textbook : Chapter One
 
 
 **Design Features Of A Language**
-1. Mode of communication: a means by which a message is communicated: voice, writing, gestures, signs, etc.  
+11. Mode of communication: a means by which a message is communicated: voice, writing, gestures, signs, etc.  
 
-2. Semanticity: a speech sound can be linked to a specific meaning
+12. Semanticity: a speech sound can be linked to a specific meaning
 
-3. Arbitrariness: there is no direct link between the signal and the meaning 
+13. Arbitrariness: there is no direct link between the signal and the meaning 
 	“whale” = a short word for a very large thing 
 	“microorganism” = a long word for a small thing  
 
-4. Discreteness: each unit of communication can be separated into recognizable parts (sounds, letters, signs)  
+14. Discreteness: each unit of communication can be separated into recognizable parts (sounds, letters, signs)  
 
-5. Displacement: describe things that are not physically present (in the past; not visible; non-  existent)
+15. Displacement: describe things that are not physically present (in the past; not visible; non-  existent)
 
-6. Cultural transmission: learning of language occurs in social groups.
+16. Cultural transmission: learning of language occurs in social groups.
 
-7. Productivity: ability to create new messages by combining already-existing signs  
+17. Productivity: ability to create new messages by combining already-existing signs  
 
-8. Interchangeability: a speaker can both receive and broadcast the same signal  
+18. Interchangeability: a speaker can both receive and broadcast the same signal  
 
-9. Pragmatic function: language is used to serve a purpose/achieve a goal
+19. Pragmatic function: language is used to serve a purpose/achieve a goal
 
 
 
 ---
 
 **Nine Ideas About Language**
-1. Children learn their native language swiftly, efficiently, and largely without instruction.  
-2. Language operates by rules.  
-3. All languages have three major components: a sound system, a vocabulary, and a system of grammar.  
-4. Everyone speaks a dialect.  
-5. Speakers of all languages employ a range of styles and a set of subdialects or jargons.  
-6. Language change is normal.  
-7. Languages are intimately related to the societies and individuals who use them.  
-8. Value judgments about different languages or dialects are matters of taste.  
-9. Writing is derivative of speech.
+20. Children learn their native language swiftly, efficiently, and largely without instruction.  
+21. Language operates by rules.  
+22. All languages have three major components: a sound system, a vocabulary, and a system of grammar.  
+23. Everyone speaks a dialect.  
+24. Speakers of all languages employ a range of styles and a set of subdialects or jargons.  
+25. Language change is normal.  
+26. Languages are intimately related to the societies and individuals who use them.  
+27. Value judgments about different languages or dialects are matters of taste.  
+28. Writing is derivative of speech.
 
 
 ---
@@ -107,6 +139,12 @@ The nature of speech sounds
 •Phonetic Alphabet: provides a symbol to represent each sound
 
 
+Consonents
+	Voicing
+	Place of articulation (Lips)
+	Manner of articulation (Airflow)
+
+
 ---
 
 **ARTICULATORY PHONETICS**  
@@ -117,6 +155,7 @@ The study of the production of speech sounds
 ---
 
 **Sound Segments**
+The phonemes that words are made up from. (Use IPA)
 Consider: How many sounds are in the following words?  
 sit = s / i / t = 3 sound segments  
 seat = s / ea / t = 3 sound segments  
@@ -278,9 +317,9 @@ The organization of speech sounds
 **Syllable**
 In **syllable structure**, a syllable consists of three possible parts:
 
-1. **Onset** – The consonant(s) before the vowel.
-2. **Nucleus** – The vowel or syllabic sound (core of the syllable).
-3. **Coda** – The consonant(s) after the vowel.
+29. **Onset** – The consonant(s) before the vowel.
+30. **Nucleus** – The vowel or syllabic sound (core of the syllable).
+31. **Coda** – The consonant(s) after the vowel.
 
 Together, the **nucleus + coda** form the **rime**.
 
@@ -291,7 +330,8 @@ Together, the **nucleus + coda** form the **rime**.
 | Sky  | /sk/  | /aI/    | -    |
 
 **Phonotactic Constraints**
-	Which sound sequences are possible / not possible
+	Which sound sequences are possible / not possible.
+	Most **phonotactic constraints** are based on the **phonological structure** of a language, which helps govern what sound combinations are permissible within that language. These constraints are used to **facilitate** the **ease of pronunciation** and **perceptibility** of words, making speech easier and more efficient for native speakers to produce and understand.
 
 Examples :
 	knife, pneumonia, Ptolemy, gnat
@@ -324,7 +364,7 @@ writer [ɹaɪɾəɹ] [t] -> [ɾ]
 **Contrastive Distribution**
 **Definition:**
 	Two sounds are in contrastive distribution if replacing one sound with the other in a word changes the meaning. These sounds are considered separate phonemes.
-	
+
 **Key Feature:** 
 	They create minimal pairs, which are pairs of words that differ by only one sound and have different meanings.
 
@@ -365,6 +405,7 @@ writer [ɹaɪɾəɹ] [t] -> [ɾ]
 
 ---
 **Phonemic vs. Phonetic Representation**
+
 **Phonemic Representation**
 	To show **distinctive sounds** (phonemes)
 	Abstract and general, no phonetic details
@@ -396,57 +437,56 @@ _cat_ → [kʰæt] (aspirated) or [kæt] (non-aspirated)
 
 
 **Phonological Processes**
-1. **Assimilation**
+**Assimilation**
 - **Definition**: A sound changes to become more like a neighboring sound, typically to ease pronunciation. It can involve changes in place of articulation, manner, or voicing.
 - **Types**:
     - **Progressive Assimilation**: The sound changes to match a previous sound.
     - **Regressive Assimilation**: The sound changes to match a following sound.
 
- **Examples**:
 - **Voicing Assimilation**:
     - _"dogs"_ [dɔɡz] → The plural /s/ becomes **[z]** due to the voicing of the final /ɡ/ sound.
 - **Place Assimilation**:
     - _"input"_ [ˈɪmpʊt] → The /n/ changes to [m] before the bilabial /p/.
 
-2. **Elision (Deletion)**
+**Elision (Deletion)**
 - **Definition**: The omission of a sound, often to simplify speech or because it's not needed for understanding. This often occurs with unstressed vowels or consonants.
 
-**Examples**:
+Examples:
 - _"camera"_ → [ˈkæmɚə] (the middle /ə/ is deleted in casual speech).
 - _"handbag"_ → [ˈhænbæg] (the /d/ is omitted).
 
-3. **Epenthesis**
+**Epenthesis**
 - **Definition**: The insertion of a sound, usually a vowel, to make the pronunciation smoother or easier.
 
- **Examples**:
+ Examples:
 - _"athlete"_ → [ˈæθəlit] (the /ə/ is inserted).
 - _"hamster"_ → [ˈhæmpstɚ] (an extra /p/ is inserted in some dialects).
 
-4. **Metathesis**
+**Metathesis**
 - **Definition**: The rearrangement or switching of sounds in a word.
 
- **Examples**:
+ Examples:
 - _"ask"_ → [æks] (the /s/ and /k/ sounds are switched).
 - _"comfortable"_ → [ˈkʌmftərbəl] (the /t/ and /r/ are swapped in casual speech).
 
- 5. **Vowel Reduction**
+ **Vowel Reduction**
 - **Definition**: Unstressed vowels are pronounced less clearly and typically become a **schwa** /ə/ or a similar reduced form.
 
- **Examples**:
+ Examples:
 - _"banana"_ → [bəˈnænə] (the unstressed vowels become a schwa).
 - _"sofa"_ → [ˈsoʊfə] (the second vowel becomes a schwa).
 
- 6. **Flapping** (in American English)
+ **Flapping** (in American English)
 - **Definition**: The /t/ or /d/ sound is pronounced as a **flap** [ɾ] when it occurs between two vowels, with the second vowel being unstressed.
 
-**Examples**:
+Examples:
 - _"butter"_ → [ˈbʌɾɚ]
 - _"ladder"_ → [ˈlæɾɚ]
 
- 7. **Insertion of /j/ or /w/**
+ **Insertion of /j/ or /w/**
 - **Definition**: In some languages, the semivowel /j/ or /w/ is inserted between certain vowels or consonants to maintain smooth pronunciation.
 
-**Examples**:
+Examples:
 - _"myth"_: In some dialects, it may be pronounced **[mjɪθ]** (with /j/ inserted between /m/ and /ɪ/).
 
 
@@ -455,6 +495,44 @@ _cat_ → [kʰæt] (aspirated) or [kæt] (non-aspirated)
 
 Textbook Chapters 1-3
 
+
+---
+##### Minimal Pairs
+![[Pasted image 20250211075035.png]]
+
+---
+
+##### Schwa 
+The **schwa** (IPA symbol: **[ə]**) is a very important vowel sound in many languages, particularly in English. Here's a breakdown of its characteristics:
+
+**Features of the Schwa [ə]:**
+1. **Height**: **Mid**
+    - The schwa is a mid-central vowel, meaning the tongue is positioned neither high nor low in the mouth, and it's in the centre of the oral cavity.
+
+2. **Place of Articulation**: **Central**
+    - It's produced with the tongue in a neutral, central position in the mouth, neither advancing nor retracting.
+
+3. **Roundedness**: **Unrounded**
+    - The lips are in a neutral position, not rounded or spread.
+
+4. **Tension**: **Tense**
+    - The schwa is **lax**, meaning the articulators (tongue and lips) are in a relaxed position while producing this sound.
+
+5. **Pronunciation**:
+    - The schwa is often referred to as a "neutral" or "unstressed" vowel sound. It's common in unstressed syllables in English, and it has a very quick and relaxed sound.
+    - It’s **the most common vowel sound** in English, and it appears in a wide variety of words, especially in unstressed syllables.
+
+---
+
+##### IPA
+The symbols of the **International Phonetic Alphabet (IPA)** represent **speech sounds (phonemes and allophones)** used in human languages.
+
+ **IPA symbols represent:**
+6. **Consonants** – Sounds produced with some obstruction in the vocal tract (e.g., [p], [t], [k], [s], [ʃ]).
+7. **Vowels** – Sounds produced with an open vocal tract (e.g., [i], [e], [ɑ], [u], [ɔ]).
+8. **Suprasegmentals** – Features like stress, tone, and intonation (e.g., [ˈ] for primary stress, [ˌ] for secondary stress).
+9. **Diacritics** – Small marks added to symbols to indicate variations in pronunciation, such as nasalization ([ẽ]), aspiration ([pʰ]), or voicelessness ([d̥]).
+10. **Clicks, Implosives, and Ejectives** – Sounds found in specific languages (e.g., [ǃ] for a click, [ɓ] for a voiced implosive).
 
 ![[Pasted image 20250204115445.png]]
 ![[Pasted image 20250204105926.png|500]]

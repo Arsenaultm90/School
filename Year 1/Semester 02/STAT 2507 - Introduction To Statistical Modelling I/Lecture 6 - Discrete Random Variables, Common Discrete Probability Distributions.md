@@ -168,6 +168,7 @@ $$\sigma_{y} = \sqrt{ 1.647 } \approx 1.2835$$
 #### Common Discrete Probability Distributions
 
 ##### The Binomial Probability Distribution  
+
 A binomial experiment possesses the following properties:  
 1. The experiment consists of a fixed number of identical trials, $n$.  
 2. Each trial results in one of two outcomes, success or failure.  
@@ -200,6 +201,7 @@ $$\displaylines{P(X \geq 3) = 1 - P(X < 3) = 1 - [P(X=0)+P(X=1) +P(X=2)] \\
 
 ---
 ##### The Hypergeometric Probability Distribution  
+
 A hypergeometric experiment possesses the following properties:  
 1. A random sample of size n is selected without replacement from a population of size N.  
 2. The population contains M successes and N – M failures.  
