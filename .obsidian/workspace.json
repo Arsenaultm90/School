@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Study Guides/Midterm.md",
+                "file": "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 1 - Intro To Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Midterm"
+              "title": "Lecture 1 - Intro To Java"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Study Guides/Midterm.md",
+                "file": "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 1 - Intro To Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Midterm"
+              "title": "Backlinks for Lecture 1 - Intro To Java"
             }
           },
           {
@@ -187,6 +187,7 @@
   },
   "active": "0a37336642f3a7ab",
   "lastOpenFiles": [
+    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Study Guides/Midterm.md",
     "Pasted image 20250211075035.png",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 6 - Discrete Random Variables, Common Discrete Probability Distributions.md",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 7 - Welfare.md",
@@ -222,7 +223,6 @@
     "Screenshot 2025-02-05 at 7.06.26 AM.png",
     "Screenshot 2025-02-04 at 2.55.17 PM.png",
     "Pasted image 20250204115445.png",
-    "Pasted image 20250204110615.png",
     "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Study Guides",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Study Guides",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Study Guides",

@@ -17,3 +17,18 @@ OOP Paradigm
 | Double  | <center>64</center> | Stores fractional numbers. Sufficient for storing 15 to 16 decimal digits         |
 | Boolean | <center>8</center>  | Stores true or false values                                                       |
 | Char    | <center>16</center> | Stores a single character/letter or ASCII values                                  |
+
+
+---
+##### Operators and Keywords
+
+**New :** 
+	The new operator _instantiates a class by allocating memory for a new object_ and returning a reference to that memory.
+
+**Super :** 
+	The `super` keyword refers to superclass (parent) objects.
+	It is used to call superclass methods, and to access the superclass constructor.
+
+**JVM Memory :**
+	Stack, Heap, Static, Free
+
