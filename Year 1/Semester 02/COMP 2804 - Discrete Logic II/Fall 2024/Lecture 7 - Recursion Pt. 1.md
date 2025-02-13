@@ -56,7 +56,7 @@ f(n) = f(n-1) + f(n-2) \\ \\
 \frac{\varphi^{n-1}-\psi^{n-1}}{\sqrt{ 5 }} + \frac{\varphi^{n-2}-\psi^{n-2}}{\sqrt{ 5 }} \\
 \frac{\varphi^{n-1} + \varphi^{n-2}- (\psi^{n-1}+\psi^{n-2})}{\sqrt{ 5 }} \\
 \frac{\varphi^{n-2}(\varphi+1) - \psi^{n-2}(\psi+1)}{\sqrt{ 5 }} \\ \\
-\text{Remember : } \phi \text{ and } \psi \text{ are solutions to } x^2 = x +1 \\
+\text{Remember : } \varphi \text{ and } \psi \text{ are solutions to } x^2 = x +1 \\
 \varphi^2 = \varphi +1, \; \psi^2 = \psi +1\\ \\
 ∴ \frac{\varphi^n - \psi^n}{\sqrt{ 5 }}}$$
 

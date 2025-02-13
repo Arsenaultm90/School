@@ -49,3 +49,4 @@ Total surplus = Marginal benefit - Marginal Cost
 Consumer Surplus = $\frac{1}{2} \times base \times height$
 
 **Market Failures And Deadweight Loss**
+
