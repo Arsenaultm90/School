@@ -85,6 +85,11 @@ The population correlation coefficient is always a value between -1 and 1, inclu
 If the value results in 0, then there is no linear relationship between the variables.
 $$\displaylines{-1\leftarrow\; 0\; \rightarrow 1 \\
 \;\;\vdash --\mid-- \dashv\\}$$
+- $ρ>0$ (Positive correlation): As one variable increases, the other tends to increase → **Upward slope**
+- $ρ<0$ (Negative correlation): As one variable increases, the other tends to decrease → **Downward slope**
+- $ρ=1$ (Perfect positive correlation): All points lie **exactly** on a straight line with a positive slope
+- $ρ=−1$ (Perfect negative correlation): All points lie **exactly** on a straight line with a negative slope
+- $ρ=0$ (No correlation): No linear relationship between the variables
 
 
 Sample Correlation Coefficient Formula : $$r = \frac{s_{xy}}{s_{x}s_{y}}$$

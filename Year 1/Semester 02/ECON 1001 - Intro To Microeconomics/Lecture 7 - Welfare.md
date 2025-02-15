@@ -5,10 +5,15 @@ We develop concepts of welfare measures with multiple goals, for e.g.:
 	• To evaluate the effect of events that affect market outcomes
 
 
-Positive Economy
+**Positive Economy**
+- **Objective**: Focuses on facts, evidence, and causal relationships.
+- **Testable**: Can be verified using data and analysis.
+- **Descriptive**: Explains phenomena without recommending any specific action
 
-Normative Economy
-
+**Normative Economy**
+- **Subjective**: Based on values, ethics, or moral beliefs about what is desirable.
+- **Non-testable**: Cannot be proven true or false through empirical data; depends on personal or societal values.
+- **Prescriptive**: Offers recommendations on what ought to happen, rather than just explaining what is happening.
 
 Marginal Benefit
 

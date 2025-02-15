@@ -6,7 +6,7 @@ A random variable is said to be discrete if it can assume only a finite or count
 
 
 ---
-##### DIscrete Probability Distributions
+##### Discrete Probability Distributions
 
 The probability distribution of a discrete random variable, X, is a table, graph, or formula that tells us  :
 	▪ the values that X can assume, and  

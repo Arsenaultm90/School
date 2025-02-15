@@ -12,6 +12,8 @@ When an event affects a market, elasticity helps us quantify the quantity respon
 
 The percentage change in quantity demanded in response to a 1 percent change in price.
 $$\text{Price Elasticity of Demand } = \frac{\text{Percentage change in quantity demanded}}{\text{Percentage change in price}} = \frac{\%\Delta Q}{\%\Delta P}$$
+$$\displaylines{\text{Midpoint Method :} \\
+E_{D} = \frac{\frac{Q_{2} - Q_{1}}{\frac{Q_{1}Q_{2}}{2}}}{\frac{P_{2} - P_{1}}{\frac{P_{1}P_{2}}{2}}}}$$
 
 
 **Example :** 
