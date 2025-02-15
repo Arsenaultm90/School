@@ -98,7 +98,7 @@ n(F^c) = 40 \times 40 \times 40 = 64,000 \\ \\
 Suppose we want to take a sample of $k$ objects with replacement from a group of $n$ distinct objects.$$n^k$$
 **Example :** 
 If we roll a six-sided die three times and observe the number of dots each time, then there are 
-6 × 6 × 6 = 63 = 216 possible outcomes.  
+6 × 6 × 6 = 216 possible outcomes.  
 
 Note that (5, 2, 2) would be considered a different outcome than (2, 5, 2) or (2, 2, 5).
 

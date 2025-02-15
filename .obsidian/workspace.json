@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 6 - Discrete Random Variables, Common Discrete Probability Distributions.md",
+                "file": "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 5 - The Algebra of Events, Counting Rules, Conditional Probability.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 6 - Discrete Random Variables, Common Discrete Probability Distributions"
+              "title": "Lecture 5 - The Algebra of Events, Counting Rules, Conditional Probability"
             }
           }
         ]
@@ -60,7 +60,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -114,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -205,11 +206,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7de6717453a3f581",
+  "active": "0a37336642f3a7ab",
   "lastOpenFiles": [
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 5 - The Algebra of Events, Counting Rules, Conditional Probability.md",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 4 - Introduction To Probability.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 7 - Continuous Random Variables, The Normal Probability Distribution.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 6 - Discrete Random Variables, Common Discrete Probability Distributions.md",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 2 - Numerical Measures of Center and Variability.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 1 - Introduction To Statistics.md",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Study Guides/Quiz 1 - Study Guide.md",
     "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 3 - Describing Bivariate Data With Graph.md",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 5 - Elasticity.md",
@@ -227,16 +231,13 @@
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 1 - Intro To Java.md",
     "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Study Guides/Midterm.md",
     "Pasted image 20250211075035.png",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 6 - Discrete Random Variables, Common Discrete Probability Distributions.md",
     "Screenshot 2025-02-10 at 9.41.40 AM.png",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 7 - Continuous Random Variables, The Normal Probability Distribution.md",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 8 - Linear Abstract Data Types.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 10 - Randomization and Probability.md",
     "Screenshot 2025-02-10 at 8.32.11 AM.png",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 7 - Polymorphism.md",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 3 - Principles of OOP - Abstraction and Encapsulation.md",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 4 - Principles of OOP - Inheritance.md",
-    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 5 - Abstract Classes.md",
     "Screenshot 2025-02-05 at 7.39.39 AM.png",
     "Screenshot 2025-02-05 at 7.27.40 AM.png",
     "Screenshot 2025-02-05 at 7.26.50 AM.png",

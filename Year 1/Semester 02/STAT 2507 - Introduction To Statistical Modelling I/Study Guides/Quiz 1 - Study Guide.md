@@ -29,9 +29,9 @@ $$\displaylines{\sigma = \sqrt{\sigma^2 }\\s = \sqrt{ s^2 }}$$
 
 #### Correlation Coefficient (r)
  **Direction of the relationship**
-    - Positive (r>0)(r > 0)(r>0): Both variables increase together.
-    - Negative (r<0)(r < 0)(r<0): One variable increases while the other decreases.
-    - Zero (r=0)(r = 0)(r=0): No clear linear relationship.
+    - Positive (r>0) : Both variables increase together.
+    - Negative (r<0) : One variable increases while the other decreases.
+    - Zero (r=0) : No clear linear relationship.
 
 **Strength of the relationship**
     - **Close to 1 or -1** → Strong correlation (data points follow a clear pattern).
@@ -87,5 +87,14 @@ $$\displaylines{m = r\frac{s_{y}}{s_{x}}\\\; b = \overline{y} - m\overline{x} \\
 
 ---
 
+#### Probability
 
-Discrete Random Variables
+
+Conditional Probability
+Independent Events
+
+##### The Total Law Of Probability
+Usable when we have a partitioned sample space and we want to find the probability of 'A' happening.
+
+##### Baye's Rule
+Used to find the reverse conditional probability.
