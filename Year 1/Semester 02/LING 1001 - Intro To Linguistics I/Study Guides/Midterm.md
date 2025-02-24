@@ -436,8 +436,8 @@ _cat_ → [kʰæt] (aspirated) or [kæt] (non-aspirated)
         - The **[tʰ]** indicates the aspirated form of the /t/ sound.
 
 
-**Phonological Processes**
-**Assimilation**
+#### **Phonological Processes**
+##### **Assimilation**
 - **Definition**: A sound changes to become more like a neighboring sound, typically to ease pronunciation. It can involve changes in place of articulation, manner, or voicing.
 - **Types**:
     - **Progressive Assimilation**: The sound changes to match a previous sound.
@@ -448,46 +448,51 @@ _cat_ → [kʰæt] (aspirated) or [kæt] (non-aspirated)
 - **Place Assimilation**:
     - _"input"_ [ˈɪmpʊt] → The /n/ changes to [m] before the bilabial /p/.
 
-**Elision (Deletion)**
+##### **Elision (Deletion)**
 - **Definition**: The omission of a sound, often to simplify speech or because it's not needed for understanding. This often occurs with unstressed vowels or consonants.
 
 Examples:
 - _"camera"_ → [ˈkæmɚə] (the middle /ə/ is deleted in casual speech).
 - _"handbag"_ → [ˈhænbæg] (the /d/ is omitted).
 
-**Epenthesis**
+##### **Epenthesis**
 - **Definition**: The insertion of a sound, usually a vowel, to make the pronunciation smoother or easier.
 
  Examples:
 - _"athlete"_ → [ˈæθəlit] (the /ə/ is inserted).
 - _"hamster"_ → [ˈhæmpstɚ] (an extra /p/ is inserted in some dialects).
 
-**Metathesis**
+##### **Metathesis**
 - **Definition**: The rearrangement or switching of sounds in a word.
 
  Examples:
 - _"ask"_ → [æks] (the /s/ and /k/ sounds are switched).
 - _"comfortable"_ → [ˈkʌmftərbəl] (the /t/ and /r/ are swapped in casual speech).
 
- **Vowel Reduction**
+##### **Vowel Reduction**
 - **Definition**: Unstressed vowels are pronounced less clearly and typically become a **schwa** /ə/ or a similar reduced form.
 
  Examples:
 - _"banana"_ → [bəˈnænə] (the unstressed vowels become a schwa).
 - _"sofa"_ → [ˈsoʊfə] (the second vowel becomes a schwa).
 
- **Flapping** (in American English)
+##### **Flapping** (in American English)
 - **Definition**: The /t/ or /d/ sound is pronounced as a **flap** [ɾ] when it occurs between two vowels, with the second vowel being unstressed.
 
 Examples:
 - _"butter"_ → [ˈbʌɾɚ]
 - _"ladder"_ → [ˈlæɾɚ]
 
- **Insertion of /j/ or /w/**
+##### **Insertion of /j/ or /w/**
 - **Definition**: In some languages, the semivowel /j/ or /w/ is inserted between certain vowels or consonants to maintain smooth pronunciation.
 
 Examples:
 - _"myth"_: In some dialects, it may be pronounced **[mjɪθ]** (with /j/ inserted between /m/ and /ɪ/).
+
+##### Lenition
+**Lenition** is a phonological process in which a consonant becomes "weaker" or less forceful.
+
+##### Fortition
 
 
 **Phonemic Analysis**
@@ -538,3 +543,4 @@ The symbols of the **International Phonetic Alphabet (IPA)** represent **speech 
 ![[Pasted image 20250204105926.png|500]]
 ![[Pasted image 20250204110615.png|500]]
 ![[Pasted image 20250204110333.png|500]]
+![[Pasted image 20250224094247.png]]
