@@ -236,7 +236,7 @@ In a hypergeometric experiment, the probability of success changes with each sel
 
 However, when N is very large relative to n, the probability of success does not change significantly with each selection, and it is acceptable to use the binomial distribution as an approximation to the hypergeometric distribution.
 
-If X ~ H(N, M, n) and N >> n, then X ~ B(n, M/N)
+If X ~ H(N, M, n) and N > M > n, then X ~ B(n, M/N)
 
 **Rule of Thumb:** This approximation will give reasonable results when n is less than 0.05N.
 
@@ -283,11 +283,9 @@ If X ~ B(n, p) where n is very large and p is very small, then  $$X \approx \tex
 
 
 **Example :** 
-A producer of fireworks claims that each of their fireworks only has a 1% chance of being  
-defective. Consider a random sample of 500 fireworks.  
+A producer of fireworks claims that each of their fireworks only has a 1% chance of being defective. Consider a random sample of 500 fireworks.  
 
-Assuming the claim made by the producer is true, find the probability that exactly six of the  
-fireworks are defective using  
+Assuming the claim made by the producer is true, find the probability that exactly six of the fireworks are defective using  
 
 (a) the binomial distribution.  
 

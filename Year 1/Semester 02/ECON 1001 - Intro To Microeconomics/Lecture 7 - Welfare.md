@@ -44,8 +44,6 @@ Above the Demand Line
 
 
 
-
-
 **Efficiency In Competitive Markets**
 
 Total surplus = Consumer surplus + Producer surplus  
