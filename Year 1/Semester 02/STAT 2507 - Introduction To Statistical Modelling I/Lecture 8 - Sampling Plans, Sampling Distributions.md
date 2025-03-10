@@ -237,5 +237,56 @@ b) 0.08 \\ \\
 
 When we take **many random samples** from a population and compute the **sample means**, the distribution of those sample means will **approximate a normal distribution**, regardless of the original population’s distribution—**as long as the sample size is sufficiently large (typically n≥30).** $$\overline{X}^{approx} \sim N\left( \mu, \frac{\sigma^2}{n} \right)$$
 
+**Example :** 
+A pizza restaurant’s delivery times follow an exponential distribution with a mean of 24 minutes.  
+Consider 36 randomly chosen pizza deliveries.  
+
+Approximate the probability that the average delivery time of these 36 pizzas is less than 30 minutes.
+
+Let $X$ represent a random delivery time. $$\displaylines{X \sim \exp(\mu = 24) \\
+\sigma = 24 \\
+n = 36}$$
+Since $n=36 \geq 30$, the CLT says $$\overline{X}^{approx} \sim N\left( \mu_{\overline{X}} = 24, \sigma_{\overline{X}}=\frac{24}{\sqrt{ 36 }} \right)$$
+$$\displaylines{P(\overline{X} < 30) = P(Z < \frac{30-24}{4}) = P(Z < 1.5) = 0.9332}$$
+
+
+
+**Example :** 
+Suppose a particular model of airplane can hold 48 passengers with a maximum allowable  
+total weight (passengers + baggage) of 4000 kg.  
+
+The distribution of the combined weight of a person and their baggage has a mean of 77 kg  
+and a standard deviation of 15 kg.  
+
+What is the approximate probability that the total weight of 48 randomly selected passengers and their baggage will exceed the maximum allowable total weight?
+
+
+Let $X$ represent the weight of a random passenger + baggage. $$\displaylines{\mu_{x} = 77 \\
+\sigma_x = 15 \\
+P(X_{1} + X_{2} +\dots X_{48} > 4000) = P\left( \overline{X} > \frac{4000}{48} = 83.3 \right) \\ \\
+n = 48 \geq 30 \rightarrow CLT\; \overline{X} \sim N\left( \mu=77, \sigma = \frac{15}{\sqrt{ 48 }} \right) \\ \\
+P\left( Z > \frac{83.3 - 77}{\frac{15}{\sqrt{ 48 }}} \right) = P(Z > -2.93) = 0.0017}$$
+
+
+---
+#### The Sampling Distribution of the Sample Proportion
+
+If you take multiple random samples of size $n$ from a population, and for each sample, compute the proportion $\hat{p}$​ of a particular characteristic (e.g., the proportion of voters supporting a candidate), the sampling distribution of $\hat{p}$​ is the distribution of these sample proportions.
+$$\displaylines{\hat{P} = \frac{X}{n} \\
+\mu_{\hat{P}} = p \\
+\sigma^2_{\hat{P}} = \frac{pq}{n} \\ \\
+\text{If } np \geq 5,  \text{ and } nq \geq 5, \text{ then } \hat{P}^{approx} \sim N\left( p, \frac{pq}{n} \right) }$$
+
+**Example :**
+Suppose that Carleton is considering a small increase in tuition fees in order to increase security on campus.  
+
+A random sample of 500 Carleton students were asked if they would support this tuition increase.  Assume that the true proportion of all students at Carleton who support the tuition increase is 0.65.  
+
+(a) Describe the sampling distribution of the sample proportion of all students who support the tuition increase.  
+
+Since $np = 500(0.65) = 325, nq = 500(0.35) = 175 \geq 5$. $$\displaylines{\hat{P}^{approx} \sim N\left( \mu_{\hat{P}} = 0.65, \sigma^2_{\hat{P}} = \frac{pq}{n} = \frac{0.65(0.35)}{500} = 0.000455 \right)}$$ 
+
+(b) What is the approximate probability of observing a sample proportion larger than or equal to 0.70? $$\displaylines{P(\hat{P} \ge 0.7) = P(Z \ge \frac{0.7 - 0.65}{\sqrt{ 0.000455 }}) = P(Z \geq 2.34) \\
+P(Z \le -2.34) = 0.0096}$$
 
 
