@@ -27,3 +27,5 @@ P(\overline{A}) = 1-\frac{2}{3} = \frac{1}{3}}$$
 Example : 
 Who flips the second head?
 $$\displaylines{S = \{T^nHT^mH : m,n \geq 0\}\;\;\; P(T^nHT^mH) = \frac{1}{2^{n+m+2}}}$$
+Long Form - Summation
+Short Form - Total law of probability
