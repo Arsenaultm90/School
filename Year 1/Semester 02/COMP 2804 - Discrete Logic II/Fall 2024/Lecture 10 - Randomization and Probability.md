@@ -33,3 +33,9 @@ For any integer $k \in \{1, \dots, 12\}$, define the event.
 	$A_4 = \{(1, 3), (2, 2), (3, 1)\}$
 	$Pr(A_{4}) = Pr(1, 3) + Pr(2, 2) + Pr(3, 1) = \frac{1}{36} + \frac{1}{36} + \frac{1}{36} = \frac{3}{36} = \frac{1}{12}$
 
+
+
+---
+#### Binomial Probability Formula
+The **binomial probability formula** is used when we have a fixed number of independent trials, and each trial has two possible outcomes: success or failure. It helps calculate the probability of getting exactly $k$ successes in $n$ trials.
+$$P(X = k) = \binom{n}{k}·p^k·(1-p)^{n-k}$$
