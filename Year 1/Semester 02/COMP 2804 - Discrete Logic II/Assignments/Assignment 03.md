@@ -10,36 +10,22 @@ Matthew Arsenault
 
 
 2. (3 points) An 8-digit number is chosen at random. Find the probability that 4 digits of the number would be the same, while the other digits will be different from these 4 and from each other.
-
-Case 1 : The first digit is a repeated number $$\displaylines{\text{9 choices for the first digit as it cannot be 0} \\ \\
-\text{Number of combinations for the positions of remaining repeated number} \\
-\binom{7}{3} \\ \\
+ $$\displaylines{\text{10 choices for the repeating digits} \\ \\
+\text{Number of combinations for the positions of repeated number} \\
+\binom{8}{4} \\ \\
 \text{Number of ways to choose remaining unique values} \\
 \binom{9}{4} \\ \\
 \text{Number of combinations for the positions of unique numbers} \\
 4! \\ \\
 \text{Calculations}\\
-=9 \times \binom{7}{3} \times \binom{9}{4} \times 4! \\
-=9 \times \frac{7!}{3!4!} \times \frac{9!}{4!5!} \times 4! \\
-=9 \times 35 \times 126 \times 24 \\
+=10 \times \binom{8}{4} \times \binom{9}{4} \times 4! \\
+=10 \times \frac{8!}{4!3!} \times \frac{9!}{4!5!} \times 4! \\
+=10 \times 70 \times 126 \times 24 \\
 \boxed{
-=952560}}$$
-Case 2 : The first digit is a unique number $$\displaylines{\text{9 choices for the first digit as it cannot be 0} \\ \\
-\text{9 choices for the repeated values as we omit the first digit} \\ \\
-\text{Number of positions for repeated numbers} \\
-\binom{7}{4} \\ \\
-\text{Number of ways to choose the remaining 3 unique numbers} \\
-\binom{8}{3} \\ \\
-\text{Number of way to position unique numbers} \\
-3! \\ \\
-\text{Calculations} \\
-9 \times 9 \times \binom{7}{4} \times \binom{8}{3} \times 3! \\
-81 \times \frac{7!}{4!3!} \times \frac{8!}{3!5!} \times 3! \\
-81 \times 35 \times 56 \times 6 \\
-\boxed{=952560}}$$
-Total number of combinations : $$\displaylines{9 \times 10^7}$$
-Probability : $$\displaylines{\frac{952560 + 952560}{90000000} = 0.021168 \\ \\
-∴ \boxed{\text{The probability of getting 4 repeated numbers and 4 unique number is 2.11\%}}}$$
+=2116800}}$$
+Total number of combinations : $$\displaylines{10^8}$$
+Probability : $$\displaylines{\frac{2116800}{100000000} = 0.021168 \\ \\
+∴ \boxed{\text{The probability of getting 4 repeated numbers and 4 unique number is 2.12\%}}}$$
 <div style='page-break-after: always;'></div>
 
 3. (5 points) A number $X$ is chosen at random from the set {1,2,3,4,5,6,7,...,24}. Consider the following three events:
@@ -89,10 +75,11 @@ A : The white ferret came from the box with 5 white ferrets.
 B :  The white ferret escaped.
 
 $$\displaylines{\text{Bayes Theorem} \\
-P(A|B) = \frac{P(A\cap B)}{P(B)} \\
-P(A \cap B) = P(A) · P(B) = \frac{1}{10} · \frac{5}{6} = \frac{5}{60} = \frac{1}{12} \\
-P(B) = \frac{1}{12} + \left( \frac{9}{10} · \frac{1}{2} \right) = \frac{5}{60} + \frac{27}{60} = \frac{32}{60} = \frac{8}{15} \\ \\
-P(A|B) = \frac{\frac{1}{12}}{\frac{8}{15}} = \frac{1}{12} · \frac{15}{8} = \frac{15}{96} = \frac{5}{32} \\ \\
+P(A|B) = \frac{P(B|A)P(A)}{P(B)} \\
+P(B|A) = \frac{5}{6} \\
+P(A) = \frac{1}{10} \\
+P(B) = P(A)P(B|A) + P(\overline{A})P(B|\overline{A}) = \left( \frac{1}{10}· \frac{5}{6} \right) + \left( \frac{9}{10} · \frac{1}{2} \right) = \frac{5}{60} + \frac{27}{60} = \frac{8}{15} \\ \\
+P(A|B) = \frac{\frac{5}{6}\times \frac{1}{10}}{\frac{8}{15}} = \frac{5}{60} · \frac{15}{8} = \frac{75}{480} = \frac{5}{32} \\ \\
 ∴ \boxed {\text{The probability of a white ferret escaping and coming from the box with 5 white ferrets is } \frac{5}{32}}}$$
 
 <div style='page-break-after: always;'></div>
