@@ -247,6 +247,7 @@ their annual contest, and that 100,000,000 of them are actually winners.
 
 If you buy seven cups of coffee in a week, what is the probability that you’ll win a prize at least once?
 
+Where : $N=600,000,000, M = 100,000,000, \text{ and } n = 7$
 
 ---
 ##### The Poisson Probability Distribution  

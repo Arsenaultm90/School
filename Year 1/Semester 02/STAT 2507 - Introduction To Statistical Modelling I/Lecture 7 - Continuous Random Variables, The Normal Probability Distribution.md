@@ -18,10 +18,10 @@ We model the probability distribution of a continuous random variable with a con
 
 We consider the probability that a continuous random variable X assumes a value within an interval of values.
 
-The function f (x) is the probability density function of the continuous random variable X if P(a < X < b) is the area under the curve f (x) over the interval [a, b].
+The function f(x) is the probability density function of the continuous random variable X if P(a < X < b) is the area under the curve f (x) over the interval [a, b].
 
 Every probability density function f(x) must satisfy these two conditions:  
-1. f (x) ≥ 0 for all values of x.  
+1. f(x) ≥ 0 for all values of x.  
 2. The total area under the curve is equal to 1.
 
 
@@ -60,8 +60,7 @@ where, $$\displaylines{\mu_{x} = L+\frac{U}{2} \\
 \sigma^2_{x} = \frac{(U-L)^2}{12}}$$![[Drawing 2025-03-04 08.01.26.excalidraw]]
 
 **Example :** 
-From the time you arrive to your bus stop, the amount of time you will wait for a bus to arrive  
-is uniformly distributed over the next 15 minutes.  
+From the time you arrive to your bus stop, the amount of time you will wait for a bus to arrive is uniformly distributed over the next 15 minutes.  
 
 Let X represent the amount of time you wait.  $$X \sim U(0, 15)$$
 
@@ -101,7 +100,7 @@ P(X \leq 1) = 1 - P(X>1) = 1 - e^{-1/5.4} \approx 1 - 0.831 = 0.169}$$
 (b) Twenty percent of laptops last longer than how many years? $$\displaylines{P(X > x) = 0.2 \\ \\
 e^{-x/5.4} = 0.2 \\
 \ln e^{-x/5.4} = \ln 0.2 \\
--\frac{x}{5.4} = \ln 0.2 \
+-\frac{x}{5.4} = \ln 0.2 \\
 x = -5.4 \times \ln 0.2 \\
 \approx 8.69 \text{ years}}$$
 
