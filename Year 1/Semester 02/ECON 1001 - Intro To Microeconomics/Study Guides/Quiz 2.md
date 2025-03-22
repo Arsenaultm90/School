@@ -62,6 +62,22 @@ $$\text{Opportunity cost of a task = } \frac{\text{Hours this task takes}}{\text
 
 ![[Screenshot 2025-03-18 at 8.22.51 AM.png|300]]
 
+**da** 
+- **Country A** can produce:
+    - 1 computer per hour
+    - 10 shirts per hour
+- **Country B** can produce:
+    - 0.5 computers per hour
+    - 5 shirts per hour
+
+**Step 1: Opportunity Costs**
+- **Country A’s Opportunity Cost**:
+    - Giving up **1 computer** = 10 shirts lost (1:10 ratio)
+    - Giving up **1 shirt** = 1/10 of a computer lost
+
+- **Country B’s Opportunity Cost**:
+    - Giving up **1 computer** = 10 shirts lost (1:10 ratio)
+    - Giving up **1 shirt** = 1/10 of a computer lost
 
 
 **PRICES ARE SIGNALS, INCENTIVES, AND INFORMATION**
@@ -113,7 +129,15 @@ In economics, prices serve as a powerful mechanism for aggregating information a
 ---
 #### Chapter 10 - Externalities and Public Goods
 
+- **Market Equilibrium (Without Considering Externalities)**
+    - The equilibrium quantity and price in a competitive market occur where **Marginal Private Cost (MPC)** (which is the supply curve) **intersects** the **Demand/Marginal Social Benefit (MSB)** curve.
+    - At this point, firms and consumers are making decisions based only on their private costs and benefits, ignoring any externalities.
 
+- **Socially Optimal Price and Quantity (Considering Externalities)**
+    - The socially optimal point occurs where the **Marginal Social Cost (MSC)** intersects the **Demand/Marginal Social Benefit (MSB)** curve.
+    - **Marginal Social Cost (MSC) = Marginal Private Cost (MPC) + Marginal External Cost (MEC)**.
+    - This accounts for the full cost of production, including negative externalities (such as pollution).
+    - The socially optimal quantity is usually **lower** than the market equilibrium quantity (in the case of negative externalities), and the socially optimal price is **higher** to reflect the true cost to society.
 
 
 ---

@@ -99,18 +99,18 @@ Variance : $n\left( \frac{M}{N} \right)\left( \frac{{N-M}}{N} \right)\left( \fra
 
 > **Example**: A deck of 52 cards contains 26 red cards and 26 black cards. You draw 5 cards without replacement and want to know the probability that exactly 3 of them are red.
 > - **Population size** $N=52$
-> - **Number of red cards (successes)** $K=26$
+> - **Number of red cards (successes)** $M=26$
 > - **Sample size** $n=5$
 > - **Number of red cards in the sample (successes)** $k=3$
 > 
-> For $N=52, K=26, n=5, \text{ and } k=3$ : $$P(X = 3) = \frac{\binom{26}{3}\binom{52-26}{5-3}}{\binom{52}{5}} = 0.325 $$
+> For $N=52, M=26, n=5, \text{ and } k=3$ : $$P(X = 3) = \frac{\binom{26}{3}\binom{52-26}{5-3}}{\binom{52}{5}} = 0.325 $$
 
 
 
 ##### Poisson Distribution
 Models the number of occurrences of an event in a fixed interval (time or space), assuming events happen at a constant average rate.
 
-Formula : $P(X=k) = \frac{\lambda^ke^{-\lambda}}{k!}$
+Formula : $P(X=x) = \frac{\mu^xe^{-\mu}}{x!}$
 Mean : $E(X) = \lambda$
 Variance : $Var(X) = \lambda$
 
@@ -146,7 +146,7 @@ A continuous random variable $X$ is uniformly distributed over an interval [a,b]
 f(x) = \frac{1}{b-a},\; a \le x \le b}$$
 
 **Exponential Distribution**
-The exponential distribution models the time between events in a Poisson process (a process where events happen at a constant rate). $$\displaylines{X \sim \exp(\mu) \\ f(x) = \lambda e^{-\lambda x}, \; x\ge 0}$$
+The exponential distribution models the time between events in a Poisson process (a process where events happen at a constant rate). $$\displaylines{X \sim \exp(\mu) \\ f(x) = \frac{1}{\mu} e^{-x/\mu}, \; x\ge 0}$$
 
 **Normal Distribution (Gaussian Distribution)**
 A continuous random variable $X$ is normally distributed if its PDF follows the bell-shaped curve. It is completely described by its mean $\mu$ and standard deviation $\sigma$. $$\displaylines{X \sim N(\mu, \sigma^2) \\ f(x) = \frac{1}{\sigma \sqrt{ 2\pi }}e^{-1/2(x-\mu/\sigma)^2}, \; -\infty < X < \infty}$$
@@ -179,7 +179,8 @@ If $X \sim B(n, p)$ and $np > 5$, and $n(1‒p) > 5$ and $n$ is large, then bino
 ---
 #### Sampling Distributions
 A **sampling distribution** refers to the probability distribution of a **statistic** (such as the sample mean or sample proportion) obtained from repeated random sampling from a population.
-
+$$\displaylines{\mu_{\overline{X}} = \mu \\
+\sigma_{\overline{X}} = \frac{\sigma}{\sqrt{ n }}}$$
 
 **Central Limit Theorem (CLT)**
 The **Central Limit Theorem** (CLT) is one of the most important concepts in the study of sampling distributions. It states that:
