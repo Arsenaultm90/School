@@ -20,12 +20,11 @@ By Linearity of Expectation : $$\displaylines{E(A) = E\left( \sum_{e}X_{e} \righ
 | Probability | 1/4 | 1/4 | 1/6 | 1/6 | 1/6 |
 
 
-
 Calculate the exact values (meaning single numbers) of:
 
 (a) E[X]  $$\displaylines{= \left( 1 \times \frac{1}{4} \right) + \left( -1 \times \frac{1}{4} \right) + \left( 2 \times \frac{1}{6} \right) + \left( -3 \times \frac{1}{6} \right) + \left( 3 \times \frac{1}{6} \right) \\
-= \frac{1}{3}}$$
-(b) Var[X] $$\displaylines{ = E(X^2) - [E(X)]^2   \\ \\
+= \boxed{ \frac{1}{3}}}$$
+(b) Var[X] $$\displaylines{ = E(X^2) - [E(X)]^2   \\ 
 E(X^2) = \sum x^2P(X=x) \\
 = \left( 1^2 \times \frac{1}{4} \right) + \left( -1^2 \times \frac{1}{4} \right) + \left( 2^2 \times \frac{1}{6} \right) + \left( -3^2 \times \frac{1}{6} \right) + \left( 3^2 \times \frac{1}{6} \right) \\
 =\frac{1}{4} + \frac{1}{4} + \frac{2}{3} + \frac{3}{2} + \frac{3}{2} \\
@@ -33,9 +32,9 @@ E(X^2) = \sum x^2P(X=x) \\
 [E(X)]^2 = \left( \frac{1}{3} \right)^2 \\
 = \frac{1}{9} \\ \\
 V(X) = \frac{25}{6} - \frac{1}{9} = \frac{75}{18} - \frac{2}{18} \\
-= \frac{73}{18}}$$
+=\boxed{ \frac{73}{18}}}$$
 (c) σ[X] $$\displaylines{ = \sqrt{ \frac{73}{18}} \\
-= 2.014}$$
+= \boxed{2.014}}$$
 <div style='page-break-after: always;'></div>
 
 
@@ -61,7 +60,7 @@ E(X) = np = 10\times \frac{3}{4} \\
 Using the law of total probability : $$\displaylines{P(Green) = P(Green | Pink)P(Pink) + P(Gre en | Yel low)P(Yel low) \\
 = \left( \frac{1}{2} \times \frac{1}{3} \right) + \left( \frac{1}{2} \times \frac{1}{4} \right) \\
 = \frac{1}{6} + \frac{1}{8} \\
-=\frac{7}{24}}$$
+=\boxed{ \frac{7}{24}}}$$
 
 <div style='page-break-after: always;'></div>
 
