@@ -113,7 +113,7 @@ Assume heights are normally distributed.
 At the 1% significance level, is there sufficient evidence to indicate the average height of males exceeds that of females by more than 10 cm?
 
 Step 1 :
-	$H_{0}$ : $\mu_{1} - \mu_{2}$ = 0, $H_{a}$ : $\mu_{1} - \mu_{2} < 0$
+	$H_{0}$ : $\mu_{1} - \mu_{2}$ = 10, $H_{a}$ : $\mu_{1} - \mu_{2} > 10$
 Step 2 : 
 	$t_{0} = \frac{(176.8 - 160.5) - 10}{\sqrt{ 39.73 \left( \frac{1}{15} + \frac{1}{15} \right) }} \approx 2.737$
 	$df = 15 + 15 - 2 = 28$

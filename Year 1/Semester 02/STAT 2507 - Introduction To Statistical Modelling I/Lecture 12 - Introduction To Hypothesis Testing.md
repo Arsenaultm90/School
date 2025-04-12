@@ -196,9 +196,14 @@ Conduct an appropriate test at the 1% level of significance.
 
 Under what conditions is this result valid? $$\displaylines{\bar{X} = 871 \\ s = 18}$$
 Step 1 : 
-	$H_{0} : \mu=880, H_{a} : \mu < 880$
+	$H_{0} : \mu=880, H_{a} : \mu \ne 880$
 Step 2 :
-
+	$t_{0} = \frac{871 - 880}{\frac{18}{\sqrt{ 24 }}} = -2.45$
+Step 3 :
+	$p$-value = 2$P(T_{23} > -2.45)$
+	0.02 < $p$-value < 0.05
+Step 4 :
+	Since $p$-value > 0.01, we fail to reject $H_{0}$
 
 
 
@@ -243,7 +248,7 @@ At $\alpha$ = 0.05, there is insufficient evidence to conclude the percentage of
 
 This results is approximately valid because :
 1. We took a random sample
-2.  $np_{0} \text{ and } np_{0} \ge 5$ and therefore approximately follows a normal distribution.
+2.  $np_{0} \text{ and } nq_{0} \ge 5$ and therefore approximately follows a normal distribution.
 
 
 

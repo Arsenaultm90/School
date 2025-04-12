@@ -39,9 +39,7 @@ If we have no previous information on which to base p*, we set p* = 0.5.  This v
 
 
 **Example :** 
-Suppose we wish to estimate the percentage of people who plan to vote for a certain  
-political party. We want our estimate to be accurate to within 3 percentage points with  
-95% confidence. 
+Suppose we wish to estimate the percentage of people who plan to vote for a certain political party. We want our estimate to be accurate to within 3 percentage points with 95% confidence. 
 
 How many people should we include in our sample if  
 	(a) We have no previous information.  
