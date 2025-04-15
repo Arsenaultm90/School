@@ -1,7 +1,41 @@
 ##### Intro to Java
 A compiled and interpreted language.
-Static typing
+Independent and Statically Typed
 OOP Paradigm
+
+
+---
+# Object-Oriented Programming Concepts
+#### Abstraction
+
+Abstraction involves hiding complex implementation details while exposing only the necessary features of an object. This creates simpler, more usable interfaces and helps manage complexity by allowing programmers to focus on what an object does rather than how it does it.
+
+**Example**: A car class might expose methods like `start()`, `accelerate()`, and `brake()` while hiding the complex engine mechanics.
+
+#### Inheritance
+
+Inheritance allows a class (child/subclass) to acquire properties and behaviors from another class (parent/superclass). This promotes code reusability and establishes an "is-a" relationship between classes.
+
+**Example**: A `SportsCar` class might inherit from a `Car` class, gaining all its basic features while adding specialized ones.
+
+#### Encapsulation
+
+Encapsulation bundles data and methods that operate on that data within a single unit (class) and restricts direct access to some of the object's components. This is implemented using access modifiers (public, private, protected) and enhances security and maintainability.
+
+**Example**: A `BankAccount` class might keep its balance private while providing public methods like `deposit()` and `withdraw()` to manipulate it safely.
+
+#### Polymorphism
+
+Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables one interface to be used for a general class of actions, with specific implementations determined at runtime.
+
+**Types**:
+
+- **Method Overriding**: Subclass implements a method already defined in the superclass
+- **Method Overloading**: Multiple methods with the same name but different parameters
+
+**Example**: A `Shape` superclass with a `calculateArea()` method that's implemented differently by `Circle`, `Rectangle`, and `Triangle` subclasses.
+
+These four principles work together to create modular, reusable, and maintainable code structures that model real-world relationships
 
 
 ---
