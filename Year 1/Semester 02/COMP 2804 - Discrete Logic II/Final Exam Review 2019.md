@@ -149,7 +149,7 @@ Which of the following is true for all integers $n ≥ 0$?
 (a) $f (n) = \frac{5}{2} · 3^n − 1$
 (b) $f(n) = \frac{3}{2} · 3^n − \frac{1}{2}$
 (c) $f(n) = \frac{5}{2} · 3^n − \frac{1}{2}$
-
+x
 **How To Solve :**
 	Find the first few values of the recursive function : $$\displaylines{
 	f(0) = 2 \\
@@ -341,4 +341,134 @@ Consider the random variables
 
 What is the expected value E(Z) of the random variable Z?
 $$E(Z) = \sum_{k} k·P(Z = k)$$
+![[Drawing 2025-04-17 07.08.41.excalidraw.png|300]]
+
+$$\displaylines{E(Z) = \left( 1 \times \frac{1}{6} \right) + \left( 1 \times \frac{1}{6} \right) + \left( 1 \times \frac{1}{6} \right) + \left( 2 \times \frac{1}{6} \right) + \left( 2 \times \frac{1}{6} \right) +\left( 2 \times \frac{1}{6} \right) \\
+=\frac{9}{6} = \frac{3}{2}}$$
+
+∴ The expected value(the average over many experiments) is $\frac{3}{2}$.
+
+
+---
+Let $n ≥ 2$ be an integer. Consider a string $c_{1}, c_{2}, . . . , c_{n}$ of length $n$, in which each character
+$c_{i}$ is a uniformly random element of the set {1, 2, 3} (independently of all other characters).
+
+Consider the random variable $X$ whose value is the number of indices $i$ with $1 ≤ i < n$ for
+which the product $c_{i} · c_{i+1}$ is odd.
+
+What is the expected value $E(X)$ of the random variable $X$?
+Hint: Use indicator random variables
+$$\displaylines{X = |\{i \in \{1, \dots, n-1\} : c_{i} · c_{i+1} \text{ is odd}\}| \\
+X_{i} = \left\{\begin{array}{l}
+1 \text{ if } c_{i}·c_{i+1} \text{ is odd} \\
+0 \text{ otherwise}
+\end{array}\right. \\
+E(X) = E\left( \sum^{n-1}_{i=1}X_{i} \right) = \sum^{n-1}_{i=1} E(X_{i}) \\ \\
+E(X_{i}) = P(X_{i} = 1) \\
+= P(c_{i} · c_{i+1}) \\
+= P(c_{i} \text{ and } c_{i+1} \text{ are odd}) \\
+= P(c_{i} \text{ is odd}) · P(c_{i+1} \text{ is odd}) \\
+=\frac{2}{3} · \frac{2}{3} = \frac{4}{9}}$$
+
+∴ $\sum^{n-1}_{i=1} E(X_{i}) = \frac{4}{9}(n-1)$
+
+
+
+---
+Let $n ≥ 2$ be an integer. You are given $n$ beer bottles $B_{1}, B_{2}, . . . , B_{n}$ and two cider bottles
+$C_{1}$ and $C_{2}$. 
+
+Consider a uniformly random permutation of these $n + 2$ bottles. The positions
+in this permutation are numbered $1, 2, . . . , n + 2$. 
+
+Consider the random variable $X$ = the position of the leftmost beer bottle.
+
+What is the expected value $E(X)$ of the random variable $X$?
+
+
+We have three positions to consider since we only have 2 cider bottles.
+	Total permutation = $(n+2)!$
+	
+$$\displaylines{\text{Probability X is in index 1} \\ P(X = 1) = \frac{n(n+1)!}{(n+2)!} = \frac{n}{n+2} \\ \\
+\text{Probability X is in index 2} \\
+\text{2 Ciders, n beers, n! ways to assign remaining slots} \\
+P(X = 2) = \frac{2n · n!}{(n+2)!} = \frac{2n}{(n+2)(n+1)}  \\ \\
+\text{Probability X is in index 3} \\
+\text{2!=2 ways to assign cider, n ways to assign beer, n-1 ways to assign remaining slots.} \\
+P(X = 3) = \frac{2n(n-1)! }{(n+2)!} = \frac{2n}{(n+2)(n+1)n} \\  \\ \\
+E(X) = 1 · \frac{n}{n+2} + 2 · \frac{2n}{(n+2)(n+1)} + 3· \frac{2n}{(n+2)(n+1)n} \\
+=\frac{n}{n+2} + \frac{4n}{(n+2)(n+1)} + \frac{6n}{(n+2)(n+1)n} \\
+=\frac{n}{n+2}+ \left( 4n + \frac{6n}{n} \right) \frac{1}{(n+2)(n+1)} \\
+\frac{n}{n+2} + \frac{4n+6}{(n+2)(n+1)}}$$
+
+
+---
+When a couple has a child, this child is a boy with probability 1/2 and a girl with probability
+1/2, independent of the gender of other children. 
+
+A couple stops having children as soon as they have 2 girls or 2 boys. 
+
+Consider the random variables
+G = the number of girls the couple has
+B = the number of boys the couple has
+
+Which of the following is correct?
+	(a) The random variables G and B are independent.
+	(b) The random variables G and B are not independent.
+
+
+$$\displaylines{P(G = 2) = \frac{1}{2} \\
+P(B = 2) = \frac{1}{2} \\
+P(B=2 \text{ and } G=2) = 0}$$
+∴ Since we stop the first time we get two of the same sex, it is impossible to have two of both sexes. The two random variables are therefore not independent.
+
+
+---
+You are given a fair red die and a fair blue die. 
+Consider the following experiment:
+	Experiment: Roll each die once and take the sum of the two rolls.
+
+You repeat this experiment until the sum of the two rolls is equal to 7.
+
+Consider the random variable
+	$X$ = the number of times you do the experiment.
+(This value $X$ includes the experiment in which the sum is 7 for the first time.)
+
+What is the expected value $E(X)$ of the random variable $X$?
+
+$$\displaylines{\text{\# of outcomes} = 6 \times 6 = 36 \\
+\text{Sums of 7} = (1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1) = 6 \\
+P(X = 7) = \frac{6}{36} = \frac{1}{6} \\ \\
+\text{The expected value for a geometric random variable : } \frac{1}{p} \\
+E(X) = \frac{1}{\frac{1}{6}} = 6}$$
+
+
+
+---
+Let $n ≥ 2$ be an integer, and let $p$ and $q$ be real numbers with $0 < p < 1$ and $0 < q < 1$.
+Consider $n$ students $S_{1}, S_{2}, . . . , S_{n}$ who hand in an assignment for COMP 2804. This assign-
+ment has 2 questions. For $i = 1, 2, . . . , n$, let $A_{i}$ be the assignment handed in by student
+$S_{i}$.
+
+Alexa and Zoltan are TAs for the course. Alexa is supposed to mark the first question,
+whereas Zoltan is supposed to mark the second question. Since both TAs are lazy, they use
+the following scheme (all random choices are mutually independent):
+For $i = 1, 2, . . . , n$,
+	• Alexa marks the first question of assignment $A_{i}$ with probability $p$,
+	• Zoltan marks the second question of assignment $A_{i}$ with probability $q$.
+
+Consider the random variable
+$X$ = the number of assignments that are marked by both Alexa and Zoltan.
+
+What is the expected value $E(X)$ of the random variable $X$?
+Hint: Use indicator random variables.
+
+$$\displaylines{\left\{\begin{array}{l}
+1 \text{ if the assignment if marked by both} \\
+0 \text{ otherwise}
+\end{array}\right. \\ \\
+E(X) = \sum^n_{i=1} E(X_{i})}$$
+
+Given that our probabilities are independent : $$\displaylines{E(X) = p·q \\
+\sum^n_{i=1} E(X_{i}) = \sum^n_{i=1} p·q = n·p·q}$$
 
