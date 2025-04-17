@@ -198,7 +198,7 @@ A research company produced the following data about campus food preferences fro
 | Undergraduate | 10        | 40    | 20    |
 | Graduate      | 15        | 10    | 5     |
 
-A person is selected at random from this group. What is the probability the person  
+A person is selected at random from this group. What is the probability the person... 
 Let $S$ be the set of all 100 students.
 
 (a) is an undergraduate student?  

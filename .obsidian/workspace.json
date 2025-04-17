@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 9 - Non-Linear Abstract Data Types.md",
+                "file": "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Final Exam Review 2019.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 9 - Non-Linear Abstract Data Types"
+              "title": "Final Exam Review 2019"
+            }
+          },
+          {
+            "id": "2b9b1cfe8753cc30",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-04-17 07.08.41.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-04-17 07.08.41.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,13 +196,26 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7071872ae6df028d",
+  "active": "659e149095c974d0",
   "lastOpenFiles": [
-    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 8 - Linear Abstract Data Types.md",
+    "Excalidraw/Drawing 2025-04-17 07.08.41.excalidraw.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Final Exam Review 2019.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 5 - The Algebra of Events, Counting Rules, Conditional Probability.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 6 - Discrete Random Variables, Common Discrete Probability Distributions.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 4 - Introduction To Probability.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 13 - Error Types, Hypothesis Test For Population Proportions, Statistical Inferences For Paired Differences.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 11 - Confidence Intervals for Comparing Two Population Means.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 10 - A Confidence Interval for a Population Proportion.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 9 - Statistical Inference, Types Of Estimation, Confidence Intervals.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 8 - Sampling Plans, Sampling Distributions.md",
+    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 7 - Continuous Random Variables, The Normal Probability Distribution.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 19 - Geometric Distribution, Binomial Distribution.md",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 9 - Non-Linear Abstract Data Types.md",
+    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 8 - Linear Abstract Data Types.md",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 10 - Recursion and Linked Lists.md",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 11 - JavaFX and GUI.md",
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 12 - File IO and Exception Handling.md",
@@ -202,19 +228,7 @@
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 14 - Game Theory.md",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 13 - Entry-Exit.md",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 12 - Market Structures.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 11 - The Labour Market.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 10 - Externalities.md",
     "Pasted image 20250413124615.png",
-    "Untitled 1.md",
-    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 6 - Interfaces.md",
-    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 5 - Abstract Classes.md",
-    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 4 - Principles of OOP - Inheritance.md",
-    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Lecture 3 - Principles of OOP - Abstraction and Encapsulation.md",
-    "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Course Info.md",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 9 - Statistical Inference, Types Of Estimation, Confidence Intervals.md",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 10 - A Confidence Interval for a Population Proportion.md",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 11 - Confidence Intervals for Comparing Two Population Means.md",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 13 - Error Types, Hypothesis Test For Population Proportions, Statistical Inferences For Paired Differences.md",
     "Excalidraw/Drawing 2025-04-08 12.37.45.excalidraw.png",
     "Excalidraw/Drawing 2025-04-08 12.29.35.excalidraw.png",
     "Excalidraw/Drawing 2025-04-08 12.08.53.excalidraw.png",
