@@ -69,3 +69,18 @@ Sally saw the car on the hill
 
 ![[Screenshot 2025-03-24 at 12.56.51 PM.png|300]]
 
+
+
+---
+#### Syntactic Structure  
+Chapter 5 (until pg. 166)
+
+• **Phrase:** a phrase consists of one or more words  
+	{The man}
+• **Clause:** a clause consists of one or more phrases  
+	 {{The man} {laughed}}
+• **Sentence:** a sentence consists of one or more clauses  
+	{{{The man} {laughed}} {{because} {the joke} {was funny}}}
+
+
+

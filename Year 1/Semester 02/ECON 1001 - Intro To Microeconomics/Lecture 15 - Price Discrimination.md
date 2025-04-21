@@ -5,6 +5,16 @@
 It allows firms to **capture more consumer surplus** and **increase profits** by charging customers based on their **willingness to pay**.
 
 
+---
+#### When is price discrimination possible? 
+
+Three requirements:  
+1. Firms have market power (not possible in perfect competition)  
+2. Consumers differ in their willingness to pay and the firm has the ability to separate them (based on age, gender, etc.)  
+3. No resale is possible (no arbitrage
+
+
+---
 ##### **Perfect Price Discrimination (First-Degree)**
 **Definition:**  
 	The seller charges **each consumer** the **maximum price** they are **willing to pay**. There is **no consumer surplus**—the firm captures all of it.
@@ -15,9 +25,10 @@ A **car dealership** negotiating individually with customers and charging each o
 **Key feature:** Requires **complete information** about each buyer's preferences—rare in practice.
 
 
+---
 ##### **Second-Degree Price Discrimination**
 **Definition:**  
-Prices vary according to the **quantity consumed** or the **product version**, not based on the consumer’s identity.
+	Prices vary according to the **quantity consumed** or the **product version**, not based on the consumer’s identity.
 
 **Example:**
 - **Electricity pricing**: Consumers pay a lower rate per kWh if they use more electricity.
@@ -27,9 +38,10 @@ Prices vary according to the **quantity consumed** or the **product version**, n
 **Key feature:** Consumers self-select into different price categories.
 
 
+---
 ##### **Third-Degree Price Discrimination**
 **Definition:**  
-The seller charges **different prices to different groups** of consumers based on **observable characteristics** like age, location, or time.
+	The seller charges **different prices to different groups** of consumers based on **observable characteristics** like age, location, or time.
 
 **Example:**
 - **Student or senior discounts** at movie theaters.
