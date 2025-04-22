@@ -120,3 +120,49 @@ A **fuzzy concept** (or **fuzzy category**) refers to a concept that **doesn’t
 
 In fuzzy concepts, truth values or category membership might be **on a spectrum** instead of binary (yes/no). This is studied more formally in **fuzzy logic**, but in linguistics, it highlights how natural language is flexible and context-dependent.
 
+
+
+---
+#### Thematic Roles
+
+Thematic roles (also called **theta roles** or **semantic roles**) describe the **function** that a noun phrase (typically an argument of a verb) plays in the **event or action** described by a sentence.
+
+| Role            | Description                                                         | Example                               |
+| --------------- | ------------------------------------------------------------------- | ------------------------------------- |
+| **Agent**       | The **doer** or initiator of the action                             | _[The chef]_ cooked the meal.         |
+| **Theme**       | The **entity affected** by the action, or being moved or perceived  | The chef cooked _[the meal]_.         |
+| **Experiencer** | The entity that **feels** or **perceives** something                | _[She]_ heard the noise.              |
+| **Goal**        | The entity **toward which** something moves                         | He gave the book to _[Mary]_.         |
+| **Source**      | The entity **from which** something moves                           | She got a letter from _[her friend]_. |
+| **Location**    | Where the action takes place                                        | They played in _[the park]_.          |
+| **Instrument**  | The **means** by which the action is performed                      | He cut the bread with _[a knife]_.    |
+| **Beneficiary** | The one for **whose benefit** the action is done                    | I baked a cake for _[you]_.           |
+| **Patient**     | Similar to theme, often the **entity undergoing** a change of state | The dog bit _[the man]_.              |
+
+Each verb determines how many roles it needs (its **theta grid**) and assigns them to its arguments. This is part of the verb's **argument structure**.
+
+For example:
+> "John opened the door with a key."
+- **Agent**: John
+- **Theme**: the door
+- **Instrument**: a key
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
