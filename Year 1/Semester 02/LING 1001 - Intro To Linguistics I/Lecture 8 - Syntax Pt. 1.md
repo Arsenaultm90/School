@@ -42,6 +42,58 @@ We rarely use 3-word sentences, so we expand the category to “phrase” which 
 
 
 ---
+#### Constituents
+
+A **constituent** is a group of words that acts as a single unit in the syntax of a sentence.
+
+##### Examples of constituents:
+- **[The quick brown fox]** jumped.
+- She saw **[a man with binoculars]**.
+
+##### Common constituent types:
+- **NP (Noun Phrase)**: the dog, a big city
+- **VP (Verb Phrase)**: eats apples, will be running
+- **PP (Prepositional Phrase)**: on the table, under the bed
+- **CP (Complementizer Phrase)**: that he left
+
+##### Tests For Constituency :
+ 1. **Substitution Test**
+	- Replace the phrase with a single word (pronoun, do so, etc.)
+	- If it works, it’s likely a constituent.
+
+> She saw **[the big dog]**. → She saw **it**. 
+
+
+ 2. **Movement Test (Clefting, Fronting)**
+	- Move the group of words to the front.
+	- If the sentence still makes sense, it’s a constituent.
+
+> **[The big dog]**, she saw. 
+> It was **[the big dog]** that she saw. _(Clefting)_
+
+
+ 3. **Coordination Test**
+	- Coordinate the suspected constituent with a similar structure.
+
+> She saw **[the big dog]** and **[the angry cat]**. ✅
+
+
+4. **Stand-Alone Test (Answers to Questions)**
+	- Can the phrase answer a WH-question?
+
+> What did she see? → **The big dog.** ✅
+
+
+ 5. **Ellipsis Test**
+	- Can it be left out in ellipsis constructions?
+
+> She saw the big dog, and he did too. ✅  
+> (“did” replaces “see the big dog” → showing “the big dog” was part of the same VP)
+
+
+
+
+---
 #### Co-Occurence
 
 Phrases are structures containing words that co-occur.
