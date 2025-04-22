@@ -43,3 +43,7 @@ This principle is divided into **four maxims**, or conversational rules.
 	- ❌ Violation: Being confusing, too wordy, vague.
 
 > "I saw a thing near the thing we saw the other day." ← Violates Manner
+
+
+
+---

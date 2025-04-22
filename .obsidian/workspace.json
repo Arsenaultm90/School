@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Final Exam"
             }
+          },
+          {
+            "id": "9a3ea43b2f8e82e1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-04-22 10.19.23.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-04-22 10.19.23.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,11 +189,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7071872ae6df028d",
+  "active": "9a3ea43b2f8e82e1",
   "lastOpenFiles": [
-    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 10 - Semantics.md",
-    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 11 - Pragmatics.md",
+    "Excalidraw/SyntacticTreeStructure.png",
     "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Study Guides/Final Exam.md",
+    "Excalidraw/Drawing 2025-04-22 10.19.23.excalidraw.md",
+    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 11 - Pragmatics.md",
+    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Assignment/Homework Assignment 2.md",
+    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 10 - Semantics.md",
     "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 9 - Syntax Pt. 2.md",
     "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 8 - Syntax Pt. 1.md",
     "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 6 - Morphology Pt. 1.md",
@@ -200,10 +216,7 @@
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 5 - Elasticity.md",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 6 - Government Policies In The Supply And Demand Model.md",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 7 - Welfare.md",
-    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Assignment/Homework Assignment 2.md",
     "the man] [laughed.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Review Concepts.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 17 - Indicator Random Variables, Random Permutations, Estimating Harmonic Number.md",
     "Excalidraw/Drawing 2025-04-17 07.08.41.excalidraw.png",
     "Pasted image 20250413124615.png",
     "Excalidraw/Drawing 2025-04-08 12.37.45.excalidraw.png",

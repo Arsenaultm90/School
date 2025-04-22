@@ -208,3 +208,9 @@
 2. **Quality** – Be truthful
 3. **Relation** – Be relevant
 4. **Manner** – Be clear, brief, and orderly
+
+
+
+---
+Deep and Surface Structure
+
