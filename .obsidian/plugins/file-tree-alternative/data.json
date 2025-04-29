@@ -1,11 +1,11 @@
 {
   "openViewOnStart": true,
   "ribbonIcon": true,
-  "showRootFolder": false,
+  "showRootFolder": true,
   "showFilesFromSubFolders": false,
   "searchFunction": true,
   "allSearchOnlyInFocusedFolder": false,
-  "showFilesFromSubFoldersButton": true,
+  "showFilesFromSubFoldersButton": false,
   "revealActiveFileButton": false,
   "excludedExtensions": "",
   "excludedFolders": "Images, Excalidraw",
