@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "393a156f76b1ed3b",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "a817a0ef663797e7",
+        "id": "03e2e7b8711b2870",
         "type": "tabs",
         "children": [
           {
-            "id": "e2d919791b19b88c",
+            "id": "b746930a393e9afc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -193,10 +193,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e2d919791b19b88c",
+  "active": "b746930a393e9afc",
   "lastOpenFiles": [
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Syllabus.md",
     "Dashboard.md",
-    "Dashboard.md",
+    "S25-2402A-Outlinev2.pdf",
+    "COMP2401-S25-Course-Outline 1.pdf",
+    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Syllabus.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Syllabus.md",
+    "COMP2401-S25-Course-Outline.pdf",
+    "UTF-8Özsu-Umut-LAWS-1001-A-Outline-Summer-2025.pdf",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 3 - Supply.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Assignments/Assignment 02.md",
     "Year 2",
@@ -223,9 +229,6 @@
     "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Lecture 7 - Morphology Pt. 2.md",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 12 - Market Structures.md",
     "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 13 - Entry-Exit.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Study Guides/Final Exam.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 15 - Price Discrimination.md",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Lecture 14 - Game Theory.md",
     "Excalidraw/Drawing 2025-04-17 07.08.41.excalidraw.png",
     "Images/Pasted image 20250413124615.png",
     "Excalidraw/Drawing 2025-04-08 12.37.45.excalidraw.png",
@@ -236,10 +239,6 @@
     "Year 1/Semester 02/COMP 1406 - Intro To Comp Sci II/Study Guides",
     "Year 1/Semester 03/BIOL 1902 - Natural History",
     "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms",
-    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming",
-    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Assignment",
-    "Year 1/Semester 02/LING 1001 - Intro To Linguistics I/Study Guides",
-    "Year 1/Semester 02/ECON 1001 - Intro To Microeconomics/Study Guides"
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms"
   ]
 }
