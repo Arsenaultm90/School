@@ -3,8 +3,10 @@ type: clock
 ```
 
 TODO :
-	Read Law in Social Life: Introduction to Legal Studies - 1(a-c), 2(a-d)
+	LAW 1001 - Chapters 1 - 6
+	COMP 2401 - Lectures 1 - 4
 	SUBMIT - LAW 1001 Assignment 1 - Due May 23rd
+	COMP 2401 - Assignment 02 - Due May 27th
 
 Courses :
 	[[Syllabus|LAW 1001]]

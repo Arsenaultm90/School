@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "887b2ac99d347f5c",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "97cf898d72cce3be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 5 - Canadian Law.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "Lecture 5 - Canadian Law"
             }
           }
         ]
@@ -192,8 +192,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "97cf898d72cce3be",
   "lastOpenFiles": [
+    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 4 - How To Read and Analyze A Case.md",
+    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 5 - Canadian Law.md",
+    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 3 - Legal Paradigms.md",
+    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 2 - Distinctions.md",
+    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 1 - Key Properties To Law.md",
     "Dashboard.md",
     "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 11 - SkipList Analysis.md",
     "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 10 - SkipList.md",
@@ -215,7 +220,6 @@
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Syllabus.md",
     "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Syllabus.md",
     "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Assignments",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 1 - Key Properties To Law.md",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Quiz 1 - Study Guide.md",
     "S25-2402A-Outlinev2.pdf",
     "COMP2401-S25-Course-Outline 1.pdf",
@@ -225,13 +229,9 @@
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Assignments/Assignment 02.md",
     "Year 2",
     "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Assignments/Assignment 03.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Assignments/Assignment 04.md",
     "School",
     "Images/BE-Computer-Science.png",
     "Images/Screenshot 2025-01-10 at 7.37.35 AM.png",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 5 - The Algebra of Events, Counting Rules, Conditional Probability.md",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 9 - Statistical Inference, Types Of Estimation, Confidence Intervals.md",
-    "Year 1/Semester 02/STAT 2507 - Introduction To Statistical Modelling I/Lecture 7 - Continuous Random Variables, The Normal Probability Distribution.md",
     "Excalidraw/SyntacticTreeStructure.png",
     "Excalidraw/Drawing 2025-04-17 07.08.41.excalidraw.png",
     "Images/Pasted image 20250413124615.png",
