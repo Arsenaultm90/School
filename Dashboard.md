@@ -5,8 +5,7 @@ type: clock
 TODO :
 	LAW 1001 - Chapters 1 - 6
 	COMP 2401 - Lectures 1 - 4
-	SUBMIT - LAW 1001 Assignment 1 - Due May 23rd
-	COMP 2401 - Assignment 02 - Due May 27th
+	COMP 2402 Midterm - May 29th
 
 Courses :
 	[[Syllabus|LAW 1001]]
