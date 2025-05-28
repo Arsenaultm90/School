@@ -6,9 +6,7 @@
 | Resizing             | Copying elements into a bigger array when capacity runs out                                             |
 | Amortized complexity | Although resizing is costly, the average cost per operation stays low over time                         |
 
-
-#### Memory Accesses (Big O Notation)
-
+**Memory Accesses (Big O Notation)**
 size() : O(1)
 push() : O(1)
 pop() : O(1)

@@ -36,6 +36,7 @@ T set(int i, T x) {
 
 ---
 #### Add
+
 ```
 void add(int i, T x) {
 	if (i < front.size()) {
@@ -78,6 +79,6 @@ The remove(i) operation and its analysis resemble the add(i,x) operation and ana
 #### Summary
 
 A DualArrayDeque implements the List interface. Ignoring the cost of calls to resize() and balance(), a DualArrayDeque supports the operations :
-	• get(i) and set(i,x) in O(1) time per operation; and
-	• add(i,x) and remove(i) in O(1 + min{i,n−i}) time per operation.
+	• get(i) and set(i,x) : `O(1)` 
+	• add(i,x) and remove(i) : ` O(1 + min{i,n−i})`
 
