@@ -35,15 +35,15 @@ if n <= 0 return null;
 E temp = a[j];  
 a[j] = null;  
 n--;  // Decrease number of elements
-j++;  // Increase first index position
+j = (j + 1) % a.length;  // Increase first index position
 return temp;
 ```
 
 **removeLast() :**
 ```
 if n <= 0 return null;  
-E temp = a[j+n -1];  // Store remove element
-a[j+n -1] = null; // Set index to null 
+E temp = a[(j + n - 1) % a.length];  // Store remove element
+a[(j + n - 1) % a.length] = null; // Set index to null 
 n--;  // Decrease number of elements
 return temp;
 ```
@@ -52,14 +52,13 @@ return temp;
 ```
 j = (j - 1 + a.length) % a.length; // Find index
 a[j] = x; // Assign value
-j--;  // Decrement first index
 n++; // Increment total elements
 if (3*n < a.length) resize();  // Check for resize
 ```
 
 **addLast(x) :**
 ``` 
-a[j+n] = x;  
+a[(j + n) % a.length] = x;  
 n++;
 if (3*n < a.length) resize();  
 ```

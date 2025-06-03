@@ -3,9 +3,8 @@ type: clock
 ```
 
 TODO :
-	LAW 1001 - Chapters 1 - 6
-	COMP 2401 - Lectures 1 - 4
-	COMP 2402 Midterm - May 29th
+	LAW 1001 - Case Study - Due June 8th
+	COMP 2402 - Assignment 03 - Due June 8th
 
 Courses :
 	[[Syllabus|LAW 1001]]
