@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5d7a6b8acf9ae269",
+        "id": "1e26dc32db056f14",
         "type": "tabs",
         "children": [
           {
-            "id": "135d55a51040c978",
+            "id": "e0d3d0647639454b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Assignments/Assignment 02.md",
+                "file": "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 8 - Strings, Structures, And Unions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Assignment 02"
+              "title": "Lecture 8 - Strings, Structures, And Unions"
             }
           }
         ]
@@ -192,39 +192,40 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "135d55a51040c978",
+  "active": "e0d3d0647639454b",
   "lastOpenFiles": [
-    "Dashboard.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 6 - The Organization Of Law.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 5 - Canadian Law.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Assignments/Assignment 02.md",
-    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Syllabus.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Syllabus.md",
-    "Year 1/Semester 03/GEOG 2200 - Global Connections",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Exams/Midterm Review.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 9 - SELList.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Exams",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 10 - SkipList.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 11 - SkipList Analysis.md",
-    "Screenshot 2025-05-27 at 9.23.29 AM.png",
-    "Excalidraw/Drawing 2025-05-27 09.22.48.excalidraw.md",
-    "SkipList.excalidraw.png",
-    "Excalidraw/Drawing 2025-05-27 09.11.36.excalidraw.md",
-    "Images/SkipList.excalidraw.png",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 8 - LinkedLists.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 7 - RootishArrayStack.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 6 - DualArrayDeque.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 4 - ArrayStack.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 2 - Generics.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 5 - ArrayDeque.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 1 - Introduction.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 3 - Math Background.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Syllabus.md",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 7 - Pointers And Arrays.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 3 - Binary.md",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 8 - Strings, Structures, And Unions.md",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 6 - Bitwise Operations.md",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 5 - Data Types.md",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 4 - What Is In A Program?.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 2 - Data Representation.md",
+    "Dashboard.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 13 - Linear Probing.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 12 - HashTables.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 17 - Scapegoat Trees.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 16 - Treaps.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 15 - Random BST.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 14 - Binary Search Trees.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 11 - SkipList Analysis.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 8 - LinkedLists.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 6 - DualArrayDeque.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 7 - RootishArrayStack.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 9 - SELList.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 10 - SkipList.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 1 - Systems Programming.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 1 - Introduction.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 2 - Generics.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 3 - Math Background.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 4 - ArrayStack.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 5 - ArrayDeque.md",
+    "Year 1/Semester 3",
+    "Year 1/Semester 03/GEOG 2200 - Global Connections",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Exams",
+    "Screenshot 2025-05-27 at 9.23.29 AM.png",
+    "SkipList.excalidraw.png",
+    "Images/SkipList.excalidraw.png",
     "Screenshot 2025-05-21 at 1.56.08 PM.png",
     "Screenshot 2025-05-21 at 1.55.13 PM.png",
     "Screenshot 2025-05-21 at 1.54.50 PM.png",
@@ -238,7 +239,6 @@
     "COMP2401-S25-Course-Outline 1.pdf",
     "COMP2401-S25-Course-Outline.pdf",
     "UTF-8Özsu-Umut-LAWS-1001-A-Outline-Summer-2025.pdf",
-    "Year 2",
-    "School"
+    "Year 2"
   ]
 }
