@@ -1,3 +1,5 @@
+![[MidtermPractice.pdf]]
+
 Rounded to nearest 100
 1. 
 	a) 800

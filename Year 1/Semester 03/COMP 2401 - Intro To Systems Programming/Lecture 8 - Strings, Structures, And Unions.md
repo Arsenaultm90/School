@@ -86,3 +86,50 @@ printf("%zu\n", sizeof(struct stu));  // prints 8
 ```
 
 
+---
+#### Typedef
+`typedef` in C is used to **create an alias (nickname) for a data type**. It doesn’t create new types — it just gives existing ones **shorter or more meaningful names**.
+
+
+```
+struct student {  
+char first[STR_MAX];  
+char last[STR_MAX];  
+int id[ID_MAX];  
+float gpa;  
+};  
+  
+typedef struct student Student;  
+
+int main(void) {  
+Student anakin = {"Anakin", "Starkiller", 10066, 8.2};  
+struct student obiwan = {"Obiwan", "Kenobi", 10011, 11.5};  
+}
+```
+
+
+
+---
+#### Unions
+
+A `union` in C is a special data type that lets you **store different types in the same memory location**, but **only one at a time**. 
+
+It’s like a `struct`, but instead of **each member having its own space**, **all members share the same memory**.
+
+
+**Example :**
+```
+union Data {
+    int i;         // 4 bytes
+    float f;       // 4 bytes
+    char str[20];  // 20 bytes
+};
+```
+
+The size of the union is **the size of its largest member** — here, `str[20]` → **20 bytes total**.
+
+
+
+
+
+

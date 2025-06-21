@@ -1,4 +1,4 @@
-##### Role of Legislatures
+#### Role of Legislatures
 - **Legislatures make laws** — these laws are later interpreted and applied by courts.
 - In Canada, law-making powers are **divided between federal and provincial legislatures** due to federalism.
 
@@ -30,7 +30,7 @@ Have jurisdiction over areas including:
 
 
 ---
-##### Administrative Bodies
+#### Administrative Bodies
 
  **What Are Administrative Bodies?**
 - **Administrative bodies** are boards, tribunals, or agencies created by federal or provincial **legislation**.
@@ -64,7 +64,7 @@ Have jurisdiction over areas including:
 
 
 ---
-##### Precedent (Stare Decisis)
+#### Precedent (Stare Decisis)
 
  **What Is Precedent (Stare Decisis)?**
 - **Precedent** means that decisions made by courts—especially higher courts—can have **binding authority** on **future cases**.
@@ -92,7 +92,7 @@ Have jurisdiction over areas including:
 
 
 ---
-##### Statutory Interpretation
+#### Statutory Interpretation
 
 **What Is Statutory Interpretation?**
 - Statutory interpretation refers to the **methods** or **tools** used by judges, lawyers, and others to **understand and apply legislation**.
