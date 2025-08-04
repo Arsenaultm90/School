@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "91c88823cd8536bb",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "d6e75a2ff3ad90cf",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 5 - Canadian Law.md",
+                "file": "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 9 - Threads And Semaphores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 5 - Canadian Law"
+              "title": "Lecture 9 - Threads And Semaphores"
             }
           }
         ]
@@ -192,34 +192,40 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d6e75a2ff3ad90cf",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 4 - How To Read and Analyze A Case.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 3 - Legal Paradigms.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 5 - Canadian Law.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 6 - The Organization Of Law.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 7 - Relations Between Law and Society.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 8 - Nationality and Citizenship, The International Law Dimension.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 9 - Key Themes and Cases.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 10 - Human Rights Categories and International Law Instruments.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 2 - Law Distinctions.md",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Lecture 1 - Key Properties To Law.md",
-    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Syllabus.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 2 - Data Representation.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 1 - Systems Programming.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 3 - Binary.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 4 - What Is In A Program?.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 5 - Data Types.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 6 - Bitwise Operations.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 7 - Pointers And Arrays.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 8 - Strings, Structures, And Unions.md",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 9 - Threads And Semaphores.md",
+    "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Lecture 3 - Propositional Logic.md",
+    "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Lecture 2 - Syllogistic Logic.md",
+    "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Lecture 1 - What Is Logic.md",
+    "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Review/Test 1 - Review.md",
+    "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Review",
+    "Excalidraw/Drawing 2025-07-17 11.04.49.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-17 11.04.49.excalidraw.png",
     "Dashboard.md",
+    "Excalidraw/Drawing 2025-07-17 10.57.45.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-17 10.57.45.excalidraw.png",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 3 - Bijection, Complement, Sum, The Principle of Inclusion-Exclusion.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 2 - Product Rule.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 1 - Ramsey Theory, Sperner's Theorem.md",
     "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 14 - Binary Search Trees.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 12 - HashTables.md",
     "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 17 - Scapegoat Trees.md",
     "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 16 - Treaps.md",
     "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 15 - Random BST.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 13 - Linear Probing.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 12 - HashTables.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 11 - SkipList Analysis.md",
+    "Pasted image 20250623075225.png",
+    "Pasted image 20250623075149.png",
+    "Pasted image 20250623075111.png",
     "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 10 - SkipList.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 9 - SELList.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 8 - LinkedLists.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 7 - RootishArrayStack.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 6 - DualArrayDeque.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 5 - ArrayDeque.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 4 - ArrayStack.md",
+    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 13 - Linear Probing.md",
     "FinalExamPractice.pdf",
     "MidtermPractice.pdf",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Exams",
@@ -231,14 +237,8 @@
     "Images/SkipList.excalidraw.png",
     "Screenshot 2025-05-21 at 1.56.08 PM.png",
     "Screenshot 2025-05-21 at 1.55.13 PM.png",
-    "Screenshot 2025-05-21 at 1.54.50 PM.png",
-    "Screenshot 2025-05-21 at 1.53.00 PM.png",
-    "Screenshot 2025-05-21 at 1.52.44 PM.png",
-    "ArrayStack.png",
-    "Images/ArrayStack.png",
     "Images/ArrayStack",
     "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Assignments",
-    "S25-2402A-Outlinev2.pdf",
-    "COMP2401-S25-Course-Outline 1.pdf"
+    "S25-2402A-Outlinev2.pdf"
   ]
 }
