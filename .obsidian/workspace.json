@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 9 - Threads And Semaphores.md",
+                "file": "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Lecture 3 - Propositional Logic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 9 - Threads And Semaphores"
+              "title": "Lecture 3 - Propositional Logic"
             }
           }
         ]
@@ -194,7 +194,15 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Review/Test 2 - Review.md",
+    "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Review/Test 1 - Review.md",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 2 - Data Representation.md",
+    "Year 2/Semester 01",
+    "Year 1/Semester 3/PHIL 2001.md",
+    "Year 1/Year 2",
+    "PDFs",
+    "Images/Screenshot 2025-05-21 at 1.56.08 PM.png",
+    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 9 - Threads And Semaphores.md",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 1 - Systems Programming.md",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 3 - Binary.md",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 4 - What Is In A Program?.md",
@@ -202,11 +210,9 @@
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 6 - Bitwise Operations.md",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 7 - Pointers And Arrays.md",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 8 - Strings, Structures, And Unions.md",
-    "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Lecture 9 - Threads And Semaphores.md",
     "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Lecture 3 - Propositional Logic.md",
     "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Lecture 2 - Syllogistic Logic.md",
     "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Lecture 1 - What Is Logic.md",
-    "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Review/Test 1 - Review.md",
     "Year 1/Semester 03/PHIL 2001 - Introduction To Logic/Review",
     "Excalidraw/Drawing 2025-07-17 11.04.49.excalidraw.md",
     "Excalidraw/Drawing 2025-07-17 11.04.49.excalidraw.png",
@@ -221,24 +227,18 @@
     "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 17 - Scapegoat Trees.md",
     "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 16 - Treaps.md",
     "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 15 - Random BST.md",
-    "Pasted image 20250623075225.png",
-    "Pasted image 20250623075149.png",
-    "Pasted image 20250623075111.png",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 10 - SkipList.md",
-    "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Lecture 13 - Linear Probing.md",
-    "FinalExamPractice.pdf",
-    "MidtermPractice.pdf",
+    "Images/Pasted image 20250623075225.png",
+    "Images/Pasted image 20250623075149.png",
+    "Images/Pasted image 20250623075111.png",
+    "PDFs/FinalExamPractice.pdf",
+    "PDFs/MidtermPractice.pdf",
     "Year 1/Semester 03/COMP 2401 - Intro To Systems Programming/Exams",
     "Year 1/Semester 3",
     "Year 1/Semester 03/GEOG 2200 - Global Connections",
     "Year 1/Semester 03/COMP 2402 - Abstract Data Types And Algorithms/Exams",
-    "Screenshot 2025-05-27 at 9.23.29 AM.png",
-    "SkipList.excalidraw.png",
+    "Images/Screenshot 2025-05-27 at 9.23.29 AM.png",
+    "Excalidraw/SkipList.excalidraw.png",
     "Images/SkipList.excalidraw.png",
-    "Screenshot 2025-05-21 at 1.56.08 PM.png",
-    "Screenshot 2025-05-21 at 1.55.13 PM.png",
-    "Images/ArrayStack",
-    "Year 1/Semester 03/LAWS 1001 - Intro To Legal Studies I/Assignments",
-    "S25-2402A-Outlinev2.pdf"
+    "Images/Screenshot 2025-05-21 at 1.55.13 PM.png"
   ]
 }

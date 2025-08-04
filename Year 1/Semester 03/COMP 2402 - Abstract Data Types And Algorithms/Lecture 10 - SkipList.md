@@ -1,7 +1,7 @@
 A SkipList consists of linked lists horizontally. Vertically they are Nodes with an array of pointers.
 Sorted order.
 
-![[SkipList.excalidraw.png|300]]
+![[Excalidraw/SkipList.excalidraw.png|300]]
 
 get(), set(), add(), remove() : `O(log n)`
 

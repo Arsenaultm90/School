@@ -1,4 +1,4 @@
-![[ArrayStack.png|500]]
+![[ArrayStack 1.png|500]]
 
 | "ArrayStack" name    | An array-based data structure that can behave like a stack _and_ support other list ops (legacy naming) |
 | -------------------- | ------------------------------------------------------------------------------------------------------- |
