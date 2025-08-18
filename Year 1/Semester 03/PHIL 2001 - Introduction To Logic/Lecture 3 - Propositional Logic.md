@@ -100,13 +100,29 @@ Conclusion:
 
 But, although, however, yet, also ... = AND
 Unless = OR
-Given that, presuming that, assuming that, provided that, ...  = IF
-	A is SUFFICIENT for B = (A -> B)
-	A is NECESSARY for B = (~A -> ~B) = (B -> A)
-Iff, necessary and sufficient, just if = IF AND ONLY IF
+Neither X nor Y = ~(X or Y)
+Not both X and Y = ~(X and Y)
 
 What’s after “if” is the 1st part of the conditional (IF = 1st)  
 What’s after “only if” is the 2nd part of the conditional (ONLY IF = 2nd)  
+Given that, presuming that, assuming that, provided that, since, in case ...  = IF
+	A is SUFFICIENT for B = (A -> B)
+	A is NECESSARY for B = (~A -> ~B) = (B -> A)
+	X is not sufficient for Y = ~(X -> Y)
+	X is not necessary for Y = ~(~X -> ~Y) = ~(Y -> X)
+
+Iff, necessary and sufficient, just if = IF AND ONLY IF
+
+(DeMorgan rules)
+	Contraposition: (X -> Y) = (~Y -> ~ X)
+	Implication: (X -> Y) = (~X v Y) and (X v Y) = (~X -> Y)
+
+
+**Conditions for finding implicit premises:**
+1. The argument must be idiomatic
+2. During the validity test, we get an unknown variable, usually one that appears only once
+3. The truth value of that unknown variable makes a difference for the argument’s validity
+
 
 
 

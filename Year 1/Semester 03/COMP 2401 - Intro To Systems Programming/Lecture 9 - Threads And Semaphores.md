@@ -56,9 +56,9 @@ int shared_data = 0;
 sem_t lock;
 
 void *thread_func(void *arg) {
-    sem_wait(&lock);   // 🔒 Try to lock access
-    shared_data++;     // 👷 Safely modify shared resource
-    sem_post(&lock);   // 🔓 Unlock access
+    sem_wait(&lock);   // Try to lock access
+    shared_data++;     // Safely modify shared resource
+    sem_post(&lock);   // Unlock access
     return NULL;
 }
 ```
