@@ -98,7 +98,7 @@ Conclusion:
 ---
 #### Harder Translations
 
-But, although, however, yet, also ... = AND
+But, although, however, yet, also, in which case ... = AND
 Unless = OR
 Neither X nor Y = ~(X or Y)
 Not both X and Y = ~(X and Y)

@@ -131,3 +131,47 @@ this course, since there are some intelligent people that aren’t rational.
 ![[Drawing 2025-07-17 11.04.49.excalidraw.png]]
 
 **LogiCola Set : BC**
+
+
+---
+#### Categorical Symbols
+
+Underline distributed symbols. 
+Arguments -> Underlined are starred
+Conclusion -> Non-underlined are starred
+
+**Distribution**
+A : All S is P
+	S is distributed
+E : No S is P
+	Both S and P are distributed
+I : Some S is P
+	Neither S nor P are distributed
+O : Some S is not P
+	P is distributed
+
+
+**Validity**
+Only 1 star on the right
+Every capital letter is starred exactly once
+- In this system, you **underline every term in the conclusion that is NOT distributed**.
+- Distributed terms **remain unmarked**.
+- Then you check the premises:
+    - Every **distributed term in the conclusion** must appear **distributed in at least one premise**.
+    - Non-distributed terms (those underlined) **do not need to be distributed in the premises**.
+
+
+**Validity and Soundness**
+Valid if the conclusion follow from premises, regardless of whether the premises are true or false.
+Argument is sound if it is valid and all premises are true.
+
+
+**8-Forms of WFF**
+All A is B
+No A is B
+Some A is B
+Some A is not B
+c is A -> All c are A
+c is not A -> Some c are not A
+c is d -> All c are d
+c is not d -> Some c are not d
