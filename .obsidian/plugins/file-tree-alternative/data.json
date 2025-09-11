@@ -8,7 +8,7 @@
   "showFilesFromSubFoldersButton": false,
   "revealActiveFileButton": false,
   "excludedExtensions": "",
-  "excludedFolders": "Images, Excalidraw, PDFs, PDFs, PDFs",
+  "excludedFolders": "Images, Excalidraw, PDFs, PDFs, PDFs, Excalidraw",
   "hideAttachments": false,
   "attachmentsFolderName": "attachments",
   "folderIcon": "icomoon",
