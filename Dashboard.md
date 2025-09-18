@@ -8,6 +8,9 @@ TODO :
 		COMP 2406 - Quiz on Thursdays
 		COMP 2404 - Assignment
 		COMP 3000 - Tutorial Quizzes
+	Upcoming :
+		COMP 3005 - Assignment #1 - Due September 28th
+		TSES 2305 - Analytical Report(Plutarch) - Due October 18th
 
 Courses :
 	[[COOP1000 Course Outline FA25.pdf|COOP 1000]]
