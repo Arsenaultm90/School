@@ -140,7 +140,7 @@ IPC enables cooperation; choice depends on performance vs. safety.
 - **Zero capacity** → no queue, must rendezvous.
 - **Bounded capacity** → finite queue, sender waits if full.
 - **Unbounded capacity** → infinite queue (theoretical).
-- Buffer size determines blocking behavior.
+- Buffering = temporary storage for messages in IPC,
 
 
 ---
@@ -157,14 +157,23 @@ Pipes are simple IPC for producer-consumer; named pipes extend use beyond parent
 ---
 #### Summary
 
-- **Processes** = programs in execution with code, data, stack, heap, and execution state.
-- **States & PCB** → OS tracks processes via states & PCBs.
-- **Threads** allow multiple execution flows inside one process.
-- **Scheduling & context switch** → OS manages CPU sharing, with cost.
-- **Process ops**: create (fork/exec), terminate (exit/abort).
-- **IPC**: Shared memory (fast but tricky) vs. Message passing (safe but slower).
-- **Sync & buffering** define communication style.
-- **Pipes** = simple IPC; named pipes allow broader communication.
+1. **Program → Process**
+    - A program on disk becomes an executing **process** once loaded into memory.
+2. **Process → PCB + Process States**
+    - Each process is tracked by a **Process Control Block (PCB)** and moves between states (New, Ready, Running, Waiting, Terminated).
+3. **PCB + States → Scheduling & Context Switch**
+    - The OS uses the PCB info to **schedule processes** on the CPU.
+    - Context switching lets the OS move the CPU between processes.
+4. **Scheduling → Threads**
+    - Threads extend processes by allowing multiple execution paths within one process.
+5. **Process → Creation & Termination**
+    - Processes form parent-child relationships, and can be created (fork/exec) or terminated (exit, abort).
+6. **PCB → Special Cases**
+    - Mobile OS (Android/iOS) and multiprocess apps (Chrome) manage processes differently.
+7. **Scheduling → IPC (Inter-Process Communication)**
+    - When processes need to cooperate, they communicate via **Shared Memory** or **Message Passing**.
+8. **IPC → Synchronization & Buffering**
+    - IPC requires synchronization (blocking vs. non-blocking) and buffering (queues, pipes).
 
 
 
