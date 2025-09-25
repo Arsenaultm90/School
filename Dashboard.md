@@ -10,7 +10,8 @@ TODO :
 		COMP 3000 - Tutorial Quizzes
 	Upcoming :
 		COMP 3005 - Assignment #1 - Due September 28th
-		COMP 2404 - Assignment #1 - Due September 28th
+		COMP 2404 - Assignment #1 - Due September 28th (Linux Testing + Submit)
+		COMP 2406 - Assignment #1 - Due October 5th
 		TSES 2305 - Analytical Report(Plutarch) - Due October 18th
 
 Courses :
