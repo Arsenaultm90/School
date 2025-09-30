@@ -6,17 +6,18 @@ type: clock
 TODO :
 	Weekly :
 		COMP 2406 - Quiz on Thursdays
+		COMP 2406 - Tutorial
 		COMP 2404 - Tutorial
 		COMP 3000 - Tutorial Quizzes
 	Upcoming :
 		COOP 1000 - Assignment #1 (Resume + Cover Letter) - Due October 2nd
 		COMP 2406 - Assignment #1 - Due October 5th
+		COMP 3005 - Assignment #2 - Due October 12th
 		COMP 2404 - Assignment #2 - Due October 14th
 		TSES 2305 - Analytical Report(Plutarch) - Due October 18th
-		COMP 3000 - Lecture 4 + Lecture 5
-		COMP 3005 - Lectures
-		COMP 2406 - Tutorials
+		COMP 3005 - Lectures 8
 		COMP 2404 - Lecture 8
+		COMP 2406 - Tutorials (September 31st)
 		TSES 2305 - Lectures
 
 Courses :
