@@ -5,6 +5,29 @@ Relational Algebra = **theoretical language** for querying relational databases.
 - Used in query optimization and forms basis of **SQL**.
 
 
+```
+Employees = { EMPID, NAME, POSITION, SALARY, DEPTID
+	101, "Alice", "Manager", 3000, D01
+	102, "Bob", "Manager", 4500, D02
+	103, "Charlie", "Developer", 4000, D01
+	104, "David", "Developer", 3800, D03
+	105, "Emily", "Manager", 2900, D03
+} 
+
+Departments = { DEPTID, DEPTNAME, MANAGERID
+	D01, "IT", 101
+	D02, "Finance", 102
+	D03, "Marketing", 105
+}
+
+ProjectsTable = { PROJECTID, PROJECTNAME, LEADEMPID, BUDGET
+	P01, "Alpha", 101, 500000
+	P02, "Beta", 103, 2000000
+	P03, "Gamma", 102, 750000
+	P04, "Delta", 104, 1250000
+}
+```
+
 ---
 #### Basic Operations
 

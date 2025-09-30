@@ -43,3 +43,10 @@ Modern web applications often utilize HTTP in conjunction with technologies like
 - **Progressive Web Apps (PWAs)**: Use service workers to cache resources, allowing offline functionality and improved performance.
 
 These technologies enhance user experience by enabling faster, more responsive, and offline-capable web applications.
+
+
+---
+#### HTTP Status Codes
+
+![[Pasted image 20250925153835.png]]
+

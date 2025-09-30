@@ -8,14 +8,12 @@ Relation = Table
 Tuple = Row (Finite ordered list of items)
 Attribute = Columns
 
-
-
 ---
 #### RA To TRC
 
 1. **Selection (σ)**
 **RA:**
-`σAge>30(Employee)σ_{Age > 30}(Employee)σAge>30​(Employee)`
+`σAge>30(Employee)
 
 **TRC:**
 `{t ∣ t ∈ Employee ∧ t.Age > 30}`
@@ -69,7 +67,7 @@ Renaming isn’t a query itself in TRC, but we can represent it by using a diffe
 Say we want an **equi-join** on `Employee.DeptID = Department.DeptID`.
 
 **RA:**
-`Employee⋈Employee.DeptID=Department.DeptIDDepartmentEmployee ⋈_{Employee.DeptID = Department.DeptID} DepartmentEmployee⋈Employee.DeptID=Department.DeptID​Department`
+`Employee ⋈ Employee.DeptID = Department.DeptIDDepartment`
 
 **TRC:**
 `{t ∣ ∃e ∈ Employee ∃d ∈ Department(t.EmpID=e.EmpID ∧ t.DeptID=d.DeptID ∧ e.DeptID=d.DeptID)}`
