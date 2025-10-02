@@ -1,7 +1,31 @@
 #### Basic Concepts
 
-- **CPU–I/O Burst Cycle**
-    - Programs alternate between CPU bursts (computation) and I/O bursts (waiting for input/output).
+**CPU–I/O Burst Cycle**
+A **CPU burst** is simply the **period of time a process spends actively executing on the CPU** before it either:
+1. **Needs I/O** (e.g., reading/writing a file, waiting for user input), or
+2. **Terminates** (process finishes execution).
+
+- Programs alternate between CPU bursts (computation) and I/O bursts (waiting for input/output).
+- **Implications for scheduling:**
+	- **Waiting time (WT):** Time spent in the ready queue waiting for CPU.
+	- **Turnaround time (TAT):** Total time from submission to completion, including CPU bursts, I/O bursts, and waiting time.
+	- **Response time (RT):** Time from submission until the **process first gets the CPU**.
+- **Special case (CPU-bound process):**
+	- If I/O bursts are disregarded, then:
+		Response time=Turnaround time−Waiting time
+- **Scheduling relevance:**
+	- Short CPU bursts → more frequent preemption (affects RR or SRTF).
+	- Long CPU bursts → can cause convoy effect in FCFS.
+        
+	- **Visualization:**
+```
+Time → |CPU| I/O | CPU | I/O | CPU |
+WT   →  ^     ^     ^     ^  
+RT   →  ^ (time to first CPU)
+TAT  →  |------------------|
+
+```
+
 - **Scheduler’s role:** Decide which process gets the CPU when multiple are ready.
 - **Dispatcher:** Gives control of CPU to the process chosen by the scheduler (context switch).
 
@@ -9,6 +33,12 @@
 - **Long-term:** Selects jobs to enter system (controls degree of multiprogramming).
 - **Medium-term:** Suspends/resumes processes to optimize performance.
 - **Short-term (CPU scheduling):** Chooses from the ready queue which process runs next.
+
+| **Scheduler**                  | **When it Runs / Purpose**                                                   | **Key Points**                                                                   |
+| ------------------------------ | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| **Long-term scheduler**        | When new jobs are admitted to the system (job queue → ready queue)           | Controls degree of multiprogramming; runs infrequently                           |
+| **Medium-term scheduler**      | Occasionally suspends/resumes processes (ready ↔ suspended)                  | Helps balance CPU and memory usage; may swap processes in/out                    |
+| **Short-term (CPU) scheduler** | Only when CPU becomes idle, or a running process blocks/terminates/preempted | Chooses next process from **ready queue**; very frequent; ensures CPU stays busy |
 
 
 ---
@@ -38,7 +68,10 @@ How we measure a “good” scheduling algorithm:
     - Requires knowing burst length in advance (not realistic).
 
 
-**Preemptive:**
+**Preemptive (Process Scheduling Discipline):**
+A **preemptive scheduling discipline** is one where the OS **can interrupt (preempt) a currently running process** in order to give the CPU to another process.
+
+The decision to preempt depends on the discipline (the scheduling algorithm):
 - **Shortest Remaining Time First (SRTF):**
     - Preemptive version of SJF.
     - If a new process has a shorter burst than remaining time of current process → preempt.
@@ -59,6 +92,17 @@ How we measure a “good” scheduling algorithm:
 - **Multilevel Feedback Queue:**
     - Processes can move between queues based on behavior.
     - More flexible, used in many real OSes.
+
+| **Aspect**                   | **Preemptive**                                                                                                                          | **Non-Preemptive**                                                                              |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Definition**               | OS can interrupt a running process and switch to another if scheduling rules demand it                                                  | Once a process gets the CPU, it keeps it until completion or it blocks voluntarily              |
+| **Control**                  | CPU allocation decided dynamically by the scheduler                                                                                     | CPU allocation decided only at process arrival or completion                                    |
+| **Response to new arrivals** | New process can immediately preempt if it has higher priority/shorter time                                                              | New arrivals must wait until the current process finishes                                       |
+| **Examples**                 | - Round Robin (quantum expiration)- Shortest Remaining Time First (SRTF)- Preemptive Priority Scheduling- Earliest Deadline First (EDF) | - First-Come, First-Served (FCFS)- Shortest Job First (SJF)- Non-preemptive Priority Scheduling |
+| **Overhead**                 | Higher (context switches, preemption handling)                                                                                          | Lower (fewer context switches)                                                                  |
+| **Fairness**                 | More fair for interactive/short processes                                                                                               | Long jobs may cause short jobs to starve (convoy effect)                                        |
+| **Use Cases**                | Time-sharing systems, interactive environments, real-time systems                                                                       | Batch systems, simpler embedded systems                                                         |
+
 
 
 ---

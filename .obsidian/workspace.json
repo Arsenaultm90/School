@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "307167f39516a6cf",
+        "id": "5e50cbfd662562eb",
         "type": "tabs",
         "children": [
           {
-            "id": "e89260f3cd1a61bb",
+            "id": "37ed5204eceac94f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -193,23 +193,26 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e89260f3cd1a61bb",
+  "active": "37ed5204eceac94f",
   "lastOpenFiles": [
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 10 - Async and Promises.md",
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 9 - AJAX.md",
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 8 - Callback Hell.md",
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 7 - Asynchronous Callback Programming.md",
+    "Dashboard.md",
+    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 5 - Constructors and Destructors.md",
+    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 5 - CPU Scheduling.md",
+    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 4 - Threads and Concurrency.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Course Outline.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 1 - Operating System.md",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 7 - SQL (Complex Queries, Sub-Queries).md",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 6 - SQL (Group By,  Having Sets, Etc).md",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 5 - SQL (CRUD).md",
-    "Dashboard.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 5 - CPU Scheduling.md",
     "Untitled.md",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 4 - DDL and DML.md",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 2 - Relational Algebra.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 4 - Threads and Concurrency.md",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 5 - Constructors and Destructors.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 2 - System Calls and OS Structure.md",
     "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 6 - Client and Server Architecture.md",
-    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 7 - Asynchronous Callback Programming.md",
     "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 8 - Object Design Categories.md",
     "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 7 - Object Oriented Design.md",
     "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 6 - Memory Management.md",
@@ -219,9 +222,6 @@
     "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Ancient Source.md",
     "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Course Outline.md",
     "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 3 - JavaScript and The DOM.md",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 4 - Class Definitions.md",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 1 - Introduction.md",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 2 - Basic Language Features.md",
     "Screenshot 2025-09-26 at 10.04.50 AM.png",
     "Screenshot 2025-09-26 at 10.02.30 AM.png",
     "Screenshot 2025-09-26 at 10.02.20 AM.png",
