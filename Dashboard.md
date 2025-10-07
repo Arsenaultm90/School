@@ -10,12 +10,12 @@ TODO :
 		COMP 2404 - Tutorial
 		COMP 3000 - Tutorial Quizzes
 	Upcoming :
-		COMP 3005 - Assignment #2 - Due October 12th
-		COMP 2404 - Assignment #2 - Due October 14th
+		COMP 2404 - Assignment #2 - Due October 16th
 		TSES 2305 - Analytical Report(Plutarch) - Due October 17th
-		COMP 3005 - Lecture 8
-		COMP 2404 - Lecture 8
 		TSES 2305 - Lectures
+		COMP 3000 - Midterm (Week 7)
+		COMP 2404B - Midterm (October 30th)
+		TSES 2305 - Midterm Opens (December 8th)
 
 Courses :
 	[[COOP1000 Course Outline FA25.pdf|COOP 1000]]

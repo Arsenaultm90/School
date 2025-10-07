@@ -28,11 +28,61 @@ This cycle enables the dynamic and interactive nature of modern web applications
 
 
 **HTTP Methods:**
-- **GET**: Retrieve data from the server (e.g., loading a webpage).
-- **POST**: Submit data to the server (e.g., submitting a form).
-- **PUT**: Update existing data on the server.
-- **DELETE**: Remove data from the server.
-- **PATCH**: Apply partial modifications to data.
+**GET**
+- **Purpose**: Retrieve data from a server
+- **Body**: ❌ No body (technically possible but not recommended/standard)
+- **Headers**: ✅ Yes (common headers: Accept, Authorization, Cache-Control)
+- **Query Parameters**: ✅ Yes (data goes in URL: `/api/users?id=123`)
+- **Idempotent**: Yes (same request = same result)
+- **Cacheable**: Yes
+
+**POST**
+- **Purpose**: Submit data to create a resource
+- **Body**: ✅ Yes (JSON, form data, etc.)
+- **Headers**: ✅ Yes (Content-Type, Authorization, etc.)
+- **Query Parameters**: Optional (but data typically in body)
+- **Idempotent**: No (multiple requests may create multiple resources)
+- **Cacheable**: Usually no
+
+**PUT**
+- **Purpose**: Update/replace an entire resource
+- **Body**: ✅ Yes (full resource representation)
+- **Headers**: ✅ Yes
+- **Query Parameters**: Optional
+- **Idempotent**: Yes (same request = same result)
+- **Cacheable**: No
+
+**PATCH**
+- **Purpose**: Partially update a resource
+- **Body**: ✅ Yes (only fields to update)
+- **Headers**: ✅ Yes
+- **Query Parameters**: Optional
+- **Idempotent**: Typically yes
+- **Cacheable**: No
+
+**DELETE**
+- **Purpose**: Remove a resource
+- **Body**: ❌ Usually no (but technically allowed)
+- **Headers**: ✅ Yes (Authorization often required)
+- **Query Parameters**: Optional (resource ID often in URL)
+- **Idempotent**: Yes
+- **Cacheable**: No
+
+**HEAD**
+- **Purpose**: Same as GET but without response body (metadata only)
+- **Body**: ❌ No
+- **Headers**: ✅ Yes
+- **Query Parameters**: ✅ Yes
+- **Idempotent**: Yes
+- **Cacheable**: Yes
+
+**OPTIONS**
+- **Purpose**: Describe communication options for the target resource
+- **Body**: ❌ Usually no
+- **Headers**: ✅ Yes
+- **Query Parameters**: Rare
+- **Idempotent**: Yes
+- **Cacheable**: No
 
 These methods allow web applications to perform CRUD (Create, Read, Update, Delete) operations.
 

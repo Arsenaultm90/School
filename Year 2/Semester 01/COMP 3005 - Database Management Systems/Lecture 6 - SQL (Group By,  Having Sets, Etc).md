@@ -51,7 +51,8 @@ SELECT SUM(salary) FROM employees;     -- total salary
 ```
 
 **GROUP BY**
-Used to **aggregate rows into groups** based on one or more columns.
+`GROUP BY` **collects rows that share a common value** into groups, so you can perform **aggregate functions** (like `COUNT`, `SUM`, `AVG`, `MAX`, etc.) on each group separately.
+
 ```
 -- Average salary by job title
 SELECT designation, AVG(salary) AS avg_salary

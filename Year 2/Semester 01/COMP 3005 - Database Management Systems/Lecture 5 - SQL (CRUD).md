@@ -96,6 +96,18 @@ HAVING COUNT(*) > 5;
 ---
 #### Joins (Combining Tables)
 
+A **join** combines rows from two (or more) tables based on a logical relationship between them — usually a **foreign key** and a **primary key**.
+
+The **`ON`** clause tells SQL **how** two tables are related — that is, _which columns_ should match up when combining rows.
+
+The `WHERE` clause tells SQL how to filter the tables after the join.
+
+| Type of JOIN            | Description                                                                                            | When to Use                                                                          |
+| ----------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| **INNER JOIN** (`JOIN`) | Returns **only rows that match** in both tables.                                                       | When you only care about records that exist in _both_ tables.                        |
+| **LEFT JOIN**           | Returns **all rows from the left table**, and matches from the right if they exist (otherwise `NULL`). | When you need _everything_ from the left side, even if no match exists on the right. |
+
+
 ```
 -- INNER JOIN: only matching rows
 SELECT employees.name, departments.department_name
