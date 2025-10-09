@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4f2d0eb14c32cfc2",
+        "id": "4237f12937daa089",
         "type": "tabs",
         "children": [
           {
-            "id": "60b31ced082ad181",
+            "id": "2e1b86edd0e1e8ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 7 - Synchronization Examples.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "Lecture 7 - Synchronization Examples"
             }
           }
         ]
@@ -193,18 +193,26 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "60b31ced082ad181",
+  "active": "2e1b86edd0e1e8ed",
   "lastOpenFiles": [
+    "Dashboard.md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 11 - Functional Dependencies.md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 10 - ER Mapping.md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 9 - Data Modelling Using The ER Model.md",
+    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 8 - Deadlock.md",
+    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 7 - Synchronization Examples.md",
+    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 6 - Synchronization Tools.md",
+    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 9 - UML Class Designs.md",
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 11 - NodeJS and NPM.md",
+    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 8 - Object Design Categories.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Course Outline.md",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Course Outline.md",
-    "Dashboard.md",
     "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Course Snapshot.md",
     "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/AncSciTech 2025-2026 Course Outline.pdf",
     "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Course Outline.md",
     "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Course Outline.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 2 - System Calls and OS Structure.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 1 - Operating System.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 6 - Synchronization Tools.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 5 - CPU Scheduling.md",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 6 - SQL (Group By,  Having Sets, Etc).md",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 5 - SQL (CRUD).md",
@@ -214,13 +222,6 @@
     "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 10 - Async and Promises.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 3 - Processes and IPC.md",
     "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 5 - Web App and HTTP.md",
-    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 6 - Client and Server Architecture.md",
-    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 7 - Asynchronous Callback Programming.md",
-    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 8 - Callback Hell.md",
-    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 4 - DDL and DML.md",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 8 - Object Design Categories.md",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 7 - Object Oriented Design.md",
-    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 9 - AJAX.md",
     "Screenshot 2025-09-26 at 10.04.50 AM.png",
     "Screenshot 2025-09-26 at 10.02.30 AM.png",
     "Screenshot 2025-09-26 at 10.02.20 AM.png",
