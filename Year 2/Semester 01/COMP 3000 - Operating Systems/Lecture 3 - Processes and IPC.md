@@ -96,6 +96,11 @@ Context switch = pause/resume processes; costly, so OS minimizes them.
 **Key Takeaway**:  
 Processes are created with `fork/exec`, terminated with `exit/abort`, managed via `wait`.
 
+**Zombie Process:**
+A process that has finished execution but still has an entry in the process table because its parent has _not yet called `wait()`_.
+
+**Orphan Process:**
+A process whose parent has _terminated_ **before** it (the child) finishes.
 
 ---
 #### Interprocess Communication (IPC)

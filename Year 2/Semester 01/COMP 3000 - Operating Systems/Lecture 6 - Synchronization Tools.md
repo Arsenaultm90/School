@@ -1,6 +1,6 @@
 #### The Critical Section Problem
 
-When **multiple processes (or threads)** execute concurrently and **access shared data or resources**, you can get **race conditions** — inconsistent results because operations interleave unpredictably.
+When **multiple processes (or threads)** execute concurrently and **access shared data or resources**, you can get **race conditions**,  inconsistent results because operations interleave unpredictably.
 
 To avoid that, we define a section of code called the **critical section**, where a process **accesses shared resources** (like variables, files, buffers, etc.).
 
@@ -17,6 +17,16 @@ We must design a protocol that ensures:
     
 3. **Bounded Waiting**  
     A process waiting to enter its critical section shouldn’t wait forever; there’s a limit to how many times others can go first.
+
+
+**Context Switching**
+A **context switch** happens when the CPU stops executing one process and starts executing another.
+- The **“context”** of a process includes everything the CPU needs to resume it later:
+    - Program counter (where it left off)
+    - CPU registers
+    - Stack pointer
+    - Process state
+- The OS **saves the current process’s context**, picks a new process to run from the **ready queue**, and **loads its context** into the CPU.
 
 
 ---
@@ -49,7 +59,7 @@ do {
 
 - **Mutual Exclusion:** Both can’t be in the CS because one’s `turn` will block the other.
 - **Progress:** If no one’s in CS, one can proceed immediately.
-- **Bounded Waiting:** `turn` alternates fairly.
+- **Bounded Waiting:** `turn` alternates fairly. Each process gets a turn eventually.
 
 
 ---

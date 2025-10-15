@@ -34,3 +34,10 @@ Consumer:
     signal(empty)
 ```
 
+
+
+---
+#### **Readers and Writers Problem**
+
+
+

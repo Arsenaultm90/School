@@ -8,15 +8,14 @@ A **CPU burst** is simply the **period of time a process spends actively executi
 - Programs alternate between CPU bursts (computation) and I/O bursts (waiting for input/output).
 - **Implications for scheduling:**
 	- **Waiting time (WT):** Time spent in the ready queue waiting for CPU.
-	- **Turnaround time (TAT):** Total time from submission to completion, including CPU bursts, I/O bursts, and waiting time.
-	- **Response time (RT):** Time from submission until the **process first gets the CPU**.
+	- **Turnaround time (TAT):** Total time from submission to completion, including CPU bursts, I/O bursts, and waiting time. (Completion Time - Arrival Time)
+	- **Response time (RT):** Time from submission until the **process first gets the CPU**. (Just the first time it gets to CPU. Non-Cumulative).
 - **Special case (CPU-bound process):**
 	- If I/O bursts are disregarded, then:
 		Response time=Turnaround time−Waiting time
 - **Scheduling relevance:**
 	- Short CPU bursts → more frequent preemption (affects RR or SRTF).
 	- Long CPU bursts → can cause convoy effect in FCFS.
-        
 	- **Visualization:**
 ```
 Time → |CPU| I/O | CPU | I/O | CPU |
@@ -39,6 +38,23 @@ TAT  →  |------------------|
 | **Long-term scheduler**        | When new jobs are admitted to the system (job queue → ready queue)           | Controls degree of multiprogramming; runs infrequently                           |
 | **Medium-term scheduler**      | Occasionally suspends/resumes processes (ready ↔ suspended)                  | Helps balance CPU and memory usage; may swap processes in/out                    |
 | **Short-term (CPU) scheduler** | Only when CPU becomes idle, or a running process blocks/terminates/preempted | Chooses next process from **ready queue**; very frequent; ensures CPU stays busy |
+
+
+---
+#### Determining CPU Burst Length
+
+CPU/IO cycle – many CPU bursts from the same proc
+	• Keep track of their size and run a statistic....  
+	• Then pick process with shortest predicted (statistic) next CPU burst  
+Can be done by using the length of previous CPU bursts,  
+	• E.g. using exponential averaging
+
+1. $t_{n}$ = actual length of $n^{th}$ CPU burst
+2. $T_{n+1}$ = predicted value for the next CPU burst
+3. $\alpha, 0 \le \alpha \le 1$
+4. Define : $T_{n+1} = \alpha t_{n} + (1 - \alpha)T_{n}$
+
+Commonly $\alpha$ set to $\frac{1}{2}$. 
 
 
 ---
@@ -176,3 +192,16 @@ Ways to compare scheduling algorithms:
 | **Rate Monotonic Scheduling (RMS)**      | Real-time (static)   | Fixed priority: shorter period = higher priority     | Easy to implement, widely used       | Can miss deadlines if CPU over-utilized                                     | Hard/soft real-time periodic tasks           |
 | **Earliest Deadline First (EDF)**        | Real-time (dynamic)  | Process with earliest deadline gets highest priority | Optimal for meeting deadlines        | More overhead (dynamic priority changes)                                    | Hard real-time systems with strict deadlines |
 | **Proportional Share (Fair Share)**      | Real-time / Fairness | Each process gets fixed CPU share (N/T)              | Ensures fairness                     | May not meet strict deadlines                                               | Multimedia, server load balancing            |
+
+**Average Wait Time Example :**
+Process | Burst Time  
+P1                 24  
+P2                  3  
+P3                  3  
+
+Suppose that the processes arrive in the order: P1 , P2 , P3
+The Gantt Chart for the schedule is:
+![[Screenshot 2025-10-15 at 9.42.54 AM.png]]
+
+Waiting time for P1 = 0; P2 = 24; P3 = 27  
+Average waiting time: (0 + 24 + 27)/3 = 17
