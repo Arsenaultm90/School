@@ -194,6 +194,7 @@ An **atomic variable** is one where **operations on it happen as a single, unint
 #### Mutex (Mutual Exclusion Lock)
 
 A **binary lock** used to ensure only one thread enters the critical section.
+It is an atomic function, meaning that only a single thread or process can claim the mutex at the same time. 
 
 **Operations:**
 - `lock()` or `acquire()` — waits if locked, otherwise takes the lock.
@@ -215,16 +216,18 @@ do {
 ---
 #### Semaphore
 
-A **more general synchronization tool** introduced by Dijkstra.
-	• Semaphore S – integer variable  
-	• Can only be accessed via two indivisible (atomic) operations: wait() and signal()  
-	• Originally called P() and V()
+A **semaphore** is a more general synchronization primitive. It can be:
+1. **Binary semaphore (0 or 1):**
+    - Acts exactly like a mutex.
+    - Only one thread can enter the CS at a time.
+2. **Counting semaphore (integer ≥ 0):**
+    - Represents a **resource pool** (like `n` identical resources).
+    - Operations:
+        - **wait() / P():** Decrement the count. If count < 0, block the process.
+        - **signal() / V():** Increment the count. If count ≤ 0, wake a waiting process.
+    - Can track **multiple resources** or allow **multiple threads** in a section if designed
 
-It’s an integer variable accessed only through **atomic operations**:
-	**Types:**
-		- **Binary Semaphore:** acts like a mutex (0 or 1)
-		- **Counting Semaphore:** counts available resources (e.g., available buffers)
-	**Operations:**
+**Operations:**
 - `wait(S)` — also known as `P(S)` or `down(S)` :    
 ```
 // Busy-Wait

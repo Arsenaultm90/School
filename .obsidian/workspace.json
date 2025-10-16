@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 5 - CPU Scheduling.md",
+                "file": "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 12 - Template Engines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 5 - CPU Scheduling"
+              "title": "Lecture 12 - Template Engines"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "1cb1a96a742b47d2",
   "lastOpenFiles": [
-    "Screenshot 2025-10-15 at 9.42.54 AM.png",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 6 - Synchronization Tools.md",
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 12 - Template Engines.md",
+    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 5 - CPU Scheduling.md",
+    "Screenshot 2025-10-15 at 9.42.54 AM.png",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 8 - Deadlock.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 7 - Synchronization Examples.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 4 - Threads and Concurrency.md",
@@ -218,7 +220,6 @@
     "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/AncSciTech 2025-2026 Course Outline.pdf",
     "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Course Outline.md",
     "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Course Outline.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 5 - CPU Scheduling.md",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 6 - SQL (Group By,  Having Sets, Etc).md",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 5 - SQL (CRUD).md",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 7 - SQL (Complex Queries, Sub-Queries).md",
@@ -232,7 +233,6 @@
     "Screenshot 2025-09-26 at 9.48.02 AM.png",
     "Screenshot 2025-09-26 at 9.46.16 AM.png",
     "Screenshot 2025-09-26 at 9.46.05 AM.png",
-    "Screenshot 2025-09-26 at 9.39.14 AM.png",
     "Year 2/Semester 01/COOP 1000 - Co-op Preperation/COOP1000 Course Outline FA25.pdf",
     "COMP2406-F25-Course Outline.pdf",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Assignments",
