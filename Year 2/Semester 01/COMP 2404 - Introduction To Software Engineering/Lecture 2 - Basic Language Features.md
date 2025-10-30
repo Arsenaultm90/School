@@ -287,4 +287,69 @@ Parameters can be passed in using  :
 	Supposed to protect against NULL references
 
 
+---
+#### Const
 
+**Const Variables:**
+```
+const int x = 10;
+```
+- **Purpose:** Makes the variable **read-only**, it cannot be modified after initialization.
+- **Effect:** Any attempt to assign to `x` later will cause a compile-time error.
+
+
+**Const Pointers:**
+Point To A Const Value:
+```
+const int* ptr = &x;
+```
+- **Meaning:** The **value being pointed to is read-only**, but the pointer itself can point elsewhere.
+- **Effect:** You cannot do `*ptr = 5;` but you can do `ptr = &y;`.
+
+Const Pointer:
+```
+int* const ptr = &x;
+```
+- **Meaning:** The **pointer itself cannot change**, but the value it points to can.
+- **Effect:** `ptr = &y;`  error, but `*ptr = 5;` allowed.
+
+Const Pointer To Const:
+```
+const int* const ptr = &x;
+```
+- **Meaning:** Neither the pointer nor the value it points to can change.
+- **Effect:** Both `*ptr = 5;`  and `ptr = &y;` are errors.
+
+
+**Const Function Parameters:**
+```
+void print(const string& s) { ... }
+```
+- **Purpose:** Prevents the function from modifying the argument.
+- **Effect:** Inside the function, you cannot change `s`.
+- **Benefit:** Useful for **pass-by-reference** to avoid copying while protecting data.
+
+
+**Const Member Functions:**
+```
+class MyClass {
+    int x;
+public:
+    int getX() const { return x; }
+};
+```
+- **Purpose:** Guarantees the member function will **not modify any member variables** of the object.
+- **Effect:** You can call this function on **const objects**:
+```
+const MyClass obj;
+obj.getX(); // allowed
+obj.setX(5); // not allowed if setX is not const
+```
+
+
+**Const Return Type:**
+```
+const int& getValue() { return x; }
+```
+- **Purpose:** Prevents the caller from modifying the returned value.
+- **Effect:** If you return a reference or pointer, the caller cannot change the underlying value.
