@@ -6,15 +6,13 @@ type: clock
 TODO :
 	Weekly :
 		COMP 2406 - Quiz on Thursdays
-		COMP 2406 - Tutorial
-		COMP 2404 - Tutorial
 		COMP 3000 - Tutorial Quizzes
 	Upcoming :
 		TSES 2305 - Lectures
 		TSES 2305 - Midterm Opens (December 8th)
-		COMP 2404 - Assignment 4 (Nov 30th)
 		COMP 3005 - Final Project (Dec 1st)
 		COMP 2406 - Assignment 4 (Dec 5th)
+		COMP 3000 - Assignment 4+5 (Weekly)
 
 
 Courses :

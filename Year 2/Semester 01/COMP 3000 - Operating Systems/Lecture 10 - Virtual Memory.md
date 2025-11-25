@@ -158,7 +158,7 @@ Easy to simulate with a queue:
     - Upper bound X = N?
         - Once all N pages are loaded, no more faults.
 - **N > M** (not enough frames)
-    - Lower bound X = M?
+    - Lower bound X = N?
         - At least one page per frame, then reuse may avoid some faults.
     - Upper bound X = L?
         - Worst case: every access is a page not in memory → **all L accesses fault**.

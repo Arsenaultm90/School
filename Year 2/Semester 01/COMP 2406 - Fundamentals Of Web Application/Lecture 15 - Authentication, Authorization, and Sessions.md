@@ -111,8 +111,17 @@ def authorize(user, resource, action):
 #### **Cookies vs Authorization header vs localStorage**
 
 ##### Cookies
-- Pros: browsers send automatically; can be `HttpOnly` (unreadable by JS) and `Secure`.
-- Best for web apps where you protect against XSS (use `HttpOnly`) and mitigate CSRF (use `SameSite` or CSRF tokens).
+A **cookie** (also known as a web cookie or browser cookie) is a small piece of data a server sends to a user's web browser. The browser may store cookies, create new cookies, modify existing ones, and send them back to the same server with later requests. Cookies enable web applications to store limited amounts of data and remember state information; by default the HTTP protocol is [stateless](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview#http_is_stateless_but_not_sessionless).
+
+Typically, the server will use the contents of HTTP cookies to determine whether different requests come from the same browser/user and then issue a personalized or generic response as appropriate.
+
+Cookies are mainly used for three purposes:
+- **Session management**: User sign-in status, shopping cart contents, game scores, or any other user session-related details that the server needs to remember.
+- **Personalization**: User preferences such as display language and UI theme.
+- **Tracking**: Recording and analyzing user behaviour.
+
+Pros: browsers send automatically; can be `HttpOnly` (unreadable by JS) and `Secure`.
+Best for web apps where you protect against XSS (use `HttpOnly`) and mitigate CSRF (use `SameSite` or CSRF tokens).
 - Example cookie attributes:
 ```
 Set-Cookie: session=abc123; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=3600

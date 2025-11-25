@@ -10,6 +10,7 @@ Allocation of resources is in a state where (there is a set of) two or more proc
 
 4. **Circular wait:** there exists a set {T0, T1, ..., Tn} of waiting threads such that T0 is waiting for a resource that is held by T1, T1 is waiting for a resource that is held by T2, ..., Tn–1 is waiting for a resource that is held by Tn, and Tn is waiting for a resource that is held by T0.
 
+All four conditions are necessary for deadlock, but not sufficient, because a system can satisfy all four conditions without currently being in a circular waiting cycle. Deadlock requires both the conditions + an actual unresolvable circular wait.
 
 ---
 #### **Resource Allocation Graph**
@@ -115,9 +116,84 @@ Once a deadlock is detected, **break** it using one of these strategies:
 | **Recovery**   | After detection  | Kill or preempt processes                | Resolves deadlocks        | Costly and disruptive       |
 
 
+##### Resource Ordering
+**Resource ordering** is a deadlock prevention technique where all resources are assigned a unique global order, and processes must request resources only in ascending order. This eliminates the possibility of circular wait, which is one of the four necessary conditions for deadlock. Resource allocation graphs visualize resource usage, but resource ordering is a separate, preventive strategy.
+
+**Hold-And-Wait Starvation**
+A process must acquire _all_ resources it needs simultaneously before it can run.  
+If other processes repeatedly take one or more of those resources first,  
+the process may never see _all_ of them available at the same time,  
+causing it to wait indefinitely.
+
 ---
 #### **Banker's Algorithm**
 
-The **Banker’s Algorithm** checks if granting a resource request will leave the system in a _safe state_, meaning there is _at least one sequence_ in which every process can finish eventually.
+Banker’s Algorithm is a **deadlock avoidance** algorithm.
+- It **checks** whether granting a resource request will leave the system in a **safe state**.
+- If it’s safe → **grant the request**.
+- If it would become unsafe → **deny (or delay)** the request.
 
-If the system would enter an _unsafe state_ (possible deadlock), the OS denies or delays the request.
+It’s called the _Banker’s_ algorithm because a banker won’t loan out money unless they know they can satisfy all customers eventually.
+
+
+**Safe State**
+A state where there exists **some order** in which all processes can finish.
+If the system can find _any_ sequence like:
+```
+P2 → P1 → P3 → P4
+```
+where each process can eventually get its maximum resources and complete,  
+then the system is **safe**.
+
+
+**Unsafe State**
+Not the same as deadlocked.
+
+Unsafe means:
+- You _might_ deadlock in the future.
+- The OS **avoids granting** the request that leads to unsafe states.
+
+
+##### The Algorithm Uses 4 Tables (Matrices)
+For `n` processes and `m` resource types:
+1. **Max\[i][j]**
+	Maximum demand of process i for resource j.
+
+2. **Allocation\[i][j]**
+	Current allocation to process i.
+
+3. **Need\[i][j]**
+	Remaining needs (calculated):
+```
+Need[i] = Max[i] – Allocation[i]
+```
+
+4. **Available\[j]**
+	Resources currently available (not allocated).
+
+
+Unknown Max entry
+- Put `x` in `Max`
+- Compute `Need`
+- Run safety algorithm → inequalities in `x`
+- Also enforce `Need ≥ 0` (so `Max ≥ Allocation`)
+- Solve for `x` (usually a range).
+
+Checking a given sequence
+- Start `Work = Available`
+- For each Pi in the sequence:
+    - If `Need[i] ≤ Work`, update `Work += Allocation[i]`
+    - Else → not a safe sequence
+- Finish all? → sequence is safe.
+
+Unknown Available component
+- Put `X` inside `Available`
+- Run safety algorithm → inequalities on `X`
+- Combine them → get allowed range for X.
+
+
+**Deadlock Detection Problems**
+Allocation[i]
+Requests[i] - Current outstanding requests
+Available - Free Resources
+
