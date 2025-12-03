@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "781b3f0156aed882",
+        "id": "11d42a161d3e651a",
         "type": "tabs",
         "children": [
           {
-            "id": "5bb78fa5e35d1f34",
+            "id": "c00ba2165d50e5e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 3 - Carpentry and Wood.md",
+                "file": "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Exams/Study Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 3 - Carpentry and Wood"
+              "title": "Study Guide"
             }
           }
         ]
@@ -193,35 +193,38 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d77f75f4daa29155",
+  "active": "c00ba2165d50e5e8",
   "lastOpenFiles": [
+    "Dashboard.md",
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Exams/Study Guide.md",
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 18 - Web Sockets.md",
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 15 - Authentication, Authorization, and Sessions.md",
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Exams",
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 16 - MongoDB.md",
+    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 17 - Mongoose.md",
+    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 17 - STL.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 12 - Kernel IO Subsystem.md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Project/Health and Fitness Club Management System.md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Project",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 19 - Neo4j.md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 18 - NoSQL - Graph Oriented Database.md",
+    "Pasted image 20251125085350.png",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 17 - NO SQL and MongoDB.md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 16 - Query Optimization.md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 15 - Query Processing.md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 11 - Functional Dependencies (Normalization).md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 12 - Application Development.md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 13 - Physical Storage Systems.md",
+    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 14 - Data Storage Structures and Indexing.md",
+    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 4 - Threads and Concurrency.md",
+    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 11 - Mass Storage.md",
+    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 3 - Carpentry and Wood.md",
     "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 2 - Pyrotechnology.md",
     "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 1 - Origins Of Technology.md",
     "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 4 - Metals.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 3 - Carpentry and Wood.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 12 - Kernel I/Lecture 12 - Kernel IO Subsystem.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 11 - Mass Storage.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 10 - Virtual Memory.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 9 - Main Memory.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 8 - Deadlock.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 7 - Synchronization Examples.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 6 - Synchronization Tools.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 5 - CPU Scheduling.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 4 - Threads and Concurrency.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 2 - System Calls and OS Structure.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 1 - Operating System.md",
     "Year 2/Semester 01/COMP 3000 - Operating Systems/Lecture 12 - Kernel I",
-    "Dashboard.md",
-    "Year 2/Semester 01/COMP 3000 - Operating Systems/Exams/EndTerm Guide.md",
-    "Year 2/Semester 01/COMP 2406 - Fundamentals Of Web Application/Lecture 15 - Authentication, Authorization, and Sessions.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Ancient Source.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 8 - Animal Husbandry.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 7 - Agriculture, Planting, Harvesting, Processing.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 6 - Agriculture, Mediterranean Triad.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 5 - Agriculture, Basic Prinpicles.md",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 16 - Templates.md",
-    "Year 2/Semester 01/COMP 3005 - Database Management Systems/Lecture 10 - ER Mapping.md",
     "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/AncSciTech 2025-2026 Course Outline.pdf",
     "Screenshot 2025-10-19 at 1.34.55 PM.png",
     "Screenshot 2025-10-15 at 9.42.54 AM.png",
@@ -233,13 +236,10 @@
     "Screenshot 2025-09-26 at 9.51.13 AM.png",
     "Screenshot 2025-09-26 at 9.48.13 AM.png",
     "Screenshot 2025-09-26 at 9.48.02 AM.png",
-    "Screenshot 2025-09-26 at 9.46.16 AM.png",
     "Year 2/Semester 01/COOP 1000 - Co-op Preperation/COOP1000 Course Outline FA25.pdf",
     "COMP2406-F25-Course Outline.pdf",
     "Year 2/Semester 01/COMP 3005 - Database Management Systems/Assignments",
     "COMP-3005-B-F-2025.pdf",
-    "COMP3005 - Course Outline - Fall 2025 - Section A&B (two different tabs) - Section A.pdf",
-    "COMP-3000-A-F-2025.pdf",
-    "F25-2404AB-Outline.pdf"
+    "COMP3005 - Course Outline - Fall 2025 - Section A&B (two different tabs) - Section A.pdf"
   ]
 }

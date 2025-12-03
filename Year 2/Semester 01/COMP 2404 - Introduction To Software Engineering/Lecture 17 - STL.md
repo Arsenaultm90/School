@@ -48,6 +48,10 @@ The STL defines **five** iterator “capabilities,” each with different powers
 - Jumps to any element in constant time (`it += 5`, `it[3]`)
 - Example: `std::vector<T>::iterator`, `std::deque<T>::iterator`
 
+For `vector` → it _is_ a pointer  
+For `list` → it contains a pointer to a node  
+For `map` → it contains a pointer + navigation info  
+For `deque` → it contains block index + element index
 
 **Common Iterator Functions**
 Every container supports these:
@@ -59,6 +63,23 @@ Every container supports these:
 |`rbegin()`|Reverse iterator to last|
 |`rend()`|One before first|
 
+
+```
+ vector   .<Student> ::iterator&  stuIt
+\______/   \______/   \________/  \___/
+  |           |          |         |
+  |           |          |         └── variable name
+  |           |          |
+  |           |          └──────────── reference (output parameter)
+  |           |
+  |           └──────────────────────── iterator type for a Student vector
+  |
+  └──────────────────────────────────── templated vector container
+
+```
+
+
+
 Example:
 ```
 vector<int> v = {1, 2, 3, 4};
@@ -67,6 +88,8 @@ for (auto it = v.begin(); it != v.end(); ++it) {
     cout << *it << " ";
 }
 ```
+
+
 
 
 ---
@@ -235,3 +258,21 @@ sort(v.begin(), v.end());
 - **Container:** `vector`
 - **Iterator:** `v.begin()` / `v.end()` are random-access iterators
 - **Algorithm:** `sort()` works because random access iterators are supported
+
+
+
+---
+Lambdas (Anonymous Functions)
+
+
+```
+[]() {
+
+}
+
+[] - Captures external variables
+() - Parameters for function
+{} - Function definition
+```
+
+
