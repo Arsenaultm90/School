@@ -34,8 +34,7 @@ The user’s view of the computer varies according to the interface being used. 
 
 From the computer’s point of view, the operating system is the program most intimately involved with the hardware. In this context, we can view an operating system as a resource allocator.
 
-An operating system is a control program. A control program manages the execution of user programs to prevent errors and improper use of the computer. It is especially concerned
-with the operation and control of I/O devices.
+An operating system is a control program. A control program manages the execution of user programs to prevent errors and improper use of the computer. It is especially concerned with the operation and control of I/O devices.
 
 
 ---

@@ -11,6 +11,8 @@ TODO :
 		TSES 2305 - Midterm Opens (December 8th)
 		COMP 2406 - Assignment 4 (Dec 5th)
 		COMP 3000 - Assignment 4 - Quiz (Dec 5th)
+		COMP 2406 - Study Guide
+		COMP 3000 - Study Guide
 
 
 Courses :

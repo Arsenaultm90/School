@@ -237,6 +237,19 @@ JavaScript is a **dynamic**, **interpreted**, **prototype-based**, **single-thre
 - Value cannot be reassigned, _but object properties CAN be changed_
 
 
+##### TypeOf - Always returns type string
+```
+typeof 5          // "number"
+typeof "hello"    // "string"
+typeof true       // "boolean"
+typeof {}         // "object"
+typeof undefined  // "undefined"
+typeof []         // "object"
+typeof null       // "object"
+typeof NaN        // "number"
+```
+
+
 #### Arrays
 ```
 const arr = [1, 2, 3];
@@ -393,6 +406,11 @@ try {
 
 ---
 # The DOM
+
+##### **Event Delegation**
+**Event delegation** is a technique where you attach **one event listener** to a **parent element** instead of adding listeners to multiple child elements.
+
+Because events **bubble up** the DOM, the parent can “catch” events from its children.
 
 
 
@@ -555,6 +573,21 @@ Example Response Body(HTML):
 
 
 # Async and Promises
+
+A Promise is a built-in JavaScript object that represents the eventual result (or failure) of an asynchronous operation.  
+It is both a concept and a data type: it stores state, value, and callbacks and allows chaining with `.then()` and `.catch()`.
+
+
+```
+const p = new Promise((resolve, reject) => {});
+console.log(typeof p); // "object"
+
+Promise {
+  state: "pending",
+  value: undefined,
+  handlers: []
+}
+```
 
 
 
@@ -736,6 +769,253 @@ mongoose.connect("mongodb://localhost:27017/mydb")
 Failure to connect often causes the API to return **500** or **503**.
 
 
+#### **Schemas**
+A **Schema** defines the **shape** of documents in a collection.
+
+**Example:**
+```
+const userSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  age: { type: Number, min: 0 },
+  email: { type: String, unique: true },
+  createdAt: { type: Date, default: Date.now },
+});
+```
+
+**Schema Capabilities**
+Type enforcement
+If `age` is supposed to be a number, passing a string will produce a **CastError**.
+
+Validation
+- `required`
+- `min` / `max`
+- `enum`
+- custom validators
+
+Default values
+If no `createdAt` is provided, Mongoose fills it.
+
+Indexes
+`unique: true` creates an index:
+- Duplicate insert → **MongoDB 11000 Duplicate Key error**  
+
+
+#### **Models**
+A Model is created from a Schema:
+```
+const User = mongoose.model("User", userSchema);
+```
+
+**Models:**
+- Act like constructors
+- Represent a MongoDB collection
+- Allow CRUD operations
+
+model name `"User"` → collection name `users`  
+(Mongoose automatically pluralizes)
+
+
+#### **Creating and Saving Documents**
+```
+const user = new User({
+  name: "Matt",
+  age: 22,
+  email: "matt@example.com"
+});
+
+await user.save();
+```
+
+**What happens internally:**
+1. Mongoose validates the data
+2. Converts JS object to MongoDB BSON
+3. Sends insert request to MongoDB
+4. MongoDB stores the document
+
+**Common Errors:**
+- **ValidationError** → missing required field
+- **CastError** → wrong type
+- **11000 Duplicate Key** → unique index violation
+
+
+#### **Queries (Find, Create, Update, Delete)**
+##### Find
+Find All:
+```
+User.find();
+```
+
+Find One:
+```
+User.findOne({ name: "Matt" });
+```
+
+Find by ID:
+```
+User.findById("670acdf123...");
+```
+If ID is invalid → **CastError: ObjectId**
+
+##### Updating
+Update One:
+```
+User.updateOne({ name: "Matt" }, { age: 25 });
+```
+
+**Find by ID and Update:**
+```
+User.findByIdAndUpdate(id, { age: 26 }, { new: true });
+```
+The `new: true` option returns the updated doc.
+
+By default, Mongoose does **not** run validators on updates.  
+To enable:
+```
+User.updateOne(filter, update, { runValidators: true });
+```
+
+##### Deleting
+```
+User.deleteOne({ _id: id });
+User.findByIdAndDelete(id);
+```
+
+
+
+#### **Schema Methods and Statics**
+**Instance Method:**
+```
+userSchema.methods.greet = function() {
+  console.log("Hello " + this.name);
+};
+```
+
+```
+const user = await User.findOne();
+user.greet();
+```
+
+
+**Static Method:**
+```
+userSchema.statics.findByEmail = function(email) {
+  return this.findOne({ email });
+};
+```
+
+```
+User.findByEmail("matt@example.com");
+```
+Useful for encapsulating logic.
+
+
+#### **Virtuals**
+Not stored in DB — computed on the fly.
+```
+userSchema.virtual("info").get(function() {
+  return `${this.name} (${this.age})`;
+});
+```
+
+Usage:
+```
+const u = await User.findOne();
+console.log(u.info); // "Matt (22)"
+```
+
+
+#### **Middleware (“Hooks”)**
+Hooks allow code to run before or after certain actions.
+
+**Pre-Save:**
+```
+userSchema.pre("save", function(next) {
+  console.log("Saving user...");
+  next();
+});
+```
+
+**Post-Save:**
+```
+userSchema.post("save", function(doc) {
+  console.log("Saved:", doc._id);
+});
+```
+
+**Types of middleware:**
+- `validate`
+- `save`
+- `remove`
+- `find`
+- `findOne`
+- `updateOne`
+- `findByIdAndUpdate`
+
+Note: 
+`pre` receives `next`; `post` receives the doc or query result.
+
+
+#### **Population (JOIN-like feature)**
+When referencing documents, use population:
+
+**Schema:**
+```
+const postSchema = new mongoose.Schema({
+  title: String,
+  author: { type: mongoose.Schema.Types.ObjectId, ref: "User" }
+});
+```
+
+**Query:**
+```
+Post.find().populate("author");
+```
+Mongoose replaces the `author` ObjectId with the actual User document.
+
+
+#### **Timestamps**
+```
+const schema = new mongoose.Schema({
+  name: String
+}, { timestamps: true });
+```
+Adds:
+- `createdAt`
+- `updatedAt`
+
+Automatically.
+
+
+#### **Mongoose Error Types (Exam Essential)**
+**ValidationError**
+Invalid data (missing required, etc.)
+
+**CastError**
+Invalid ObjectId or wrong type
+
+Example:
+```
+User.findById("not-an-id");
+```
+
+**MongoServerError 11000**
+Duplicate key (unique index)
+
+**MongoNetworkError**
+DB offline or unreachable
+
+**MongoServerSelectionError**
+Cannot select a server in the cluster
+
+
+#### **Example End-to-End Flow**
+1. User submits form → Express receives POST
+2. Express reads data (`req.body`)
+3. Create Mongoose model instance
+4. Mongoose validates data
+5. Mongoose sends insert request to MongoDB
+6. MongoDB returns success or an error
+7. Express sends response to client (200, 201, 400, or 500)
 
 
 
@@ -838,6 +1118,45 @@ socket.onclose = () => {
 - wss:// = secure (like HTTPS)
 - Messages come through `event.data`
 
+#### Events
+**socket.onopen**
+Triggered when connection is established.
+```
+socket.onopen = () => {
+  console.log("Connected");
+};
+```
+
+
+**socket.onmessage**
+Triggered when the server sends a message.
+```
+socket.onmessage = (event) => {
+  console.log("Message:", event.data);
+};
+```
+
+
+**socket.onerror**
+Triggered if a connection error occurs.
+```
+socket.onerror = (err) => {
+  console.error("WebSocket error:", err);
+};
+```
+
+
+**socket.onclose**
+Triggered when the socket closes.
+```
+socket.onclose = (event) => {
+  console.log("Closed:", event.code, event.reason);
+};
+```
+
+
+
+
 
 #### **WebSocket Server in Node.js (ws library)**
 ```
@@ -865,6 +1184,47 @@ This server:
 - waits for connections
 - sends/receives messages
 - handles disconnects
+
+
+#### Methods and Events
+`io.on("connection", callback)`
+Triggered when a client connects.
+```
+io.on("connection", (socket) => {
+  console.log("User connected");
+});
+```
+
+
+`socket.emit(eventName, data)`
+Send event **to one client**.
+```
+socket.emit("message", "Hello!");
+```
+
+
+`io.emit(eventName, data)`
+Send event **to all connected clients**.
+```
+io.emit("announcement", "Server is restarting");
+```
+
+
+`socket.on(eventName, callback)`
+Listen for events from a client.
+```
+socket.on("chat", (msg) => {
+  console.log("Chat:", msg);
+});
+```
+
+
+`socket.broadcast.emit(event, data)`
+Send message to **everyone EXCEPT the sender**.
+```
+socket.broadcast.emit("userJoined", socket.id);
+```
+
 
 
 #### **WebSocket Protocol Basics**
