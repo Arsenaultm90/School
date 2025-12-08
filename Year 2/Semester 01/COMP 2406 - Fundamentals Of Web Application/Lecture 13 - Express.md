@@ -108,3 +108,5 @@ app.get('/', (req, res) => {
 ```
 
 The view engine cache does not cache the contents of the template’s output, only the underlying template itself. The view is still re-rendered with every request even when the cache is on.
+
+

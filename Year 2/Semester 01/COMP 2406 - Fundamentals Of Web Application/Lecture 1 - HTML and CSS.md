@@ -148,3 +148,91 @@ div {
 :root { --main-color: blue; }
 h1 { color: var(--main-color); }
 ```
+
+
+---
+##### Block Level Elements
+Block elements:
+- Always start on a new line
+- Stretch to fill the full width of their container by default
+- Can contain other block or inline elements
+```
+<address>
+<article>
+<aside>
+<blockquote>
+<canvas>
+<div>
+<dl>
+<dt>
+<dd>
+<fieldset>
+<figcaption>
+<figure>
+<footer>
+<form>
+<h1> ... <h6>
+<header>
+<hr>
+<li>
+<main>
+<nav>
+<noscript>
+<ol>
+<p>
+<pre>
+<section>
+<table>
+<tfoot>
+<ul>
+<video>
+```
+
+#### Inline Elements
+Inline elements:
+- Do NOT start on a new line
+- Only take up as much width as needed
+- Cannot contain block-level elements (with rare exceptions like anchor tag)
+```
+<a>
+<abbr>
+<b>
+<bdi>
+<bdo>
+<br>
+<button>
+<cite>
+<code>
+<data>
+<dfn>
+<em>
+<i>
+<img>
+<input>
+<kbd>
+<label>
+<map>
+<mark>
+<meter>
+<output>
+<picture>
+<progress>
+<q>
+<s>
+<samp>
+<select>
+<small>
+<span>
+<strong>
+<sub>
+<sup>
+<svg>
+<textarea>
+<time>
+<u>
+<var>
+<wbr>
+```
+
+
+

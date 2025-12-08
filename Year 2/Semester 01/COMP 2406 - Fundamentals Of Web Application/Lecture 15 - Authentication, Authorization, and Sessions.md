@@ -124,7 +124,23 @@ Pros: browsers send automatically; can be `HttpOnly` (unreadable by JS) and `Sec
 Best for web apps where you protect against XSS (use `HttpOnly`) and mitigate CSRF (use `SameSite` or CSRF tokens).
 - Example cookie attributes:
 ```
-Set-Cookie: session=abc123; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=3600
+// FROM SERVER TO CLIENT
+HTTP/1.1 200 OK
+Set-Cookie: connect.sid=s%3AHj2fK8...kPx1.ABC123xyz
+  ; Path=/
+  ; HttpOnly
+  ; Secure
+  ; SameSite=Lax
+Content-Type: application/json
+Content-Length: 27
+
+
+// FROM CLIENT TO SERVER
+GET /dashboard HTTP/1.1
+Host: example.com
+Cookie: connect.sid=s%3AHj2fK8...kPx1.ABC123xyz
+User-Agent: Mozilla/5.0
+Accept: text/html
 ```
 
 ##### Authorization header (`Authorization: Bearer <token>`)

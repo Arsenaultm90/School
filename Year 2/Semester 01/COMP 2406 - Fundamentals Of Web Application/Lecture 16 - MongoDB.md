@@ -1,6 +1,6 @@
 MongoDB is a NoSQL document-based database.
 Mongo stores ‘collections’ of ‘documents’
-Database -> Collection(s) -> Document(s)
+Database -> Collection(s) -> Document(s) -> Field(s)
 Mongo creates its own unique IDs for documents
 
 

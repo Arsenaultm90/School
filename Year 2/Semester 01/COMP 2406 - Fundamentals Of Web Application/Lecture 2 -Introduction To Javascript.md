@@ -163,3 +163,7 @@ let obj = {x:1, y:2};
 let str = JSON.stringify(obj);
 let back = JSON.parse(str);
 ```
+
+JSON strings convert all JSON object by turning keys into strings.
+
+

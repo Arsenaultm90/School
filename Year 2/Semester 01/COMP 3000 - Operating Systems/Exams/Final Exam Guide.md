@@ -1,3 +1,13 @@
+
+The structure of the final exam will be as follows. There will be 14 questions. On **all** of them you must provide justification for your answers. Justification is similar to what ChatGPT would do if your ask for its train of thought, only shorter and actually making sense, please.
+
+First 10 questions (30 abstract points in total) are a mixture of multiple-choice, true/false or a simple code comprehension questions -- Definition class questions.
+
+The next 2 (carrying 10 abstract points in total) are of the Application class -- you will need to apply your knowledge directly to a problem with its original context intact.
+
+Finally, the last 2 questions (again 10 abstract points in total) are Generalization class questions. You will be asked to identify a concept without its familiar context and apply the appropriate algorithm/method to solve the problem.
+
+
 # Chapter 1 -- OS Intro
 - Interrupts -- what they are, stages of handling
 - Kernel-vs-User modes -- what each can/cannot do and why
