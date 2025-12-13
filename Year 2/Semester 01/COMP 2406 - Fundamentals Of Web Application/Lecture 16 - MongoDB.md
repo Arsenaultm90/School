@@ -80,6 +80,7 @@ node app.js
 
 Show all databases : `show dbs`
 Use (or create) a database: `use myDB`
+Create a database: `db.createCollection(name)`
 Show Collections: `show collections`
 Insert a document: `myDB.users.insertOne({name: "Matt", age: 35})`
 Find all documents: `myDB.users.find()`
@@ -87,6 +88,8 @@ Find with a condition: `myDB.users.find({name: "Matt"})`
 Delete documents: `myDB.users.deleteOne({name: "Matt"})`
 Drop a collection: `myDB.users.drop()`
 Drop a database: `myDB.dropDatabase()`
+Number of documents: `myDB.CollectionName.countDocuments{"Field": value}`
+
 
 How to quit shell: `exit` or `cmd + D`
 

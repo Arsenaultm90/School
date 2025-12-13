@@ -124,6 +124,11 @@ WHERE {
     ?person ex:age ?age .
     FILTER (?age > 20)
 }
+
+SELECT (SUM...)
+
+SELECT ?book WHERE { ?book dc:date ?date } ORDER BY ASC(?date) LIMIT 1
+
 ```
 SPARQL looks for all triples matching the patterns.
 
