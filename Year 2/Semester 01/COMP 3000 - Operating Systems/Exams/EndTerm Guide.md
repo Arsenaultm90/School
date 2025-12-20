@@ -334,8 +334,6 @@ Given pages: **7, 0, 1, 2, 0, 3, 0, 4**
 Frames: 3  
 Ask: # faults under FIFO, LRU, Clock.
 
-(I can solve this if you want.)
-
 ### **Practice Problems**
 1. Compute page faults for FIFO with 4 frames and 10 pages.
 2. Compare LRU and Second Chance for a reference string.

@@ -1,3 +1,39 @@
+
+# **Overview of Kernel I/O**
+- I/O subsystem = part of the **kernel** responsible for managing communication between CPU and a wide variety of devices.
+- Problem: Devices vary **widely** in:
+    - speed (mouse vs HDD vs tape robot)
+    - data format
+    - interface (USB, PCIe, SATA)
+- Solution:  
+    ➜ Use **device drivers** to hide device-specific details  
+    ➜ Provide a **uniform interface** for the rest of the OS
+
+**Key idea:**  
+Device drivers = “bottom-half of syscalls”; they make all devices look similar even though hardware differs massively
+
+
+
+---
+# **I/O Hardware Concepts**
+
+### **Ports, Buses, Controllers**
+- **Port:** Communication endpoint (serial port, USB port).
+- **Bus:** Shared communication pathway (PCIe, USB). Devices connect in parallel.
+- **Controller:** Electronics that operate a device or bus (disk controller, USB controller).
+
+Example bus system:
+- PCIe for fast devices (GPU, SSD)
+- Expansion bus for slow devices (keyboard, serial)
+
+**Daisy chain:** Multiple devices connected sequentially; behaves like a bus.
+
+
+
+---
+
+
+
 ## Application I/O Interface
 
 Applications do **not** access hardware directly.  

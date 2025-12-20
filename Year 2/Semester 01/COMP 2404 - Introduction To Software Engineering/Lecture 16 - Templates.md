@@ -1,4 +1,4 @@
-**Templates** in C++ allow you to write **generic code** — code that works with **any data type** without rewriting it for each type.
+ **Templates** in C++ allow you to write **generic code** — code that works with **any data type** without rewriting it for each type.
 
 Think of templates as **blueprints**:
 - You write the algorithm **once**.
