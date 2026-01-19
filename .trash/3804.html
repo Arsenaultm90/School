@@ -1,0 +1,743 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"></head><body><h2> 
+Design and Analysis of Algorithms I (COMP/MATH 3804)
+<br>
+Sections A and B 
+<br>
+Winter 2026 
+</h2>
+<b>Instructor:</b> <a href="http://www.scs.carleton.ca/~michiel"> 
+                    Michiel Smid</a> 
+<br><b>Office:</b> Herzberg Building 5125C 
+<br><b>E-mail:</b> michiel@scs.carleton.ca 
+
+<hr width="100%">
+
+<b>Course outline:</b>
+<ul>
+<li>Click <a href="https://cglab.ca/~michiel/3804/outline.pdf">here.</a>
+</li>
+</ul>
+
+<hr width="100%">
+
+<b>Lectures and tutorials:</b> 
+<ul> 
+<li>All lectures and tutorials will be in-person. 
+</li>
+<li>Classrooms: Check Carleton Central.   
+</li>
+<li>Tutorials will start on Wednesday January 14.   
+</li>
+<li>Winter break: February 16-20. 
+</li>
+<li>Section A: 
+    <ul> 
+    <li>Lectures: Tuesday and Thursday, 8:35-9:55. 
+    </li>
+    <li>First lecture: Tuesday January 6. 
+    </li>
+    <li>Last lecture: Tuesday April 7
+    </li>
+    <li>Tutorial: Wednesday, 17:35-18:55.
+    </li>
+    </ul>
+</li>
+<li>Section B: 
+    <ul> 
+    <li>Lectures: Monday and Wednesday, 16:05-17:25. 
+    </li>
+    <li>First lecture: Monday January 5. 
+    </li>
+    <li>Last lecture: Monday April 6
+    </li>
+    <li>Tutorial: Wednesday, 17:35-18:55.
+    </li>
+    </ul>
+</li>
+</ul>
+
+<hr width="100%">
+
+<b>Office hours:</b> will start in the week of January 12. 
+
+<ul>
+<li>Michiel: Thursday, 10:15 - 11:15, Herzberg 5125C  
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+</ul>
+
+<hr width="100%">
+
+<b>Course objectives:</b> 
+An introduction to the design and analysis of algorithms. 
+
+<hr width="100%">
+
+<b>Topics covered include:</b>  
+Divide-and-conquer algorithms and their analysis using recurrence 
+relations, graph algorithms, dynamic programming, the theory of 
+NP-completeness.
+
+<hr width="100%">
+
+<b>Textbook:</b> 
+Algorithms, by Sanjoy Dasgupta, Christos Papadimitriou, and 
+Umesh Vazirani, published by McGraw-Hill.
+
+<hr width="100%">
+
+<b>Important dates:</b>
+<ul>
+<li>Test 1: Wednesday, January 28, during the tutorial  
+</li>
+<li>Test 2: Wednesday, February 11, during the tutorial  
+</li>
+<li>Test 3: Wednesday, March 11, during the tutorial  
+</li>
+<li>Test 4: Wednesday, March 25, during the tutorial  
+</li>
+<li>Final exam: TBA 
+</li>
+</ul>
+
+<hr width="100%">
+
+<b>Grading scheme:</b> 
+<ul>
+<li>Test 1: 12.5%  
+</li>
+<li>Test 2: 12.5%  
+</li>
+<li>Test 3: 12.5%  
+</li>
+<li>Test 4: 12.5%  
+</li>
+<li>Final: 50% 
+</li>
+</ul>
+
+<hr width="100%">
+
+<b>Problem sets:</b>
+<ul>
+<li>Will be posted here. 
+</li>
+</ul>
+
+<hr width="100%">
+
+<b>Tutorials:</b>
+<ul>
+<li><a href="https://cglab.ca/~michiel/3804/Tutorials/background.pdf">Background Quiz</a>. 
+    The TAs will go over the solutions in the first tutorial on 
+    January 14.
+</li>
+</ul>
+
+<hr width="100%">
+
+<b>What was done in class: The videos are from previous terms.</b>
+ 
+<ul> 
+<li>Will be posted here.  
+</li>
+</ul>
+
+<hr width="100%">
+
+<b>Tentative schedule, based on the last time I taught this course. 
+Ignore the dates, they are from last year. 
+</b> 
+<ul> 
+<li>January 6 (Section B); January 7 (Section A): 
+    <ul>
+    <li>Introduction to algorithms, running time, Big-O, Big-Omega, 
+        Big-Theta, little-o (Chapter 0).
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture1.pdf">notes</a>.
+    </li>
+    <li>Ignore this, it is from the winter term of 2022.  
+        <a href="https://www.youtube.com/watch?v=tIWW-Z2DaCE">Video 
+        lecture 1, part 1</a>: short introduction. 
+    </li>
+    <li>Ignore this, it is from the winter term of 2021.  
+        <a href="https://www.youtube.com/watch?v=Tm2CbgPbjHQ">Video 
+        lecture 1, part 1</a>: short introduction. 
+    </li>
+    <li><a href="https://www.youtube.com/watch?v=yx3Z3nHXXCo">Video 
+        lecture 1, part 2</a> from a previous term. 
+    </li>
+    </ul>
+</li>
+<li>January 8 (Section B); January 9 (Section A): 
+    <ul>
+    <li>Divide-and-conquer algorithms and recurrence relations, 
+        merge-sort, multiplying large integers, introduction to  
+        <a href="http://en.wikipedia.org/wiki/Karatsuba_algorithm">
+        Karatsuba's algorithm</a>
+        (Sections 2.1 and 2.3; Exercise 2.3).
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture2.pdf">notes</a>.
+    </li>
+    <li><a href="https://www.youtube.com/watch?v=pn2K3nvigPk">Video 
+        lecture 2, part 1</a>.
+    </li>
+    <li><a href="https://www.youtube.com/watch?v=2EZAfDCL5yc">Video 
+        lecture 2, part 2</a>.
+    </li>
+    <li><a href="https://www.youtube.com/watch?v=HpgZRwFm3bU">Video 
+        lecture 2, part 3</a>.
+    </li>
+    </ul>
+</li>
+<li>January 13 (Section B); January 14 (Section A): 
+    <ul>
+    <li>Karatsuba, recurrence relations, 
+        <a href="https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms)">Master Theorem</a>,
+	matrix multiplication, introduction to   
+        <a href="http://en.wikipedia.org/wiki/Strassen_algorithm">
+        Strassen's algorithm</a>
+        (Sections 2.2 and 2.5).
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture3.pdf">notes</a>.
+    </li>
+    <li><a href="https://mediaspace.carleton.ca/media/comp_3804-03-w21.mp4/1_bs2nn0pe">Video 
+        lecture 3</a>.
+    </li>
+    </ul>
+</li>
+<li>January 15 (Section B); January 16 (Section A): 
+    <ul>
+    <li>Strassen's algorithm.
+    </li>
+    <li><a href="http://en.wikipedia.org/wiki/Selection_algorithm">
+        Selection and median algorithms</a>
+        (Section 2.4).
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture4.pdf">notes</a>.
+    </li>
+    <li><a href="https://mediaspace.carleton.ca/media/comp_3804-04-w21/1_96745erz">Video 
+        lecture 4</a>.
+    </li>
+    </ul>
+</li>
+<li>January 20 (Section B); January 21 (Section A): 
+    <ul>
+    <li>Finish selection and median algorithms.
+    </li><li>Randomized selection; my <a href="https://cglab.ca/~michiel/3804/lecture5.pdf">notes</a>.
+    </li>
+    <li>Introduction to 
+        <a href="http://en.wikipedia.org/wiki/Binary_heap">heaps</a> 
+        (Section 4.5). 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture6-7.pdf">notes</a>.
+    </li>
+    <li><a href="https://mediaspace.carleton.ca/media/comp_3804-05-w21/1_rx4uvh74">Video 
+        lecture 5</a>.
+    </li>
+    </ul>
+</li>
+<li>January 22 (Section B); January 23 (Section A): 
+    <ul>
+    <li>Heaps; see my previous notes. 
+    </li>
+    <li><a href="https://mediaspace.carleton.ca/media/comp_3804b-6-w21/1_81cxl603">Video 
+        lecture 6</a>.
+    </li>
+    </ul>
+</li>
+<li>January 27 (Section B); January 28 (Section A): 
+    <ul>
+    <li>Finish heaps. 
+    </li><li>Max-heaps versus min-heaps.
+    </li>
+    <li>Introduction to graphs. 
+    </li>
+    <li>How to represent graphs (Section 3.1). 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture8.pdf">notes</a>.
+    </li>
+    <li><a href="https://mediaspace.carleton.ca/media/comp_3804b-7-w21/1_l9gp9qs0">Video 
+        lecture 7</a>.
+    </li>
+    </ul>
+</li>
+<li>January 29 (Section B); January 30 (Section A): 
+    <ul>
+    <li>How to represent graphs (Section 3.1). 
+    </li>
+    <li>Exploring an undirected graph from a vertex (Section 3.2.1). 
+    </li>
+    <li>Undirected graphs: Depth-first search, how to compute the 
+        connected components (Section 3.2). 
+    </li>
+    <li>Undirected graphs: deciding if a graph is bipartite (Section 3.2). 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture9.pdf">notes</a>.
+    </li>
+    <li>More <a href="https://cglab.ca/~michiel/3804/lecture10.pdf">notes</a>.
+    </li>
+    <li><a href="https://mediaspace.carleton.ca/media/comp_3804-08-w21.mp4/1_txb35fjz">Video 
+        lecture 8</a>.
+    </li>
+    <li>Three versions of lecture 9: 
+        <ul> 
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804-09-w22/1_s0mb4f4z">Video 
+        lecture 9</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804-09-w22-02092022-1600/1_suevu3ol">Video 
+        lecture 9</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-09-w21.mp4/1_60s965ic">Video 
+            lecture 9</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>February 3 (Section B); February 4 (Section A): 
+    <ul>
+    <li>Directed acyclic graphs: topological sorting (Section 3.3). 
+    </li>
+    <li>Directed graphs: depth-first search, deciding if a graph is 
+        acyclic (Section 3.3). 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture11.pdf">notes</a>.
+    </li>
+    <li>Two versions of lecture 10: 
+        <ul>  
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804-11-02112022/1_sr6lcoxq">Video 
+        lecture 10</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-10-w21.mov/1_l1xr69l7">Video 
+        lecture 10</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>February 5 (Section B); February 6 (Section A): 
+    <ul>
+    <li>Directed acyclic graphs: topological sorting (Section 3.3). 
+    </li>
+    <li>Shortest paths in directed acyclic graphs (Sections 4.1, 4.7).  
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture12.pdf">notes</a>.
+    </li>
+    <li>Three versions of lecture 11: 
+        <ul>  
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804-11-w22/1_p51v0ogr">Video 
+        lecture 11</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804-11-w22/1_kior1hz5">Video 
+        lecture 11</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-11-w21.mp4/1_twfrnbbw">Video 
+        lecture 11</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>February 10 (Section B); February 11 (Section A): 
+    <ul>
+    <li>Shortest paths in directed acyclic graphs, 
+        <a href="http://en.wikipedia.org/wiki/Edsger_W._Dijkstra">
+        Dijkstra</a>'s 
+        <a href="http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">
+        algorithm</a>
+        (Sections 4.1, 4.4, 4.7). 
+    </li>
+    <li>Three versions of lecture 12: 
+        <ul>  
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804-12-w22/1_m1mlg8wk">Video 
+        lecture 12</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804-12-02182022/1_x7t18o22">Video 
+        lecture 12</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-12-w21.mp4/1_16pfkip6">Video 
+        lecture 12</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>February 12 (Section B); February 13 (Section A): 
+    <ul>
+    <li>Dijkstra's algorithm: 
+        <a href="https://cglab.ca/~michiel/3804/dijkstra.pdf">correctness</a> proof by 
+	contradiction (Section 4.4). 
+    </li>
+    
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture13.pdf">notes</a> have a different (and 
+        longer) correctness proof.
+    </li>
+    <li>Shortest paths in directed graphs without cycles of negative 
+        weight,
+        <a href="https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm">
+        Bellman-Ford algorithm</a>
+        (Section 4.6). 
+    </li>
+    <li>My Bellman-Ford <a href="https://cglab.ca/~michiel/3804/BellmanFord.pdf">notes</a>.
+    </li>
+    <li>Three versions of lecture 13: 
+        <ul>  
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804-13-w22/1_fjp5hk4h">Video 
+        lecture 13</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804-14-03022022/1_wm2graez">Video 
+        lecture 13</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804b_13_w21/1_2z0g3h62">Video 
+            lecture 13</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>February 17-21: Winter break. 
+</li>
+<li>February 24 (Section B); February 25 (Section A): 
+    <ul> 
+    <li><a href="http://en.wikipedia.org/wiki/Disjoint-set_data_structure">
+        Union-Find</a> (the solution presented in class is not in the 
+        textbook). 
+    </li>
+    <li><a href="http://en.wikipedia.org/wiki/Minimum_spanning_tree">
+        Minimum spanning trees</a> (Section 5.1). 
+    </li>
+    <li>Introduction to 
+        <a href="http://en.wikipedia.org/wiki/Kruskal%27s_algorithm">
+        Kruskal's algorithm</a> (Section 5.1). 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture14-15.pdf">notes</a>.
+    </li>
+    <li>Three versions of lecture 14: 
+        <ul> 
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804-14-03082022/1_w60scqwv">Video 
+            lecture 14</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804c-14-w22-03092022-1605.mp4/1_mj6du48o">Video 
+            lecture 14</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-14-w21/1_bncz6dgy">Video 
+            lecture 14</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>February 26 (Section B); February 27 (Section A): 
+    <ul> 
+    <li><a href="http://en.wikipedia.org/wiki/Kruskal%27s_algorithm">
+        Kruskal's algorithm</a> (Section 5.1). 
+    </li>
+    <li><a href="http://en.wikipedia.org/wiki/Prim%27s_algorithm">
+        Prim's algorithm</a> (Section 5.1). 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture15b.pdf">notes</a>.
+    </li>
+    <li><a href="https://cglab.ca/~michiel/3804/mst.pdf">Here</a> are more detailed descriptions 
+        and correctness proofs of Kruskal's and Prim's algorithms. 
+        These notes have a different data structure for Union-Find than 
+        the one presented in class. 
+    </li>
+    <li>Three versions of lecture 15: 
+        <ul> 
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804d-15-w22-03102022/1_5x5hm4cm">Video 
+        lecture 15</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804c-15-03112022/1_k19xwcm7">Video 
+        lecture 15</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-15-w21/1_7ngu0wxp">Video 
+        lecture 15</a> from winter 2021. 
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>March 3 (Section B); March 4 (Section A): 
+    <ul> 
+    <li><a href="http://en.wikipedia.org/wiki/Dynamic_programming">
+        Dynamic programming</a> (Chapter 6). 
+    </li>
+    <li>Shortest/longest paths in a directed acyclic graph (Section 6.1).
+    </li>
+    <li><a href="http://en.wikipedia.org/wiki/Longest_increasing_subsequence_problem">
+        Longest increasing subsequence</a> (Section 6.2). 
+    </li>
+    <li><a href="http://en.wikipedia.org/wiki/Chain_matrix_multiplication">
+        Matrix chain multiplication</a> (Section 6.5). 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture16-17-18.pdf">notes</a> on dynamic 
+        programming.
+    </li>
+    <li>Three versions of lecture 16: 
+        <ul> 
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804d-16-w22-03152022/1_kiujrxet">Video 
+        lecture 16</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804c-16-03162022/1_mfnbl2bf">Video 
+        lecture 16</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-16-w21/1_zqwrlxmx">Video 
+        lecture 16</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>March 5 (Section B); March 6 (Section A): 
+    <ul> 
+    <li><a href="http://en.wikipedia.org/wiki/Chain_matrix_multiplication">
+        Matrix chain multiplication</a> (Section 6.5). 
+    </li>
+    <li><a href="http://en.wikipedia.org/wiki/Longest_common_subsequence_problem">
+        Longest Common Subsequence</a>.
+    </li>
+    <li>Three versions of lecture 17: 
+        <ul> 
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804d-17-w22/1_piftwpm9">Video 
+        lecture 17</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804c-17-03182022/1_73jt9wxh">Video 
+        lecture 17</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-17-w21/1_q17qlt2l">Video 
+           lecture 17</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>March 10 (Section B); March 11 (Section A): 
+    <ul>
+    <li>Finish Longest Common Subsequence.
+    </li>
+    <li><a href="http://en.wikipedia.org/wiki/Floyd-Warshall_algorithm">
+        All-pairs shortest paths</a>: The Floyd-Warshall algorithm 
+        (Section 6.6). 
+    </li>
+    <li>Introduction to the complexity classes 
+        <a href="http://en.wikipedia.org/wiki/P_(complexity)">P</a> 
+        and 
+        <a href="http://en.wikipedia.org/wiki/NP_(complexity)">NP</a> 
+        (Chapter 8).  
+    </li>
+    <li>Informal definitions of P and NP. 
+    </li> 
+    <li>Example of a problem in NP: 
+        <a href="http://en.wikipedia.org/wiki/Hamiltonian_cycle">
+        Hamilton cycle</a>. 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture19.pdf">notes</a>.
+    </li>
+    <li>Three versions of lecture 18: 
+        <ul> 
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804d-18-w22/1_gi94p8x4">Video 
+        lecture 18</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804c-18-w22/1_1ls80hfk">Video 
+        lecture 18</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-18-w21/1_kxcnejgf">Video 
+        lecture 18</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>March 12 (Section B); March 13 (Section A): 
+    <ul>
+    <li>Examples of problems in NP: 
+        <a href="http://en.wikipedia.org/wiki/Hamiltonian_cycle">
+        Hamilton</a> 
+        <a href="http://xkcd.com/c230.html">Cycle</a>, 
+        <a href="http://en.wikipedia.org/wiki/Travelling_salesman_problem">
+        Traveling Salesman Problem</a>, 
+        <a href="http://en.wikipedia.org/wiki/Subset_sum_problem">
+        SubsetSum</a>, 
+        <a href="http://en.wikipedia.org/wiki/Clique_problem">
+        Clique</a>. 
+    </li>
+    <li>Formal definitions of P and NP. 
+    </li> 
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture20.pdf">notes</a>.
+    </li>
+    <li>Three versions of lecture 19: 
+        <ul> 
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804d-19-03242022/1_sxrkhupj">Video 
+        lecture 19</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804c-19-03252022/1_ytffrzre">Video 
+        lecture 19</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-19-w21/1_4d1izmfr">Video 
+        lecture 19</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>March 17 (Section B); March 18 (Section A): 
+    <ul>
+    <li>Formal definitions of P and NP. 
+    </li> 
+    <li>P is contained in NP. 
+    </li>
+    <li><a href="http://en.wikipedia.org/wiki/P_versus_NP_problem">
+       P versus NP</a>. 
+    </li>
+    <li>Why decision (= YES/NO) problems? If we can decide HAM-CYCLE, 
+        then we can find a Hamilton cycle (if it exists). 
+    </li>
+    <li><a href="http://en.wikipedia.org/wiki/Reduction_(complexity)">
+       Reductions</a>. 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture21.pdf">notes</a>.
+    </li>
+    <li>Do you want to be a 
+        <a href="http://www.claymath.org/millennium-problems/">millionaire?</a> 
+    </li>
+    <li>Gerhard Woeginger maintains a
+       <a href="http://www.win.tue.nl/~gwoegi/P-versus-NP.htm">
+       P versus NP page</a>, including links to "proofs" that
+       P and NP are (not) equal.
+    </li>
+    <li>Three versions of lecture 20: 
+        <ul> 
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804d-20-w22-03292022/1_ypsrw6fl">Video 
+        lecture 20</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804c-20-w22/1_yj90sz5e">Video 
+        lecture 20</a> from winter 2022.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-20-2021/1_pv6gvoxk">Video 
+        lecture 20</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>March 19 (Section B); March 20 (Section A): 
+    <ul>
+    <li>More reductions. 
+    </li>
+    <li>Three versions of lecture 21: 
+        <ul> 
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-21-03312022/1_5urvairi">Video 
+        lecture 21</a> from winter 2022. 
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804c-21-04012022/1_itfd5etu">Video 
+        lecture 21</a> from winter 2022. 
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-21-2021/1_rfngg5tw">Video 
+        lecture 21</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>March 24 (Section B); March 25 (Section A): 
+    <ul>
+    <li>Definition of a problem being 
+        <a href="http://en.wikipedia.org/wiki/NP-complete">
+        NP-complete</a>. 
+    </li>
+    <li>Some properties of polynomial-time reductions. 
+    </li>
+    <li>Introduction to Circuit-SAT. 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture22.pdf">notes</a>, more 
+        <a href="https://cglab.ca/~michiel/3804/lecture23-24a.pdf">notes</a>. 
+    </li>
+    <li>Three versions of lecture 22: 
+        <ul> 
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804d-22-04052022.mp4/1_vgvc4ob2">Video 
+        lecture 22</a> from winter 2022. 
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804c-22-04062022/1_c0vqte2i">Video 
+        lecture 22</a> from winter 2022. 
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-22-w21/1_ooqbk3f6">Video 
+        lecture 22</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>March 26 (Section B); March 27 (Section A): 
+    <ul>
+    <li>Circuit-SAT is NP-complete. 
+    </li>
+    <li>An <a href="https://cglab.ca/~michiel/3804/IndepSetBoolCircuit.pdf">example</a> of 
+        the reduction. 
+    </li>
+    <li>Some more NP-complete problems. 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture23-24b.pdf">notes</a>. 
+    </li>
+    <li>A 
+        <a href="http://en.wikipedia.org/wiki/List_of_NP-complete_problems">
+        list</a> of NP-complete problems.
+    </li>
+    <li>Video lectures: 
+        <ul>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804d-23-w22-04072022/1_nkd1418a">Video 
+        lecture 23</a> from winter 2022. 
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/math_3804c-23-04082022/1_2c7n3n3b">Video 
+        lecture 23</a> from winter 2022. 
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-23-w21/1_9gzf75l6">Video 
+        lecture 23</a> from winter 2021.
+        </li>
+        <li><a href="https://mediaspace.carleton.ca/media/comp_3804-24-w21/1_nttsf08w">Video 
+        lecture 24</a> from winter 2021.
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+<li>March 31 (Section B); April 1 (Section A): 
+    <ul>
+    <li>Even more NP-complete problems. 
+    </li>
+    <li>Reducing 3SAT to 3Color: My 
+        <a href="https://cglab.ca/~michiel/3804/3SatTo3Color.pdf">notes</a> and an example  
+        <a href="https://cglab.ca/~michiel/3804/3SatTo3ColorExample.pdf">graph</a> for four variables 
+        and two clauses. 
+    </li>
+    <li>Some parts are in the videos (I think), whereas some parts are 
+	not. 
+    </li>
+    </ul>
+</li>
+<li>April 2 (Section B); April 3 (Section A): 
+    <ul>
+    <li><a href="https://en.wikipedia.org/wiki/Zero-knowledge_proof">
+        Zero-knowledge proofs</a>. 
+    </li>
+    <li>My <a href="https://cglab.ca/~michiel/3804/lecture23-24c.pdf">notes</a>. 
+    </li>
+    <li>I do not have a video for this. 
+    </li>
+    </ul>
+</li>
+<li>April 7 (Section B); April 8 (Section A): 
+    <ul>
+    <li>No lecture.
+    </li>
+    </ul>
+</li>
+</ul>
+
+</body></html>
