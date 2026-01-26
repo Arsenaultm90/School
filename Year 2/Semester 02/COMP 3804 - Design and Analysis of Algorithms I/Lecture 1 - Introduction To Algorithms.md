@@ -89,5 +89,77 @@ $O(n^2)$ in Bit-Cost Model
 
 
 ---
-# Big-O Notation
+# Big-O Notation (Asymptotic Analysis)
 
+Asymptotic analysis is **a comparison between growth rates**.
+
+When we write:
+```
+T(n) = O(n log n)
+```
+
+We are saying:
+> “T(n) does not grow faster than n log n, up to a constant factor, for large n.”
+
+So asymptotic notation is a **classification**.
+
+#### Big O
+f(n) ∈ O(g(n))
+
+There exist constants $c>0$ and $n_{0}$ such that for all $n \ge n_0$​:
+	f(n)≤c⋅g(n)
+
+- `f` grows **no faster than** `g`
+- We allow scaling by a constant
+- We ignore small `n`
+
+
+
+#### Big $\omega$
+f(n) ∈ Ω(g(n))
+
+There exist constants $c > 0$ and $n_0$ such that for all $n \ge n_0$​:
+	$f(n) \ge c \cdot g(n)$
+
+`f` grows **at least as fast as** `g`
+
+
+
+### Theta (tight bound)
+$f(n) \in \Theta(g(n))$
+
+f(n) is both O(g(n)) **and** Ω(g(n))
+
+So: $c_1 g(n) \le f(n) \le c_2 g(n)$
+
+
+
+#### Bounds
+Think of bounds as **growth envelopes**.
+For large n, the function must lie:
+- **Below** some curve → upper bound (Big-O)
+- **Above** some curve → lower bound (Big-Ω)
+- **Between** two curves → tight bound (Θ)
+
+They describe **constraints on behaviour**.
+> Big-O and Big-Ω differ when an algorithm’s running time cannot be tightly characterized by a single growth rate, due to input-dependent behaviour or incomplete bounds.
+
+![[Screenshot 2026-01-24 at 11.09.26 AM.png]]
+
+
+
+| Transition type                       | Pattern     |
+| ------------------------------------- | ----------- |
+| $(n \to n-1)$                         | linear      |
+| $(n \to n/2)$                         | logarithmic |
+| $(n \to k \in [1,n])$                 | harmonic    |
+| $(n \to \text{multiple subproblems})$ | recurrence  |
+- Deterministic → worst case
+- Randomized → expected value
+
+|Situation|Use|
+|---|---|
+|recursive split|Master Theorem|
+|random jump to smaller state|harmonic expectation|
+|unknown bounds|doubling + binary search|
+|decreasing step sizes|amortized analysis|

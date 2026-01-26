@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 5 - Game Loops.md",
+                "file": "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 4 - Selection and Median Algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 5 - Game Loops"
+              "title": "Lecture 4 - Selection and Median Algorithms"
             }
           }
         ]
@@ -83,9 +83,19 @@
               "icon": "sheets-in-box",
               "title": "File Tree"
             }
+          },
+          {
+            "id": "573b1be8e02f5bc9",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -163,12 +173,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "938caeee6f00fa4c",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -177,7 +197,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -193,53 +212,53 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d77f75f4daa29155",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Screenshot 2026-01-19 at 9.00.44 AM.png",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 7 - Meaningful Choice.md",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 6 - Playtesting.md",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 5 - Game Loops.md",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 4 - Iterative Development.md",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 3 - MDA and Building Blocks.md",
-    "Screenshot 2026-01-19 at 8.48.15 AM.png",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 2 - Game Design.md",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 1 - Course Introductions.md",
-    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/COMP3804_Outline.pdf",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Course Outline.md",
-    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Course Outline.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 8 - Animal Husbandry.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 7 - Agriculture, Planting, Harvesting, Processing.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 6 - Agriculture, Mediterranean Triad.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 5 - Agriculture, Basic Prinpicles.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 4 - Metals.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Lecture 3 - Carpentry and Wood.md",
-    "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/Book Analysis.md",
-    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Lecture 1 - Software Engineering Overview.md",
-    "Screenshot 2026-01-11 at 7.57.26 PM.png",
+    "Year 1/Semester 01/MATH 1104 - Linear Algebra/Inner Product(Dot Product) and Orthogonality.md",
+    "Year 1/Semester 01/MATH 1104 - Linear Algebra/Complex Eigenvalues.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 4 - Selection and Median Algorithms.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 3 - Karatsuba's Algorithm, Recurrence Relations, Master Theorem, Matrix Multiplication, Strassen's Algorithm.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 2 - Divide and Conquer Algorithms and Recurrence Relations, Merge-Sort, Multiplying Large Integers, Karatsuba's Algorithm.md",
     "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 1 - Introduction To Algorithms.md",
+    "Screenshot 2026-01-24 at 11.09.26 AM.png",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Exams/Test 1 - Study Guide.md",
+    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Lecture 3 - Functional Requirements.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Exams",
+    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Lecture 2 - UML Notation.md",
+    "Screenshot 2026-01-21 at 7.38.04 AM.png",
+    "Pasted image 20260121072935.png",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 16 - Random Variables, Expected Values.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 15 - Infinite Probability Spaces.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 14 - Probability Of A Circuit Failing.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 19 - Geometric Distribution, Binomial Distribution.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 13 - Independent Events, Pairwise Independent, Mutual Exclusivity.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 12 - Conditional Probability.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 10 - Randomization and Probability.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 17 - Indicator Random Variables, Random Permutations, Estimating Harmonic Number.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Review Concepts.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Final Exam Review 2019.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Prime Factorization.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Divisibility.md",
+    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Quiz 2 - Study Guide.md",
+    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Course Outline.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/COMP3804_Outline.pdf",
+    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Outline.pdf",
+    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Course Outline.md",
+    "Outline 2.pdf",
+    "Outline 1.pdf",
+    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 1 - Course Introductions.md",
+    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 7 - Meaningful Choice.md",
+    "Screenshot 2026-01-19 at 9.06.01 AM.png",
+    "Screenshot 2026-01-19 at 9.05.36 AM.png",
+    "Screenshot 2026-01-19 at 9.05.17 AM.png",
+    "Screenshot 2026-01-19 at 9.05.00 AM.png",
+    "Screenshot 2026-01-19 at 9.00.44 AM.png",
+    "Screenshot 2026-01-19 at 8.48.15 AM.png",
+    "Screenshot 2026-01-11 at 7.57.26 PM.png",
     "outline.w26.1501.pdf",
     "outline.pdf",
-    "Dashboard.md",
-    "Year 1/Semester 01/MATH 1104 - Linear Algebra/Inner Product(Dot Product) and Orthogonality.md",
     "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/AncSciTech 2025-2026 Course Outline.pdf",
     "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/3804.html",
-    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I",
-    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design",
-    "Year 2/Semester 02",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 17 - STL(Standard Template Library).md",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 14 - Design Patterns.md",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 13 - Polymorphism.md",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 12 - Inheritance.md",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Lecture 11 - Linked Lists.md",
-    "Screenshot 2025-12-19 at 12.44.25 PM.png",
-    "Year 2/Semester 01/COMP 2404 - Introduction To Software Engineering/Exam",
-    "Pasted image 20251125085350.png",
-    "Screenshot 2025-10-19 at 1.34.55 PM.png",
-    "Screenshot 2025-10-15 at 9.42.54 AM.png",
-    "Screenshot 2025-09-26 at 10.04.50 AM.png",
-    "Screenshot 2025-09-26 at 10.02.30 AM.png",
-    "Screenshot 2025-09-26 at 10.02.20 AM.png",
-    "Screenshot 2025-09-26 at 9.51.24 AM.png"
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I"
   ]
 }
