@@ -38,3 +38,21 @@ $T(n) = n + \alpha n + T(\alpha^2n)$
 	$= O(n)$
 
 
+Step 1 :
+	Divide 'S' into $\frac{n}{5}$ groups, each of length 5.
+
+Step 2 :
+	For $i = 1, \dots, \frac{n}{5}$ : Compute median $m_{i}$ of group $i$.
+
+Step 3 :
+	Compute median of $m_{1}, m_{2}, \dots, m_{\frac{n}{5}}$.
+
+Step 4 :
+	Use this median as pivot $p$.
+
+
+Prove by induction : $T(n) \leq cn$
+	True for small 'n' (Choose 'c' large enough)
+	if 'n' is large : $T(n) = n + T\left( \frac{n}{5} \right) + T\left( \frac{7}{10}n \right)$
+		$\leq n + c · \frac{n}{5} + c · \frac{7n}{10}$
+		$= n + c · \frac{9}{10} n \leq cn$,  $1 \leq \frac{c}{10}$, if $c \geq 10$
