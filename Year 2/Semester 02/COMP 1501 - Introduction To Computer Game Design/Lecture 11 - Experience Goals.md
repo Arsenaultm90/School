@@ -54,8 +54,7 @@ The term “Pillar” is common, typically shorter phrases you build the game of
 Example:
 **Subnautica Pillars**  
 	<u>Intoxicating Creation: </u>The overwhelming excitement of being able to build anything.  
-	<u>Thrill of the Unknown:</u> Excitement, dread and tension of exploring the unknown. No idea what  
-	dangers/rewards are down there.  
+	<u>Thrill of the Unknown:</u> Excitement, dread and tension of exploring the unknown. No idea what dangers/rewards are down there.  
 	<u>Cascading Hysteria:</u> Uncontrollable outburst of emotion, fear, irrationality, laughter, weeping, etc. FTL style chain of "oh sh!t" dependencies, where a failure in one system can affect others, until you're suddenly in trouble.  
 
 **Subnautica Values**  

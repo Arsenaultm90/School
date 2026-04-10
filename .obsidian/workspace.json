@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Lecture 4 - Requirements Elicitation.md",
+                "file": "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Exams/Final Exam.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 4 - Requirements Elicitation"
+              "title": "Final Exam"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -75,16 +75,6 @@
             }
           },
           {
-            "id": "d77f75f4daa29155",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {},
-              "icon": "sheets-in-box",
-              "title": "File Tree"
-            }
-          },
-          {
             "id": "573b1be8e02f5bc9",
             "type": "leaf",
             "state": {
@@ -95,7 +85,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -173,8 +163,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -188,7 +178,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -197,6 +187,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -214,51 +205,51 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Lecture 3 - Functional Requirements.md",
-    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Lecture 4 - Requirements Elicitation.md",
-    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Lecture 2 - UML Notation.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 17 - P and NP.md",
+    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Exams/Final Exam.md",
+    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Exams",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 8 - Directed Graphs.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 18 - Reduction.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 19 - NP Complete.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 20 - Zero Knowledge Proofs.md",
+    "Excalidraw/Drawing 2026-04-09 08.59.40.excalidraw.md",
+    "Untitled 3.md",
+    "Screenshot 2026-04-09 at 9.11.23 AM.png",
+    "Images/Drawing 2026-04-09 08.59.40.excalidraw.png",
+    "Dashboard.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 7 - Undirected Graphs, Bipartite.md",
+    "Pasted image 20260409080816.png",
+    "Pasted image 20260409080809.png",
+    "Pasted image 20260409080759.png",
+    "Pasted image 20260409080746.png",
+    "Pasted image 20260409080516.png",
+    "Pasted image 20260407084315.png",
+    "Pasted image 20260407084247.png",
+    "Pasted image 20260407082059.png",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 2.1.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 18 - Reductions.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 17 - P NP.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 1 - Introduction To Algorithms.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 2 - Divide and Conquer Algorithms and Recurrence Relations, Merge-Sort, Multiplying Large Integers, Karatsuba's Algorithm.md",
+    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Outline.pdf",
+    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Lecture 1 - Software Engineering Overview.md",
+    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Course Outline.md",
     "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 12 - Themes and Affordances.md",
     "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 11 - Experience Goals.md",
-    "Untitled 2.md",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 10 - Economy and Feedback.md",
-    "Screenshot 2026-02-02 at 7.50.23 AM.png",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 9 - Randomness.md",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 8 - Motivation.md",
-    "Screenshot 2026-02-02 at 7.02.44 AM.png",
-    "Screenshot 2026-02-02 at 7.00.16 AM.png",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 7 - Meaningful Choice.md",
-    "Screenshot 2026-02-02 at 6.36.34 AM.png",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 6 - Playtesting.md",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 5 - Game Loops.md",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 4 - Iterative Development.md",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 3 - MDA and Building Blocks.md",
-    "Year 2/Semester 02/COMP 1501 - Introduction To Computer Game Design/Lecture 2 - Game Design.md",
-    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 5 - Randomized Selection.md",
-    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 2 - Divide and Conquer Algorithms and Recurrence Relations, Merge-Sort, Multiplying Large Integers, Karatsuba's Algorithm.md",
-    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 3 - Karatsuba's Algorithm, Recurrence Relations, Master Theorem, Matrix Multiplication, Strassen's Algorithm.md",
-    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 1 - Introduction To Algorithms.md",
-    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 4 - Selection and Median Algorithms.md",
-    "Year 1/Semester 01/MATH 1104 - Linear Algebra/Inner Product(Dot Product) and Orthogonality.md",
-    "Year 1/Semester 01/MATH 1104 - Linear Algebra/Complex Eigenvalues.md",
-    "Screenshot 2026-01-24 at 11.09.26 AM.png",
-    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Exams/Test 1 - Study Guide.md",
-    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Exams",
-    "Screenshot 2026-01-21 at 7.38.04 AM.png",
-    "Pasted image 20260121072935.png",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 16 - Random Variables, Expected Values.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 15 - Infinite Probability Spaces.md",
-    "Year 1/Semester 02/COMP 2804 - Discrete Logic II/Fall 2024/Lecture 14 - Probability Of A Circuit Failing.md",
     "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/COMP3804_Outline.pdf",
-    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Outline.pdf",
+    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Lecture 5 - Analysis.md",
+    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Lecture 4 - Requirements Elicitation.md",
+    "Year 2/Semester 02/COMP 3004 - Object Oriented Software Engineering/Lecture 3 - Functional Requirements.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Lecture 6 - Heaps.md",
+    "Excalidraw/Drawing 2026-02-11 12.49.00.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-11 08.25.02.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-11 08.05.57.excalidraw.md",
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/Exams",
     "Outline 2.pdf",
     "Outline 1.pdf",
-    "Screenshot 2026-01-19 at 9.06.01 AM.png",
-    "Screenshot 2026-01-19 at 9.05.36 AM.png",
-    "Screenshot 2026-01-19 at 9.05.17 AM.png",
     "outline.w26.1501.pdf",
     "outline.pdf",
     "Year 2/Semester 01/TSES 2305 - Ancient Science And Technology/AncSciTech 2025-2026 Course Outline.pdf",
-    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/3804.html",
-    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I"
+    "Year 2/Semester 02/COMP 3804 - Design and Analysis of Algorithms I/3804.html"
   ]
 }
