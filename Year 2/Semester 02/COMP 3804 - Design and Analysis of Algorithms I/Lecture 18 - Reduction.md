@@ -64,7 +64,7 @@ $L \leq_{p} L'$
 	$L'$ is at least as difficult as $L$
 
 $\exists$ function $f$:
-	1. $f$: input to $x$ to $L$ $\rightarrow$ input $f(x)$ to $L$
+	1. $f$: input $x$ to $L$ $\rightarrow$ input $f(x)$ to $L$
 	2. $x \in L \iff f(x) \in L'$
 	3. Time to compute $f(x): O(|x|^c)$
 
@@ -100,7 +100,6 @@ $\overline{G}$ : in $G$, replace each edge by non-edge and each non-edge by edge
 	 If {u, v} **∈ E** (edge exists in G) → {u, v} **∉ Ē** (no edge in Ḡ)
 	If {u, v} **∉ E** (no edge in G) → {u, v} **∈ Ē** (edge in Ḡ)
 ![[Screenshot 2026-04-12 at 9.49.34 AM.png]]
-
 $V'$ clique of size $K$ in $G \iff V'$ independent set of size $K$ in $\overline{G}$ 
 
 
@@ -191,7 +190,7 @@ Variables  $x_{i, c}$ , $1 \leq i \leq n$, $1 \leq c \leq 3$
 
 Idea: $x_{i, c}$ = True $\iff$ Vertex $v_{i}$ has Colour $c$
 Vertex $v_{i}$ gets exactly one colour:
-	$x_{i_{1}}, x_{i_{2}}, x_{i_{3}} = TRUE \iff v_{i}$ has $\geq$ 1colour $$[\space \underset{v_{i} \space has \geq 1 \space colour}{(x_{i_{1}} \lor x_{i_{2}} \lor x_{i_{3}})} \space ] \land [\space \underset{v_{i} \space has \leq 1 \space colour}{(\lnot x_{i_{1}} \lor \lnot x_{i_{2}}) \land (\lnot x_{i_{1}} \lor \lnot x_{i_{3}}) \land (\lnot x_{i_{2}} \lor \lnot x_{i_{3}})} \space]$$
+	$x_{i_{1}}, x_{i_{2}}, x_{i_{3}} = TRUE \iff v_{i}$ has $\geq$ 1 colour $$[\space \underset{v_{i} \space has \geq 1 \space colour}{(x_{i_{1}} \lor x_{i_{2}} \lor x_{i_{3}})} \space ] \land [\space \underset{v_{i} \space has \leq 1 \space colour}{(\lnot x_{i_{1}} \lor \lnot x_{i_{2}}) \land (\lnot x_{i_{1}} \lor \lnot x_{i_{3}}) \land (\lnot x_{i_{2}} \lor \lnot x_{i_{3}})} \space]$$
 
 edge {$v_{i}, v_{j}$} : $v_{i}$ and $v_{j}$ different colours:
 	$x_{i_{1}} \land x_{j_{1}} = TRUE$ : $v_{i}$ and $v_{j}$ both colour 1

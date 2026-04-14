@@ -31,7 +31,7 @@ Example :
 	The 4th smallest value must lie at **depth ≤ 3**, meaning:
 		$\boxed{\text{indices } 2 \text{ through } 15}$
 
-At depth ddd, the indices are:
+At depth d, the indices are:
 
 $2^d \le i \le 2^{d+1}-1$
 

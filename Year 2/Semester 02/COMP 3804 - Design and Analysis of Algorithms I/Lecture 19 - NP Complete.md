@@ -67,8 +67,6 @@ If A is hard and A reduces to B, then B must be at least as hard as A. This is t
 ---
 ## Circuit SAT
 
-Before defining Circuit-SAT, you need a clear picture of what a boolean circuit actually is.
-
 A **boolean circuit** is a directed acyclic graph (DAG) where:
 - **Input nodes**: hold boolean values (true/false), these are your variables
 - **Gate nodes**: compute logical operations on their inputs:

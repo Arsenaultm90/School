@@ -445,17 +445,20 @@ This section covers how software projects are **organized, tracked, and delivere
 These define the **order and structure** of SDLC activities.
 
 ### Sequential Models
-> Do each phase once, in order — no going back
+> Do each phase once, in order, no going back
 
 **Waterfall**
-- Phases flow strictly downward: Requirements → Analysis → Design → Implementation → Testing → Deployment
+- Phases flow strictly downward: 
+	Communication → Planning → Modelling (analysis, design) → Construction (code, test) → Deployment (delivery, support, feedback).
 - **Pros:** Simple, well-documented, easy to manage
-- **Cons:** Very rigid — if requirements change, you're in trouble
+- **Cons:** Very rigid, if requirements change, you're in trouble, **customer is not involved in the middle stages**
 - **Best for:** Well-understood, stable requirements
 
 **V-Model**
 - Extension of Waterfall — each development phase is **paired with a testing phase**
 - Left side goes down (development), right side goes up (testing/validation)
+- **Pros:** dependencies between development and testing are more explicit
+- **Cons:** variation of waterfall, does not accommodate changes well
 
 
 #### Iterative Models
@@ -465,10 +468,15 @@ These define the **order and structure** of SDLC activities.
 - Build a quick, rough prototype to clarify requirements with the client
 - Throw it away (or evolve it) once requirements are confirmed
 - **Best for:** When requirements are unclear
+- **Cons:** customer involvement may cause delays, there is temptation to ship the prototype as the final product, time is lost on throwaway prototypes, and it can be difficult to plan
 
 **Spiral**
 - Combines iterative development with **risk analysis** at every cycle
-- Each loop: Plan → Risk Analysis → Build → Evaluate
+- **Cycle:**
+	**Planning** (estimation, scheduling, risk analysis)
+	**Modeling** (analysis, design),
+	**Construction** (code, test)
+	**Deployment** (delivery, feedback)
 - **Best for:** Large, high-risk projects
 
 **Unified Process (UP)**
@@ -478,6 +486,8 @@ These define the **order and structure** of SDLC activities.
     - **Construction** — build the system iteratively
     - **Transition** — deploy to users
 - All SDLC activities happen in every phase, just with different emphasis
+- **Pros:** Accommodates requirement changes, Has continuous customer involvement
+- **Cons:** Difficult software increment integration, Overlapping phases can cause problems.
 
 #### Agile
 - Lightweight, flexible, people-focused approach
@@ -486,24 +496,49 @@ These define the **order and structure** of SDLC activities.
     - Customer collaboration over contract negotiation
     - Responding to change over following a plan
     - Individuals and interactions over processes and tools
-- Deliver in short **sprints** (1–4 weeks), get feedback, repeat
-- Examples: **Scrum**, **Kanban**, **XP (Extreme Programming)**
+- **Product backlog**: The overall set of features to be developed; clients and developers choose what to work on next
+- **Sprint**: A short period (30 days) where selected backlog features are developed and delivered
+- **Scrum**: Short **daily 15-minute meetings** for developers to plan and synchronize
+
+Agile focuses on customer value and adaptability, while Prototyping, Spiral, and Unified Process emphasize risk, learning, or architecture.
 
 
-
----
-## Software Configuration Management (SCM)
-
+#### Software Configuration Management (SCM)
 SCM is about **tracking and controlling changes** to software over time so nothing gets lost and everything stays consistent.
+
+The SCM process creates a continuous cycle:
+1. Identify the change: Recognize what needs to be changed
+2. Control Change - Evaluate and approve/reject
+3. 4. Analyze Implementation - Access Impact Report Change - Document what happened
+4. Publish/Deploy - Release the change
+
 
 #### The 4 SCM Pillars:
 
-|Pillar|What it means|
-|---|---|
-|**Configuration Identification**|Identifying and labelling all items being managed (code, docs, configs)|
-|**Configuration Control**|Managing and approving changes formally|
-|**Configuration Status Accounting**|Recording and reporting the status of all items|
-|**Configuration Auditing**|Verifying that the system matches its documented state|
+| Pillar                    | What it means                                                                    |
+| ------------------------- | -------------------------------------------------------------------------------- |
+| **Component Elements**    | Tools and file management system to access and<br>manage each configuration item |
+| **Process Elements**      | Procedures and tasks for effective change management<br>for all stakeholders     |
+| **Construction Elements** | Tools that automate software builds, ensuring<br>correct versions are assembled  |
+| **Human Elements**        | Tool and processes that enable the team to implement<br>effective SCM            |
+|                           |                                                                                  |
+
+#### SCM Repository
+The SCM repository provides:
+- **DATA INTEGRITY** Protection against corruption and loss
+- **INFORMATION SHARING** Controlled access for team members
+- **TOOL INTEGRATION** Connects design, development, and testing tools
+- **DATA INTEGRATION** Links related configuration items
+- **METHODOLOGY ENFORCEMENT** Ensures team follows defined processes
+- **DOCUMENT STANDARDIZATION** Consistent formats and templates
+
+Modern repositories provide:
+- **VERSIONING** Save all versions to manage releases and enable rollback
+- **DEPENDENCY TRACKING & CHANGE MANAGEMENT** Manage relationships between configuration items
+- **REQUIREMENTS TRACING** Track from requirements → design → code → tests
+- **CONFIGURATION MANAGEMENT** Track milestones, releases, and version history
+- **AUDIT TRAILS** Record when, why, and by whom changes were made
+
 
 #### Key SCM Concepts:
 - **Repository** — central storage for all project artifacts (code, docs, configs)
@@ -513,23 +548,54 @@ SCM is about **tracking and controlling changes** to software over time so nothi
 - **Change Control** — the formal process for requesting, reviewing, approving, and implementing changes
     - Prevents uncontrolled/random changes from breaking the system
 
+
+#### Essential SCM Practices
+Follow these principles for success:
+1. **KEEP CODE VARIANTS SMALL**
+	Why: Fewer branches = easier integration
+	Avoid: Long-lived feature branches
+2. **TEST EARLY AND OFTEN**
+	Why: Catch integration problems immediately
+	Use: Automated test suites
+3. **INTEGRATE EARLY AND OFTEN**
+	Why: Prevents "integration heck" at release time
+	Practice: Daily or continuous integration
+4. **AUTOMATE EVERYTHING POSSIBLE**
+	Why: Reduces human error, saves time
+	Automate: Testing, building, code integration, deployment
+
+
 #### DevOps
-DevOps bridges the gap between **development** and **operations** — the goal is to deliver software **faster and more reliably**.
+DevOps bridges the gap between **development** and **operations**, the goal is to deliver software **faster and more reliably**.
+
+**Foundational Principles**
+1. Flow (Speed) → Move work left → right efficiently
+2. Feedback (Visibility) ← Rapid info back to developers
+3. Continuous Learning & Experimentation → Blameless improvement
 
 **Continuous Integration (CI)**
+The practice of merging code to the main branch multiple times per day, with automated verification of every commit.
 - Developers **frequently merge** code into a shared repository (multiple times a day)
 - Every merge triggers an **automated build and test**
 - **Goal:** Catch integration bugs early, keep the codebase always working
+- **Cycle:** Developer Commit → CI Server → Build → Test → Result
 - Example tools: Jenkins, GitHub Actions
 
 **Continuous Delivery (CD)**
 - Every passing build is **automatically prepared** for release to a staging environment
 - A human still makes the final call to deploy to production
 - **Goal:** Always have a deployable version ready
+- **Cycle:** Commit → Build → Test → Staging → Manual Approval → Production
 
 **Continuous Deployment**
-- Goes one step further — every passing build is **automatically deployed to production** with no human intervention
+- Goes one step further,  every passing build is **automatically deployed to production** with no human intervention
 - **Goal:** Maximum automation, near-instant delivery of changes
+- **Cycle:**  Commit → Build → Test → Staging → Production (automatic)
+- **Deployment Environments:** Dev → Staging → Production
+	- **Dev:** Frequent deployments, experimental, may break often. Used by developers for integration and debugging.
+	- **Staging:** Mirrors production; final verification before release. Used for integration tests, user acceptance testing (UAT), and performance checks.
+	- **Production (Prod):** Stable environment serving real users; monitored 24/7. Changes here must be minimal, controlled, and traceable.
+
 
 ### CI/CD Pipeline Summary:
 ```
@@ -567,128 +633,177 @@ Deploy to Production   ← Continuous Deployment (automated)
 ---
 ## Implementation & Mappings
 
-This section is about **translating your object design into actual code and storage schemas**. 
+This section is about **translating your object design into actual code and storage schemas**.
 
-#### Model Transformations & Optimizing the Object Model
+#### Implementation Concepts
+The input to implementation is the subsystem decomposition and design object model; the output is source code.
+
+**"Crunch mode"** is worth being aware of, it's when delivery pressure causes teams to improvise and make workarounds, resulting in code that doesn't match the design. Common causes include different teams handling contract violations differently, undocumented API changes, and undocumented changes to persistent data.
+
+#### Model Transformations
+There are **four types** of transformations:
+- **Model transformation** — changes applied to an existing object model to produce a new one (stays within model space). Goals are to simplify, optimize, or get closer to meeting requirements.
+- **Refactoring** — applied to source code to improve readability or modifiability _without changing behaviour_. Done in small incremental steps interleaved with testing, one attribute or operation at a time.
+- **Forward engineering** — translating model elements into source code (model space → code space). Goal is to maintain correspondence between the object design model and code.
+- **Reverse engineering** — inferring a model from existing code (code space → model space). Used when recreating a model for an already-implemented system.
+
+All transformations must be **localized** (few classes/operations at a time), **executed in small steps**, and **followed by a validation step**.
+
+
+#### Optimizing the Object Model
 Before coding, you may need to **refine your class diagrams** to be more implementation-friendly:
-- **Model transformation** — modifying the object model to improve it without changing its behaviour
-- Common optimizations:
-    - Caching frequently computed values as attributes
-    - Splitting complex classes into smaller ones
-    - Collapsing trivial classes into attributes of another class
-    - Adding solution-domain classes (e.g., data structures, controllers)
+- **Optimizing access paths** — identify frequent operations requiring multiple association traversals and add direct (redundant) connections instead; replace "many" multiplicity associations with qualified associations using keys/indexing
+- **Collapsing objects** — trivial objects with no interesting behaviour can be collapsed into attributes of another class (e.g., `SocialSecurity` object → `SSN:String` attribute on `Person`)
+- **Delaying expensive computations** — if objects are expensive to create, wait until they're actually needed (e.g., using a Proxy pattern)
+- **Caching results** — cache results of frequently called operations whose values rarely change as private attributes (space/time trade-off)
+
+
+#### Mapping Contracts
+Contracts are mapped using **exception handling** (try-throw-catch). However, it's easy to overdo this, checking every precondition, postcondition, and invariant adds too much work and can mask bugs or hurt performance.
+
+Heuristics:
+- Don't check postconditions and invariants (usually redundant)
+- Focus on **public operations** at system interfaces; skip private/protected
+- Pay special attention to **long-lived, reusable components**
+- Reuse constraint-checking code and share exception classes where possible
 
 
 #### Mapping Associations to Collections (in Code)
+In UML, associations are links between objects. In code, they become **references** (pointers, C++ references, etc.), unidirectional by default. Bidirectional associations require extra work.
 
-**One-to-One**
-- Each object holds a **direct reference** to the other
+**Unidirectional One-to-One**
+- The source object holds a direct reference to the destination
 ```
-class Student {
-    IDCard card;  // one student has one ID card
+class Advertiser {
+    private Account account;
+    public Advertiser() { account = new Account(); }
+    public Account getAccount() { return account; }
 }
 ```
 
+**Bidirectional One-to-One**
+- Both objects hold a reference to each other; typically initialized at construction and never modified
+```
+class Advertiser {
+    private Account account;
+    public Advertiser() { account = new Account(this); }
+}
+class Account {
+    private Advertiser owner;
+    public Account(Advertiser owner) { this.owner = owner; }
+}
+```
 
 **One-to-Many**
-- The "one" side holds a **collection** of references to the "many" side
+- The "one" side holds a **collection** of references; may be unidirectional or bidirectional
 ```
-class Professor {
-    List<Student> students;  // one professor has many students
+class Advertiser {
+    private Set accounts;
+    public Advertiser() { accounts = new HashSet(); }
+    
+    public void addAccount(Account a) { 
+	    accounts.add(a); 
+	    a.setOwner(this); }
+	    
+    public void removeAccount(Account a) { 
+	    accounts.remove(a); 
+	    a.setOwner(null); }
 }
 ```
 
 **Many-to-Many**
-- **Both sides** hold collections, OR you introduce an **association class**
+- Both sides hold collections; consistency must be maintained manually
 ```
-class Student {
-    List<Course> courses;
+class Tournament {
+    private List players = new ArrayList();
+    public void addPlayer(Player p) {
+        if (!players.contains(p)) { players.add(p); p.addTournament(this); }
+    }
 }
-class Course {
-    List<Student> students;
+class Player {
+    private List tournaments = new ArrayList();
+    public void addTournament(Tournament t) {
+        if (!tournaments.contains(t)) { tournaments.add(t); t.addPlayer(this); }
+    }
 }
 ```
 
 **Qualified Associations**
-- A **qualifier** (key/identifier) is used to narrow a many relationship down to one
-- Mapped using a **HashMap/Dictionary** where the qualifier is the key
+- Used to **reduce the multiplicity on the "many" side**, useful for one-to-many or many-to-many
+- Mapped using a **keyed collection (Map)** where the qualifier is the key and the destination object is the value; the qualifier attribute must be unique
 ```
-class Course {
-    HashMap<String, Student> students; // studentID → Student
+class League {
+    private Map players; // nickName → Player
+    public void addPlayer(String nickName, Player p) {
+        if (!players.containsKey(nickName)) {
+            players.put(nickName, p); p.addLeague(nickName, this);
+        }
+    }
 }
 ```
 
 **Association Classes**
-- When an association itself has attributes, you need an **association class**
-- Becomes its own class with references to both sides
-- Example: `Enrollment` between `Student` and `Course` with attributes like `grade`, `date`
+- Used when an association itself has attributes or operations
+- Implemented as a **separate object with binary associations** to both sides; each binary association maps to reference attributes
 ```
-class Enrollment {
-    Student student;
-    Course course;
-    String grade;
-    Date enrollmentDate;
+class Statistics {
+    Tournament tournament;
+    Player player;
+    // + getAverageStat(), getTotalStat(), updateStats()
 }
 ```
 
 
 
 #### Mapping Associations to Storage Schema (Database)
+**Relational database concepts to know:**
+- **Schema** — description of the data (the meta-model); the set of attributes stored per object
+- **Primary key** — set of attributes that uniquely identify a record
+- **Foreign key** — an attribute referencing a primary key in another table
+
+**Mapping classes:** class → table, attribute → column, instance → row. Use consistent names between the object model and schema for traceability. For primary keys, prefer adding a **unique identifier** (e.g., `id:long`) over using domain attributes, since domain attributes may change.
+
 **Buried Association**
 - For **one-to-one** or **one-to-many** — store the foreign key directly in one of the tables
-- The foreign key is "buried" inside one table
+- One-to-one: foreign key of destination goes in source record (and vice-versa if bidirectional)
+- One-to-many: foreign key of the "one" side goes in the records on the "many" side
 
 **Association Tables**
-- For **many-to-many** — create a **separate table** to represent the association
-- The association table holds foreign keys to both sides
-
+- For **many-to-many** — create a **separate two-column table** holding foreign keys to both sides; each row represents one link
+- Can also be used for one-to-one and one-to-many, but increases table count and traversal time
 
 
 #### Mapping Inheritance to Storage
 There are **two strategies**:
-
-1. **Vertical Mapping (One table per class)**
-- Each class in the hierarchy gets its **own table**
-- Child tables store only their **own new attributes** + a foreign key to the parent table
-- To get a full object, you **JOIN** tables
-
-Example:
-```
-Person table:       personID | name | age
-Student table:      personID (FK) | major | GPA
-Professor table:    personID (FK) | department | salary
-```
-- No redundancy, clean structure
-- Requires JOINs — slower queries
-
-2. **Horizontal Mapping (One table per concrete class)**
-- Each **concrete (non-abstract) class** gets its own table with **ALL attributes** including inherited ones
-- No joins needed — everything is in one table
-
-Example:
-```
-Student table:      studentID | name | age | major | GPA
-Professor table:    professorID | name | age | department | salary
-```
-- Fast queries — no JOINs needed
-- Redundancy — shared attributes duplicated across tables
-- If parent class changes, all tables must change
+1. **Vertical Mapping (one table per class)**
+    - Superclass and each subclass get their own tables
+    - Superclass table contains superclass attributes plus a **"role" column** indicating the actual subclass
+    - Subclass tables contain only their own attributes and share the same key as the superclass table
+    - Accessing one object requires **multiple table retrievals**
+    - Trade-offs: slower access, but easier to modify (e.g., adding a superclass attribute only touches one table)
+2. **Horizontal Mapping (one table per concrete class)**
+    - Only subclasses have tables; each table includes **all attributes** from both the superclass and the subclass
+    - Accessing one object requires only a **single table retrieval**
+    - Trade-offs: faster queries, but superclass columns are **duplicated** across tables and schema modifications are more complex
 
 
 #### Summary
 
-|Concept|Key Point|
-|---|---|
-|One-to-one mapping|Direct reference field|
-|One-to-many mapping|Collection on the "one" side|
-|Many-to-many mapping|Collections on both sides or association class|
-|Qualified association|HashMap with qualifier as key|
-|Association class|Own class when association has attributes|
-|Buried association|Foreign key stored inside a table|
-|Association table|Separate table for many-to-many|
-|Vertical mapping|One table per class, uses JOINs|
-|Horizontal mapping|One table per concrete class, duplicates data|
-
+| Concept               | Key Point                                                                |
+| --------------------- | ------------------------------------------------------------------------ |
+| Model transformation  | Modify object model to simplify/optimize, in small localized steps       |
+| Refactoring           | Improve source code readability/modifiability without changing behaviour |
+| Forward engineering   | Translate model elements to source code                                  |
+| Reverse engineering   | Infer model from existing source code                                    |
+| One-to-one mapping    | Direct reference field (unidirectional or bidirectional)                 |
+| One-to-many mapping   | Collection on the "one" side                                             |
+| Many-to-many mapping  | Collections on both sides (mutual consistency required)                  |
+| Qualified association | Map with qualifier as key to reduce "many" multiplicity                  |
+| Association class     | Separate class when association has attributes                           |
+| Buried association    | Foreign key stored inside a table (one-to-one or one-to-many)            |
+| Association table     | Separate table for many-to-many                                          |
+| Vertical mapping      | One table per class; uses multiple retrievals; easier to modify          |
+| Horizontal mapping    | One table per concrete class; single retrieval; duplicates data          |
 
 
 
@@ -940,7 +1055,6 @@ The **ACM Software Engineering Code of Ethics and Professional Practice** has 8 
 | **6. Profession**        | Advance the **integrity and reputation** of the profession           |
 | **7. Colleagues**        | Be **fair and supportive** to colleagues                             |
 | **8. Self**              | Commit to **lifelong learning** and ethical practice                 |
-|                          |                                                                      |
 
 > Public welfare always takes priority — even over your client or employer.
 
