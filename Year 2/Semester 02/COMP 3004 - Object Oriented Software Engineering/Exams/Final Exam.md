@@ -217,6 +217,35 @@ Once the architecture is defined, you refine each subsystem:
 - **High-level → Refined decomposition** — break subsystems into smaller components
 - **Mapping subsystems to components** — decide which code units implement which subsystem
 
+| Decomposition level | What it shows                                             | Example                                                                                     |
+| ------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **High-level**      | Major subsystems and their relationships (coarse-grained) | `OrderProcessing` subsystem talks to `Inventory` subsystem                                  |
+| **Refined**         | Internal structure of each subsystem (fine-grained)       | `OrderProcessing` contains `OrderValidator`, `OrderCalculator`, `OrderPersister` components |
+
+
+**Global Control Flow**:
+Where does the "main thread of control" live? Three common patterns:
+
+| Pattern          | How it works                                                                                        | Example                                                               |
+| ---------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Procedural**   | Code explicitly calls subroutines in sequence; one thread of control                                | CLI calculator: `main()` calls `getInput()`, `compute()`, `display()` |
+| **Event-driven** | Control flow determined by external events (user clicks, network messages); often a main event loop | GUI app, web server, Node.js                                          |
+| **Threaded**     | Multiple concurrent threads of control; shared memory or message passing                            | Java servlet server (thread per request), real-time systems           |
+
+**Identifying Services**
+A **service** is a well-defined set of operations offered by a subsystem to others.
+
+How to identify:
+- Look at interactions between subsystems in your sequence/communication diagrams
+- Each interaction becomes a potential service
+
+Example: `Inventory` subsystem might offer services:
+- `checkAvailability(productId, quantity)`
+- `reserveStock(orderId, items)`
+- `releaseStock(orderId)`
+
+
+
 **Key decisions to make:**
 
 |Decision|Options|
@@ -230,7 +259,7 @@ Once the architecture is defined, you refine each subsystem:
 ---
 ## Design Patterns
 
-Design patterns are **reusable solutions to commonly occurring design problems**. You don't invent them — you recognize the problem and apply the known pattern.
+Design patterns are **reusable solutions to commonly occurring design problems**. You don't invent them, you recognize the problem and apply the known pattern.
 
 There are 3 categories:
 #### Creational Patterns
@@ -281,7 +310,7 @@ There are 3 categories:
 - **Types:** Virtual proxy (lazy init), Protection proxy (access control), Remote proxy (network object)
 
 
-## Behavioural Patterns
+#### Behavioural Patterns
 > _How objects **communicate and distribute responsibility**_
 
 1. **Strategy**
@@ -390,7 +419,7 @@ class MyStack {
 - If class `B` extends class `A`, anywhere you use an `A` you should be able to use a `B` and everything still works correctly
 - Violations of LSP are a sign you're using **implementation inheritance** when you shouldn't be
 
-**Classic violation example:**
+**Violation example:**
 - `Square` extends `Rectangle`
 - A `Rectangle` lets you set width and height independently
 - A `Square` can't — setting width must also set height
